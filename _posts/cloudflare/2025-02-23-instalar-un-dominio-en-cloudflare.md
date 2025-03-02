@@ -7,9 +7,11 @@ tags: cloudflare, hostinger, dominio, dns, apuntar, apuntado
 
 # Preámbulo
 
-Cloudflare es un servicio que evita ataques DDoS, sirve como CDN, cachea contenido estático y más. En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si se lo compraste a otra empresa distinta de Hostinger, lo que se hará no es difícil: sólo se debe averiguar dónde editar los apuntados DNS.
+Cloudflare es un servicio que evita ataques DDoS, sirve como CDN, cachea contenido estático y más. En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si el "Registrar" (dónde fue comprado el dominio) no es Hostinger, el procedimiento que enseña el tutorial no es difícil y puede ser interpretado para realizarlo en DreamHost, DonWeb y más.
 
-El tutorial asume que el dominio ya fue adquirido y tenés cuenta en Cloudflare.
+El procedimiento del Registrar es sencillo, sólo se debe averiguar dónde editar los apuntados DNS.
+
+El tutorial asume que el dominio ya fue adquirido y la cuenta en Cloudflare ya fue creada.
 
 # 1. Ingresar al Panel de Cloudflare
 
@@ -86,7 +88,11 @@ En el caso del tutorial, se completaron así:
 
 # 10. Comprobar los cambios
 
-Tardará unos pocos minutos para que el dominio vinculado a Cloudflare esté disponible. Para comprobar que el dominio esté apuntando correctamente, se puede ejecutar:
+Tardará unos pocos minutos para que el dominio vinculado a Cloudflare esté disponible.
+
+> ATENCIÓN: Para que el Registrar actualice el cambio de DNS pueden pasar hasta 48hrs, aunque en estos últimos años es cuetión de minutos. Si pasan más de 4hrs y el dominio no reacciona con los siguientes comandos, lo más probable es que debas revisar tu configuración.
+
+Para comprobar que el dominio esté apuntando correctamente, se puede ejecutar:
 
 ## En Linux
 
@@ -96,7 +102,7 @@ Abrir una terminal y sin necesidad de super-usuario, ejecutar:
 host -t SOA inforce.cloud
 ```
 
-Devuelve un servidor DNS de Cloudflare, con su conocida IP 8.8.8.8:
+El comando ***host*** devuelve un servidor DNS de Cloudflare, como se ve en la siguiente salida:
 
 ```bash
 inforce.cloud has SOA record lennon.ns.cloudflare.com. dns.cloudflare.com. 2365636038 10000 2400 604800 1800
@@ -118,8 +124,6 @@ Name                        Type TTL   Section    PrimaryServer               Na
 inforce.cloud               SOA  1423  Authority  lennon.ns.cloudflare.com    dns.cloudflare.com          2365636038
 ```
 
-> Podría darse el caso dónde el apuntado es correcto, pero la información aún tarda en llegar a tu equipo. En el peor de los casos, 6 horas.
+> Podría darse el caso dónde el apuntado es correcto, pero la información aún tarda en llegar a tu equipo. En el peor de los casos, 4 horas.
 
-En breve se enseñará como conectar un dispositivo de una red hogareña a Cloudflare, para poder hostear servicios propios y no tener que gastar en un servidor web.
-
-¡Éxitos! Nos vemos.
+En breve se enseñarán varias herramientas para revisar el estado de la dispersión de DNS, hasta entonces, ¡nos vemos!

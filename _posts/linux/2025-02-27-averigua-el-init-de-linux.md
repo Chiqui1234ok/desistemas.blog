@@ -21,15 +21,13 @@ La solución más sencilla es averiguar a qué apunta **/sbin/init**:
 ls -l /sbin/init
 ```
 
-Esto debería arrojar un resultado como:
+Esto debería arrojar un resultado como el siguiente, indicando que hay un enlace a ***systemd***.
 
 ```bash
 lrwxrwxrwx 1 root root 20 Dec  1 10:28 /sbin/init -> /lib/systemd/systemd
 ```
 
-Y la salida anterior indica que el init es "systemd".
-
-Puede suceder que el "init" no apunte a nada, porque es el ejecutable mismo (y no un link). Esto sucede en OpenWRT, por ejemplo, y no se conseguirá averigüar lo deseado husmeando dentro de **/sbin**.
+Sin embargo, en otros sistemas operativos puede suceder que el "init" no apunte a nada, porque es el ejecutable mismo (y no un link). Esto sucede en OpenWRT, por ejemplo, y no se conseguirá averigüar lo deseado dentro de **/sbin**.
 Sin embargo, las posibilidades de que sea un init basado en "rc" son altas. Esto puede averiguarse con el comando:
 
 ```bash
