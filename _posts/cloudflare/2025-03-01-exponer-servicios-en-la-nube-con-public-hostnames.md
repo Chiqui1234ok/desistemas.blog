@@ -26,12 +26,14 @@ Este formulario debe observarse para entender bien lo que se está a punto de ha
 Tiene cuatro campos clave:
 
 1) Subdomain: este campo es opcional, pero si el servicio no se trata del sitio web o app principal que reside en la raíz del dominio (en este caso, "inforce.cloud"), será necesario especificar un subdominio.
+
 2) Domain: Cloudflare listará todos los dominios presentes, pero debe coincidir con el túnel que fue previamente seleccionado
 
 Y en la sección **SERVICE**:
 
 3) Type: El protocolo/socket por el cuál este servicio interactúa. Las opciones son: HTTP, HTTPS, UNIX, TCP, SSH, RDP, UNIX+TLS, SMB, HTTP_STATUS, BASTION.
 Es importante mencionar que esta opción se refiere al protocolo de la aplicación que se quiere exponer, no del resultante en Cloudflare. Por ejemplo, es muy común que proyectos localhost no tengan un certificado válido, y en dicho caso se deberá indicar "HTTP". Cloudflare ofrece su propio certificado de forma automática.
+
 4) URL: La dirección IP dentro de la red. En caso de que el puerto del servicio no sea el que está por defecto para el protocolo antes indicado, se debe escribir junto a la IP con la siguiente sintáxis:
 
 ```js
