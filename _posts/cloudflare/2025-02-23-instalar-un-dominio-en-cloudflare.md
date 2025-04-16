@@ -7,7 +7,7 @@ tags: cloudflare, hostinger, dominio, dns, apuntar, apuntado
 
 # Preámbulo
 
-Cloudflare es un servicio que evita ataques DDoS, sirve como CDN, cachea contenido estático y más. En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si el "Registrar" (dónde fue comprado el dominio) no es Hostinger, el procedimiento que enseña el tutorial no es difícil y puede ser interpretado para realizarlo en DreamHost, DonWeb y más.
+Cloudflare es un servicio que evita ataques DDoS, sirve como CDN, cachea contenido estático y permite mostrar sitios webs usando tu infraestructura, a pesar de que estés detrás de un NAT. En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si el "Registrar" (dónde fue comprado el dominio) no es Hostinger, el procedimiento que enseña el tutorial no es difícil y puede ser interpretado para realizarlo en DreamHost, DonWeb y más.
 
 El procedimiento del Registrar es sencillo, sólo se debe averiguar dónde editar los apuntados DNS.
 
