@@ -21,12 +21,7 @@
 title: De Sistemas
 email: sgimenez@desistemas.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Este blog entrega información bien redactada y explicada, para todo aquél que
-  se interese por aprender sobre el mundo IT.
-  Gracias al hardware usado y los tutoriales acá provistos, es posible montar un laboratorio en casa y ganar
-  experiencia sobre Virtualización, Linux, Docker, Kubernetes y más.
-  Ojalá este sitio resulte útil a muchos. Se procuró optimizarlo para que
-  cualquiera pueda acceder a él.
+  Blog sobre desarrollo de software, arquitectura y sistemas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
