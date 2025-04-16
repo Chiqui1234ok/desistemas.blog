@@ -5,8 +5,6 @@ date:   2025-03-17 17:26:00 +0300
 tags: guía, tutorial, linux, lxc, contenedor, sr-iov, nvidia, rtx, decoding, encoding, jellyfin
 ---
 
-OJO! FALTA PREAMBULO, REVISION GENERAL DE TODO Y EPILOGO
-
 # Preámbulo
 
 Poder compartir una misma tarjeta gráfica era tarea imposible hace un tiempo, porque Nvidia bloqueó la tecnología que lo hacía posible en su gama mainstream / gamer. En el caso de AMD, también está bloqueado.
