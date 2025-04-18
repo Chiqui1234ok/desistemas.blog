@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Instalar OpenWRT en VM • Proxmox"
+title:  "Instalar router OpenWRT en VM • Proxmox"
 date:   2025-04-17 23:56:00 +0000
-tags: guía, tutorial, proxmox, virtualización, virtualizado, openwrt, vlan, bajo consumo
+tags: guía, tutorial, proxmox, openwrt, vlan, router, dhcp
 ---
 
 # Preámbulo
 
-OpenWRT es un sistema operativo que convierte un dispositivo en un router. Además, le brinda características avanzadas que estaban solo disponibles en aparatos mucho más caros, como las VLANs, y permite estar en control de una red y sus dispositivos. Es ideal si se quieren crear VLANs para tener redes específicas para ciertas áreas / usos, monitorear y aprender sobre redes informáticas.
+OpenWRT es un sistema operativo que convierte un dispositivo en un router. Además, brinda características avanzadas que estaban solo disponibles en aparatos mucho más caros, como las VLANs, firewall y un Linux completo; Y permite estar en control de una red y sus dispositivos. Es ideal para crear VLANs, y así tener redes específicas para ciertas áreas / usos. También, con ciertas aplicaciones que pueden instalarse (y Docker externos) monitorear y graficar el tráfico de la red.
+
+Permite aprender y practicar muchos conceptos sobre redes informáticas, a la vez de que es un software preparado para producción, y mucho más ligero que PfSense / OPNSense.
 
 La instalación en este tutorial se explica en un entorno Proxmox, con una serie de comandos para instalar una máquina virtual Q35 y el sistema operativo dentro de una imágen de disco.
 Por ejemplo, [acá hay un tutorial para la instalación en VirtualBox](https://gist.github.com/stokito/533e2c1d2bc7809ceed124da3ab48567).
