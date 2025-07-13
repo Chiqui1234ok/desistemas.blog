@@ -10,3 +10,13 @@ category: menu
 Ojalá te sirva el contenido del sitio 😁👌
 
 ~Santiago Gimenez
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8GWXLQNGE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8GWXLQNGE');
+</script>
