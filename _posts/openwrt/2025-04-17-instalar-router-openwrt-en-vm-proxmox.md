@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Instalar router OpenWRT en VM • Proxmox"
-date:   2025-04-17 23:56:00 +0000
+date:   2025-04-17 23:56:00 -0300
 tags: guía, tutorial, proxmox, openwrt, vlan, router, dhcp
 ---
 

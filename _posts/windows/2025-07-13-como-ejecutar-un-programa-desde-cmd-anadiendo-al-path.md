@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como ejecutar un programa desde CMD añadiendo al PATH • Windows"
-date:   2025-07-13 19:30:00 +0000
+date:   2025-07-13 19:30:00 -0300
 tags: windows, path, programacion, programación, codigo, código, ejecucion, ejecución, cmd, powershell, consola, ejecutar, programa, app
 ---
 

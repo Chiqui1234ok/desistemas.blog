@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Realizar traducciones de aplicaciones y webs • Poedit"
-date:   2025-07-13 17:30:00 +0000
+date:   2025-07-13 17:30:00 -0300
 tags: gettext, poedit, traducir wordpress, traducir, traducciones, ingles, español, wordpress, traducción, po, mo, pot, desarrollo
 ---
 
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-16 21:22+0000\n"
+"POT-Creation-Date: 2025-04-16 21:22-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -363,8 +363,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-16 21:22+0000\n"
-"PO-Revision-Date: 2025-04-16 21:22+0000\n"
+"POT-Creation-Date: 2025-04-16 21:22-0300\n"
+"PO-Revision-Date: 2025-04-16 21:22-0300\n"
 "Last-Translator: Santiago Gimenez <santiagogimenez@xxx.com>\n"
 "Language-Team: Español (Argentina) <es@li.org>\n"
 "Language: es_AR\n"
