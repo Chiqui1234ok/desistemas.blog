@@ -205,7 +205,7 @@ Pronto se creará un nuevo post, para poder configurar el router completamente a
 
 ![Menú de conexión a bridge virtuales]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/utilizando-el-bridge-virtual-9001.png)
 
-## Realiza un snapshot
+## Realizá un snapshot
 
 Para tomar "una foto" de como está ahora la máquina virtual, debés seleccionar la máquina virtual > Snapshots > Take snapshot.
 
