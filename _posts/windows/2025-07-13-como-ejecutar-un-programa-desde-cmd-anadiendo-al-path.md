@@ -58,3 +58,5 @@ De ahora en más, cualquier nueva ventana de CMD y PowerShell cargará el nuevo 
 Como se ve en la imágen, no es necesario añadir la extensión del archivo.
 
 ![Prueba abriendo el programa "lms"]({{ base.url }}/assets/posts/como-anadir-al-path-windows/prueba-abriendo-el-programa-lms.png)
+
+¡Saludos! Te invito a visitar la [página principal]({{ site.url }}) del blog para ver más tutoriales útiles que impulsarán tus ganas de experimentar con un homelab.
