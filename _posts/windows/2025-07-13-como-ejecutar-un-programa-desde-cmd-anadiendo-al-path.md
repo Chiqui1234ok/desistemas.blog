@@ -19,7 +19,9 @@ Si la aplicación se instaló en (por ejemplo) **C:\Users\Santiago\.lmstudio\bin
 
 ![Hay que encontrar dónde está el ejecutable que se desea abrir]({{ base.url }}/assets/posts/como-anadir-al-path-windows/aca-esta-el-ejecutable-que-deseamos-abrir.png)
 
-Como se ve en la imágen, es importante asegurarse de que el ejecutable que se desea abrir desde el CMD o PowerShell esté en la carpeta que se va a añadir al PATH.
+Como se ve en la imágen, es importante asegurarse de que el ejecutable que se desea abrir desde el CMD o PowerShell esté en la carpeta que se va a añadir al PATH. Es decir que si se copia ahora la ruta a la carpeta **C:\Users\Santiago\.lmstudio** (sin la sub-carpeta **bin**), Windows no localizará el ejecutable y arrojará error al tipear el nombre del programa.
+
+En el caso del tutorial, se copia la ruta completa **C:\Users\Santiago\.lmstudio\bin**, que se utilizará más tarde.
 
 Al instalar algunas aplicaciones, el binario que se buscar ejecutar no está en una carpeta tan obvia, sino dentro de otra (en **bin**, como indica el ejemplo del tutorial).
 
@@ -41,7 +43,9 @@ Para poder añadir la ruta de nuestro programa a las variables de entorno, se ha
 
 A continuación, se realizan los siguientes pasos:
 
-![Pasos para añadir una ruta al PATH](pasos-para-anadir-una-ruta-al-path.png)
+![Pasos para añadir una ruta al PATH]({{ base.url }}/assets/posts/como-anadir-al-path-windows/pasos-para-anadir-una-ruta-al-path.png)
+
+Como es evidente en la imágen, se hizo clic en el botón "Nuevo" y se pegó la ruta que se copió anteriormente: **C:\Users\Santiago\.lmstudio\bin**.
 
 Luego, se le da al botón "Aceptar" en las ventanas restantes.
 
@@ -49,4 +53,8 @@ Luego, se le da al botón "Aceptar" en las ventanas restantes.
 
 # Listo
 
-De ahora en más, cualquier nueva ventana de CMD y PowerShell cargará el nuevo PATH y al escribir el nombre de la aplicación que queremos abrir en un CMD o PowerShell, Windows revisará las rutas que están dentro del PATH y abrirá el archivo dónde lo encuentre.
+De ahora en más, cualquier nueva ventana de CMD y PowerShell cargará el nuevo PATH con esta ruta extra. Al escribir el nombre de la aplicación que queremos abrir en un CMD o PowerShell, Windows revisará las rutas que están dentro del PATH y abrirá el archivo dónde lo encuentre.
+
+Como se ve en la imágen, no es necesario añadir la extensión del archivo.
+
+![Prueba abriendo el programa "lms"]({{ base.url }}/assets/posts/como-anadir-al-path-windows/prueba-abriendo-el-programa-lms.png)
