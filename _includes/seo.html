@@ -1,0 +1,9 @@
+{%- assign og_description = page.excerpt | strip_html | truncate: 160 -%}
+{%- unless og_description -%}
+    {%- assign og_description = site.description -%}
+{%- endunless -%}
+<meta property="og:title" content="{{ page.title | default: site.title }}" />
+<meta property="og:description" content="{{ og_description }}" />
+<meta property="og:type" content="{{ page.og_type | default: 'website' }}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url }}" />

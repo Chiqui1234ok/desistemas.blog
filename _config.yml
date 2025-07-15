@@ -19,13 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: De Sistemas
+language: "es_AR"
+og_image: "/assets/img/og_image.webp"
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog sobre desarrollo de software, arquitectura y sistemas.
+  Blog sobre desarrollo y arquitectura de software, homelabing, redes y sistemas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
