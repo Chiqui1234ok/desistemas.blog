@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Averigüar el init del sistema • Linux"
-date:   2025-02-26 19:00:01 +0300
+date:   2025-02-26 19:00:01 -0300
 tags: linux, init, systemd, sysvinit, tutorial
 ---
 

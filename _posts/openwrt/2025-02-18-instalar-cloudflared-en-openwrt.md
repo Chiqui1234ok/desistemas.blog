@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Instalar Cloudflared • OpenWRT"
-date:   2025-02-24 13:00:00 +0300
+date:   2025-02-24 13:00:00 -0300
 tags: openwrt, tunel, cloudflared, router, virtual
 ---
 
