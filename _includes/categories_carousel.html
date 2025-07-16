@@ -1,0 +1,51 @@
+<div class="carousel wrapper">
+  <div class="carousel">
+    <button class="carousel-btn prev">&#10094;</button>
+
+    <ul class="categories carousel minimal inline">
+      <li class="hardware category" style="background-image: url('/assets/img/categories/hardware.webp');">
+          <a href="{{ base.url }}/hardware.html" class="grid center">
+            <div class="wrapper">
+              <h2 class="">Hardware</h2>
+              <p class="">Análisis, reviews y modding</p>
+            </div>
+          </a>
+      </li>
+      <li class="developing category" style="background-image: url('/assets/img/categories/developing.webp');">
+          <a href="{{ base.url }}/programacion.html" class="grid center">
+            <div class="wrapper">
+              <h2 class="">Programación</h2>
+              <p class="">Buenas prácticas y soluciones a problemas raros</p>
+            </div>
+          </a>
+      </li>
+      <li class="homelabing category" style="background-image: url('/assets/img/categories/homelabing.webp');">
+          <a href="{{ base.url }}/homelabing.html" class="grid center">
+            <div class="wrapper">
+              <h2 class="">Homelabing & Redes</h2>
+              <p class="">Laboratorio, Sysadm, DevOps</p>
+            </div>
+          </a>
+      </li>
+    </ul>
+
+    <button class="carousel-btn next">&#10095;</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.querySelector(".categories.carousel");
+  const prev = document.querySelector(".carousel-btn.prev");
+  const next = document.querySelector(".carousel-btn.next");
+  const scrollAmount = 456;
+
+  prev.addEventListener("click", () => {
+    container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  next.addEventListener("click", () => {
+    container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
+});
+</script>

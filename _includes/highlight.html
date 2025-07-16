@@ -1,15 +1,16 @@
-<div class="highlight">
+<div class="highlight-wrapper">
+<div class="highlight container">
     <h2 class="">LO MEJOR DEL MES</h2>
-    <ul class="list" class="minimal">
+    <ul class="minimal list">
         {%- assign destacados = site.posts | where: "highlight", true -%}
         {%- for post in destacados -%}
-            <li class="grid-2 gap post-item" data-index="{{ forloop.index0 }}">
+            <li class="post-item" data-index="{{ forloop.index0 }}">
+              <a href="{{ post.url | relative_url }}" class="grid-2">
                 <img class="img" src="{{ post.og_image | default: site.og_image}}" />
                 <div class="body grid center">
-                    <h3>
-                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                    </h3>
+                    <h3 class="title">{{ post.title }}</h3>
                 </div>
+              </a>
             </li>
         {%- endfor -%}
   </ul>
@@ -19,6 +20,7 @@
     <span id="page-indicator">1</span>
     <button id="next-page">Adelante</button>
   </div>
+</div>
 </div>
 
 <script>
@@ -34,10 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function showPage(page) {
     items.forEach((item, index) => {
-      const start = (page - 1) * itemsPerPage;
-      const end = start + itemsPerPage;
-      item.style.display = (index >= start && index < end) ? 'flex' : 'none';
+        const start = (page - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        item.classList.toggle("visible", index >= start && index < end);
     });
+
 
     pageIndicator.textContent = page;
     prevBtn.disabled = page === 1;
