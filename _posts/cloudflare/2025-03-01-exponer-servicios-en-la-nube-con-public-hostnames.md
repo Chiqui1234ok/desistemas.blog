@@ -3,6 +3,7 @@ layout: post
 title:  "Exponer servicios en la nube con Public hostnames • Cloudflare"
 date:   2025-03-02 00:30:02 -0300
 tags: cloudflare, cloudflared, hostnames, servicios, puertos, nube, cloud, homelab, redes
+highlight: true
 ---
 
 # Preámbulo
