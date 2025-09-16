@@ -1,0 +1,42 @@
+main article .post-header {
+    padding: var(--gap-xl) var(--gap-xxl);
+    border: var(--gap) solid var(--white);
+    border-radius: var(--gap-xl);
+    box-shadow: 0px 4px 10px 0px white;
+    margin-bottom: var(--gap-xxl);
+}
+main article h1, main article h2, main article h3, main article h4, main article h5, main article h6 {
+    margin: var(--gap-xl) 0 var(--gap) 0;
+}
+main article img {
+    max-width: 100%;
+    border-radius: var(--gap-xl);
+    margin: var(--gap) 0;
+}
+main article div.highlight {
+    padding: var(--gap-xl) var(--gap-xxl);
+    background: var(--dark_blue);
+    border-radius: var(--gap-xl);
+    color: var(--white);
+    font-size: 14px;
+    line-height: 18px;
+    margin: var(--gap-xl) 0;
+    display: block;
+    overflow: auto;
+}
+@media screen and (width >= 1280px) {
+    main article div.highlight {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    main article div.highlight pre {
+        white-space: pre-wrap;
+    }
+}
+main article div.highlight * {
+    color: var(--white);
+}
+main article ul, main article ol {
+    padding: 0 0 0 var(--gap-xxxl);
+    margin: var(--gap) 0 0 var(--gap-xl);
+}

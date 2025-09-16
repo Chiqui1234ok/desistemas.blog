@@ -5,7 +5,7 @@
         {%- assign destacados = site.posts | where: "highlight", true -%}
         {%- for post in destacados -%}
             <li class="post-item" data-index="{{ forloop.index0 }}">
-              <a href="{{ post.url | relative_url }}" class="grid-2">
+              <a href="{{ post.url | relative_url }}" class="grid-2 gap">
                 <img class="img" src="{{ post.og_image | default: site.og_image}}" />
                 <div class="body grid center">
                     <h3 class="title">{{ post.title }}</h3>

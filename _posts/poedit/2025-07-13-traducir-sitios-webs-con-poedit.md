@@ -2,6 +2,7 @@
 layout: post
 title:  "Realizar traducciones de aplicaciones y webs • Poedit"
 date:   2025-07-13 17:30:00 -0300
+categories: [poedit]
 tags: gettext, poedit, traducir wordpress, traducir, traducciones, ingles, español, wordpress, traducción, po, mo, pot, desarrollo
 ---
 

@@ -7,18 +7,3 @@
         {{ content }}
     </div>
 </article>
-<main style="min-height: 100vh;">
-
-</main>
-
-<script>
-document.addEventListener('scroll', () => {
-  const el = document.querySelector('.welcome.message');
-  if (!el) return;
-
-  const maxScroll = 186; // píxeles para alcanzar opacidad 0
-  const scrollTop = window.scrollY || document.documentElement.scrollTop;
-  const progress = Math.min(scrollTop / maxScroll, 1); // de 0 a 1
-  el.style.opacity = 1 - progress;
-});
-</script>

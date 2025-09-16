@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    display: block;
+    background: var(--gray);
+    color: var(--white);
+    text-align: center;
+}
+footer .mini p {
+    font-size: 14px;
+}
