@@ -1,8 +1,9 @@
 :root {
     --black: #000;
+    --gray: #292929;
     --white: #fff;
     --dark_blue: #2f2f4e;
-    --light_blue: #666697;
+    --light_blue: #8c97e9;
     --text: var(--white);
     --link: var(--light_blue);
     /* Paddings */
@@ -261,3 +262,4 @@ header a:hover, header a:focus {
     box-shadow: 8px 8px 0 var(--light_blue), 16px 15px 0 var(--dark_blue);
     transform: translate(-8px, -8px);
 }
+/* Common */
