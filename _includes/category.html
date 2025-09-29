@@ -1,16 +1,9 @@
+<div class="container">
 <header>
     <h1 class="uppercase">{{ include.category }}</h1>
 </header>
 
-<main class="category {{ include.category }} grid-2">
-  {% assign filtered_posts = site.posts | where_exp: "post", "post.categories contains include.category" %}
-
-  <ul>
-  {% for post in filtered_posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-    </li>
-  {% endfor %}
-  </ul>
+<main class="category {{ include.category }}">
+  {% include postListing.html %}
 </main>
+</div>

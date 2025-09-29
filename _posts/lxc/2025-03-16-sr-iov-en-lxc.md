@@ -2,7 +2,7 @@
 layout: post
 title:  "\"SR-IOV\" en LXC • Compartir GPU entre contenedores"
 date:   2025-03-16 17:26:00 -0300
-categories: [hardware, linux, sr-iov]
+categories: [hardware]
 tags: guía, tutorial, linux, lxc, contenedor, sr-iov, nvidia, rtx, decoding, encoding, jellyfin, hardware
 highlight: true
 ---

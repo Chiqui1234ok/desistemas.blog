@@ -2,6 +2,7 @@
 layout: post
 title:  "Trabajo colaborativo • Microsoft Access"
 date:   2025-07-19 17:30:00 -0300
+categories: [programacion]
 tags: trabajo, colaborativo, simultaneo, microsoft, access, tablas, sql
 ---
 

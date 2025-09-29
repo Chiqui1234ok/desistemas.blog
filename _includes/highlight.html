@@ -1,66 +1,21 @@
 <div class="highlight-wrapper">
-<div class="highlight container">
-    <h2 class="">LO MEJOR DEL MES</h2>
-    <ul class="minimal list">
-        {%- assign destacados = site.posts | where: "highlight", true -%}
-        {%- for post in destacados -%}
-            <li class="post-item" data-index="{{ forloop.index0 }}">
-              <a href="{{ post.url | relative_url }}" class="grid-2 gap">
-                <img class="img" src="{{ post.og_image | default: site.og_image}}" />
-                <div class="body grid center">
-                    <h3 class="title">{{ post.title }}</h3>
-                </div>
-              </a>
-            </li>
-        {%- endfor -%}
-  </ul>
-
-  <div class="paginacion">
-    <button id="prev-page">Atrás</button>
-    <span id="page-indicator">1</span>
-    <button id="next-page">Adelante</button>
+  <div class="highlight container">
+      <h2 class="">LO MEJOR DEL MES</h2>
+      <ul class="minimal list">
+          {%- assign destacados = site.posts | where: "highlight", true -%}
+          {%- for post in destacados -%}
+              <li class="post-item" data-index="{{ forloop.index0 }}">
+                <a href="{{ post.url | relative_url }}" class="grid-2 gap">
+                  <img class="img" src="{{ post.og_image | default: site.og_image}}" />
+                  <div class="body grid center">
+                      <h3 class="title">{{ post.title }}</h3>
+                  </div>
+                </a>
+              </li>
+          {%- endfor -%}
+    </ul>
   </div>
+  <p>
+    <a href="/blog">Todos los posts</a>
+  </p>
 </div>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const itemsPerPage = 2;
-  const items = Array.from(document.querySelectorAll('.post-item'));
-  let currentPage = 1;
-  const totalPages = Math.ceil(items.length / itemsPerPage);
-
-  const pageIndicator = document.getElementById('page-indicator');
-  const prevBtn = document.getElementById('prev-page');
-  const nextBtn = document.getElementById('next-page');
-
-  function showPage(page) {
-    items.forEach((item, index) => {
-        const start = (page - 1) * itemsPerPage;
-        const end = start + itemsPerPage;
-        item.classList.toggle("visible", index >= start && index < end);
-    });
-
-
-    pageIndicator.textContent = page;
-    prevBtn.disabled = page === 1;
-    nextBtn.disabled = page === totalPages;
-  }
-
-  prevBtn.addEventListener('click', () => {
-    if (currentPage > 1) {
-      currentPage--;
-      showPage(currentPage);
-    }
-  });
-
-  nextBtn.addEventListener('click', () => {
-    if (currentPage < totalPages) {
-      currentPage++;
-      showPage(currentPage);
-    }
-  });
-
-  showPage(currentPage);
-});
-</script>

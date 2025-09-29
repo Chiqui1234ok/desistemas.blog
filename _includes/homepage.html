@@ -1,6 +1,11 @@
-<main class="homepage grid-2">
-    {% include categories_carousel.html %}
-    {% include highlight.html %}
+<div class="homepage">
+    <div class="homepage-wrapper grid-2">
+        {% include categories_carousel.html %}
+        {% include highlight.html %}
+    </div>
+</div>
+<main class="articles container">
+    {% include postListing.html %}
 </main>
 <article class="grid center welcome message">
     <div class="container">

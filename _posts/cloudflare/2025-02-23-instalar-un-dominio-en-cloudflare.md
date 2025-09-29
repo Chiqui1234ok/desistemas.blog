@@ -2,6 +2,7 @@
 layout: post
 title:  "Instalar un dominio en Cloudflare • Hostinger"
 date:   2025-02-23 23:30:02 -0300
+categories: [homelabing]
 tags: cloudflare, hostinger, dominio, dns, apuntar, apuntado
 ---
 

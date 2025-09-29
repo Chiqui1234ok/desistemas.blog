@@ -2,6 +2,7 @@
 layout: post
 title:  "Editor por SSH ligero • Smartty (Windows)"
 date:   2025-02-15 12:00:00 -0300
+categories: [homelabing]
 tags: guia, linux, editor de codigo, tty, ssh, windows app
 highlight: true
 ---

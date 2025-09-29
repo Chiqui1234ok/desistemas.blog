@@ -2,8 +2,8 @@
 layout: post
 title:  "Instalar Cloudflared • OpenWRT"
 date:   2025-02-24 13:00:00 -0300
-categories: [cloudflare, openwrt]
-tags: openwrt, tunel, cloudflared, router, virtual
+categories: [homelabing]
+tags: openwrt, tunel, cloudflared, router, virtual, cloudflare, openwrt
 ---
 
 # Preámbulo
