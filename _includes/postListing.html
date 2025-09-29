@@ -5,7 +5,7 @@
 {% endif %}
 
 <ul>
-  {% for post in filtered_posts %}
+  {% for post in filtered_posts limit: include.limit %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span>{{ post.date | date: "%Y-%m-%d" }}</span>

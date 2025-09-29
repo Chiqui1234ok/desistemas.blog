@@ -2,9 +2,8 @@
 layout: post
 title:  "Controlador de dominio en Linux • Samba AD-DC"
 date:   2025-09-27 21:30:00 -0300
-categories: [homelabing, samba]
+categories: [homelabing, highlight]
 tags: homelabing, samba, it, linux, guia, active directory, domain controller, linux, samba-ad-dc
-highlight: true
 ---
 
 # Preámbulo

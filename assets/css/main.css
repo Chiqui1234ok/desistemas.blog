@@ -1,13 +1,15 @@
 :root {
     --black: #292929;
     --white: #fefefe;
+    --red: #f37f7f;
     --background: #fff;
     --codeBackground: #000;
     --codeText: #fff;
     --blockquoteBackground: #f37f7f;
     --blockquoteText: #fff;
     --title: #292929;
-    --text: #1b1b1b;
+    --textColor: #1b1b1b;
+    --textColorFontSize: 20px;
     --link: #ca0101;
     /* Paddings */
     --gap: 4px;
@@ -24,7 +26,7 @@
 }
 body {
     background: var(--background);
-    color: var(--text);
+    color: var(--textColor);
 }
 /* Fonts */
 .poppins-regular {
@@ -55,7 +57,9 @@ p, ul li, ol li, span, blockquote {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--text);
+    color: var(--textColor);
+    font-size: var(--textColorFontSize);
+    line-height: 36px;
 }
 blockquote {
     background: var(--blockquoteBackground);
@@ -158,6 +162,7 @@ header.main a:hover, header.main a:focus {
     max-width: 1600px;
     margin: 0 auto;
     grid-template-rows: 360px;
+    border-bottom: 8px solid var(--link);
 }
 @media screen and (width >= 768px) {
     .homepage .homepage-wrapper.grid-2 {
@@ -204,8 +209,6 @@ header.main a:hover, header.main a:focus {
     top: 0;
     right: 0;
 }
-
-
 /* Homepage: highlight list */
 .homepage .highlight-wrapper {
     background: url('../img/zinc.webp');
@@ -227,25 +230,13 @@ header.main a:hover, header.main a:focus {
 }
 .highlight h2 {
     margin-bottom: var(--gap-xxl);
+    color: var(--white);
 }
-.homepage .highlight .list li.post-item {
-    display: none !important;
-    margin-bottom: var(--gap-xxl);
+.highlight ul li span {
+    color: var(--white);
 }
-.homepage .highlight .list li.post-item.visible {
-    display: grid !important;
-}
-.homepage .highlight .list .grid-2 {
-    grid-template-columns: 96px auto;
-}
-.homepage .highlight .list li .img {
-    width: 96px;
-    height: 96px;
-    object-fit: cover;
-    border-radius: var(--gap);
-}
-.homepage .highlight .list li .title {
-    text-align: left;
+.highlight .button {
+    margin-top: var(--gap-xxl);
 }
 @media screen and (width >= 768px) {
     .homepage .highlight .list .grid-2 {
@@ -280,3 +271,21 @@ header.main a:hover, header.main a:focus {
     transform: translate(-8px, -8px);
 }
 /* Common */
+.uppercase {
+    text-transform: uppercase;
+}
+/* Button */
+.button {
+    display: inline-block;
+    padding: var(--gap-xl) var(--gap-xxl);
+    border-radius: var(--gap);
+    transition: all var(--animation-timing) ease-out;
+    font-size: 16px;
+}
+.button:hover, .button:focus {
+    filter: brightness(1.1);
+}
+.button.red {
+    background: var(--red);
+    color: var(--white);
+}
