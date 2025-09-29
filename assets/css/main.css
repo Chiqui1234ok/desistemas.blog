@@ -1,11 +1,14 @@
 :root {
-    --black: #000;
-    --gray: #292929;
-    --white: #fff;
-    --dark_blue: #2f2f4e;
-    --light_blue: #8c97e9;
-    --text: var(--white);
-    --link: var(--light_blue);
+    --black: #292929;
+    --white: #fefefe;
+    --background: #fff;
+    --codeBackground: #000;
+    --codeText: #fff;
+    --blockquoteBackground: #f37f7f;
+    --blockquoteText: #fff;
+    --title: #292929;
+    --text: #1b1b1b;
+    --link: #ca0101;
     /* Paddings */
     --gap: 4px;
     --gap-xl: 8px;
@@ -20,47 +23,56 @@
     margin: 0;
 }
 body {
-    background: var(--black);
+    background: var(--background);
     color: var(--text);
 }
 /* Fonts */
 .poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
 .poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.source-code-pro-regular {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Text */
-h1, h2, h3, h4, h5, h6, p, ul li, ol li, span, blockquote {
-    color: var(--white);
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
+    color: var(--title);
 }
 p, ul li, ol li, span, blockquote {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: var(--text);
+}
+blockquote {
+    background: var(--blockquoteBackground);
+    padding: var(--gap-xxl);
+    border-radius: var(--gap);
+    display: block;
+    margin: var(--gap-xxl) auto;
+    max-width: 80%;
+}
+blockquote p {
+    color: var(--blockquoteText);
+}
+ul li, ol li {
+    margin-bottom: var(--gap-xl);
+}
+ul li:last-child, ol li:last-child {
+    margin-bottom: 0;
 }
 /* Links */
 a {

@@ -1,0 +1,39 @@
+.language-plaintext pre {
+    overflow: visible;
+    position: relative;
+    margin: 48px 0 32px 0;
+}
+.language-plaintext pre::before {
+    display: block;
+    position: absolute;
+    content: "Código";
+    width: 80px;
+    height: 24px;
+    top: -28px;
+    left: 8px;
+    padding: var(--gap) var(--gap) 0 var(--gap);
+    background: var(--codeBackground);
+    color: var(--codeText);
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: var(--gap) var(--gap) 0 0;
+}
+code {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--codeBackground);
+    color: var(--codeText);
+    padding: var(--gap-xl);
+    border-radius: var(--gap-xl);
+    display: inline;
+}
+.language-plaintext pre code {
+    display: inline-block;
+    min-width: 50%;
+}

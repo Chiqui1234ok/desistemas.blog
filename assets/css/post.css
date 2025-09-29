@@ -13,30 +13,7 @@ main article img {
     border-radius: var(--gap-xl);
     margin: var(--gap) 0;
 }
-main article div.highlight {
-    padding: var(--gap-xl) var(--gap-xxl);
-    background: var(--dark_blue);
-    border-radius: var(--gap-xl);
-    color: var(--white);
-    font-size: 14px;
-    line-height: 18px;
-    margin: var(--gap-xl) 0;
-    display: block;
-    overflow: auto;
-}
-@media screen and (width >= 1280px) {
-    main article div.highlight {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    main article div.highlight pre {
-        white-space: pre-wrap;
-    }
-}
-main article div.highlight * {
-    color: var(--white);
-}
 main article ul, main article ol {
     padding: 0 0 0 var(--gap-xxxl);
-    margin: var(--gap) 0 0 var(--gap-xl);
+    margin: var(--gap-xl) 0 var(--gap-xl) var(--gap);
 }
