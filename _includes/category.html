@@ -1,9 +1,12 @@
-<div class="container">
-<header>
-    <h1 class="uppercase">{{ include.category }}</h1>
+<header class="category page grid center" style="background-image: url('{{ page.image }}');">
+  <div class="wrapper">
+    <h2 class="capitalize">{{ page.category }}</h2>
+    <p class="">{{ page.description }}</p>
+  </div>
 </header>
 
-<main class="category {{ include.category }}">
-  {% include postListing.html %}
-</main>
+<div class="container category page">
+  <main class="category {{ page.category }}">
+    {% include postListing.html %}
+  </main>
 </div>

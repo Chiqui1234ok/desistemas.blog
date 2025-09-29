@@ -26,6 +26,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blog sobre desarrollo y arquitectura de software, homelabing, redes y sistemas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 # Build settings
 plugins:

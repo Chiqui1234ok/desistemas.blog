@@ -1,16 +1,18 @@
 :root {
     --black: #292929;
+    --gray: #494949;
     --white: #fefefe;
     --red: #f37f7f;
+    --redAlt: #ca0101;
     --background: #fff;
     --codeBackground: #000;
     --codeText: #fff;
     --blockquoteBackground: #f37f7f;
     --blockquoteText: #fff;
-    --title: #292929;
+    --titleColor: #292929;
     --textColor: #1b1b1b;
     --textColorFontSize: 20px;
-    --link: #ca0101;
+    --linkColor: #ca0101;
     /* Paddings */
     --gap: 4px;
     --gap-xl: 8px;
@@ -51,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: var(--title);
+    color: var(--titleColor);
 }
 p, ul li, ol li, span, blockquote {
     font-family: "Poppins", sans-serif;
@@ -80,7 +82,7 @@ ul li:last-child, ol li:last-child {
 }
 /* Links */
 a {
-    color: var(--link);
+    color: var(--linkColor);
     text-decoration: none;
     transition: filter var(--animation-timing) ease-out;
 }
@@ -162,7 +164,7 @@ header.main a:hover, header.main a:focus {
     max-width: 1600px;
     margin: 0 auto;
     grid-template-rows: 360px;
-    border-bottom: 8px solid var(--link);
+    border-bottom: 8px solid var(--linkColor);
 }
 @media screen and (width >= 768px) {
     .homepage .homepage-wrapper.grid-2 {
@@ -211,7 +213,7 @@ header.main a:hover, header.main a:focus {
 }
 /* Homepage: highlight list */
 .homepage .highlight-wrapper {
-    background: url('../img/zinc.webp');
+    background: var(--gray);
     display: block;
 }
 @media screen and (width >= 960px) {
@@ -232,27 +234,11 @@ header.main a:hover, header.main a:focus {
     margin-bottom: var(--gap-xxl);
     color: var(--white);
 }
-.highlight ul li span {
+.highlight ul li a, .highlight ul li span {
     color: var(--white);
 }
 .highlight .button {
     margin-top: var(--gap-xxl);
-}
-@media screen and (width >= 768px) {
-    .homepage .highlight .list .grid-2 {
-        grid-template-columns: 128px auto;
-    }
-    .homepage .highlight .list li .img {
-        width: 128px;
-        height: 128px;
-    }
-}
-.highlight .list li .body .title {
-    text-align: left;
-    padding: var(--gap-xl);
-    display: block;
-    font-size: 16px;
-    color: var(--white);
 }
 /* Homepage: welcome message */
 .welcome.message {
@@ -274,6 +260,24 @@ header.main a:hover, header.main a:focus {
 .uppercase {
     text-transform: uppercase;
 }
+.capitalize {
+    text-transform: capitalize;
+}
+.text-center {
+    text-align: center;
+}
+/* Categories */
+header.category.page {
+    min-height: calc(100vh - 270px - 108px);
+    background-color: var(--black);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header.category.page .wrapper * {
+    text-shadow: 0 0 var(--gap) var(--black);
+    color: var(--white);
+}
 /* Button */
 .button {
     display: inline-block;
@@ -281,6 +285,8 @@ header.main a:hover, header.main a:focus {
     border-radius: var(--gap);
     transition: all var(--animation-timing) ease-out;
     font-size: 16px;
+    position: relative;
+    z-index: 8;
 }
 .button:hover, .button:focus {
     filter: brightness(1.1);
@@ -288,4 +294,8 @@ header.main a:hover, header.main a:focus {
 .button.red {
     background: var(--red);
     color: var(--white);
+    box-shadow: 0 2px 0 2px var(--redAlt);
+}
+.button.red:hover, .button.red:focus {
+    box-shadow: 0 0 4px 2px var(--redAlt);
 }
