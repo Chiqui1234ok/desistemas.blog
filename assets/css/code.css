@@ -35,7 +35,13 @@ code {
     display: inline-block;
     font-size: var(--textColorFontSize);
 }
+code * {
+    color: var(--white);
+}
 .language-plaintext pre code {
     display: inline-block;
     min-width: 50%;
+}
+.language-plaintext pre code * {
+    color: var(--white);
 }
