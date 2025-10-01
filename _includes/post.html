@@ -1,15 +1,19 @@
-<main class="page-content" aria-label="Content">
-  <div class="container">
-    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<main class="post" aria-label="Content" id="top">
+  <header class="post">
+    <div class="container">
+      <h1 class="postTitle" itemprop="name headline">
+        {{ page.title }}
+      </h1>
+      <p class="postMeta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </time>
+      </p>
+    </div>
+  </header>
 
-      <header class="post-header">
-        <h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta">
-          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ page.date | date: "%b %-d, %Y" }}
-          </time>
-        </p>
-      </header>
+  <div class="container">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
       <div class="post-content e-content" itemprop="articleBody">
         {{ content }}

@@ -11,3 +11,11 @@ footer .mini p {
     font-size: 16px;
     line-height: 32px;
 }
+.backToTop {
+    position: fixed;
+    bottom: var(--gap-xxxl);
+    right: var(--gap-xxxl);
+    padding: var(--gap-xl);
+    display: block;
+    z-index: 9;
+}
