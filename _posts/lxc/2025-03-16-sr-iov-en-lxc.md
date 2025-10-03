@@ -32,7 +32,7 @@ Al hacer clic en el botón "Find", la nueva página indicará detalles del drive
 Hay que dirigirse a la línea de comandos del servidor, dónde se ejecutarán los LXC. Allí, se procede a descargar con:
 
 ```bash
-wget https://us.download.nvidia.com/XFree86/Linux-x86_64/570.124.04/NVIDIA-Linux-x86_64-570.124.04.run
+wget https://us.download.nvidia.com/XFree86/Linux-x86_64/580.95.05/NVIDIA-Linux-x86_64-580.95.05.run
 ```
 
 # Utilizar paquetes de Proxmox sin subscripción (opcional)
@@ -258,7 +258,7 @@ Luego se guarda y sale del programa con CTRL+X, luego tecla Y y luego tecla ENTE
 Dentro del contenedor, se descarga el mismo driver que está en el host:
 
 ```bash
-wget https://us.download.nvidia.com/XFree86/Linux-x86_64/570.124.04/NVIDIA-Linux-x86_64-570.124.04.run
+wget https://us.download.nvidia.com/XFree86/Linux-x86_64/580.95.05/NVIDIA-Linux-x86_64-580.95.05.run
 ```
 
 Al finalizar la descarga, se le dan permisos de ejecución:
