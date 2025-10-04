@@ -18,6 +18,8 @@
     --gap-xl: 8px;
     --gap-xxl: 16px;
     --gap-xxxl: 32px;
+    /* Radius */
+    --rounded: 32px;
     /* Timing */
     --animation-timing: .25s;
 }
@@ -67,7 +69,7 @@ p, ul li, ol li, span, blockquote {
 blockquote {
     background: var(--blockquoteBackground);
     padding: var(--gap-xxl);
-    border-radius: var(--gap);
+    border-radius: var(--rounded);
     display: block;
     margin: var(--gap-xxl) auto;
     max-width: 80%;
@@ -145,8 +147,29 @@ ul.inline li { display: inline-block }
 /*  */
 /* Header */
 header.main {
-    background: var(--black);
+    background: var(--gray);
     color: var(--white);
+    /* padding: 64px 0 0 0; */
+}
+header.main .grid-2 {
+    grid-template-columns: 64px 32px;
+}
+header.main .container.wrapper .logo {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--rounded);
+    transition: all var(--animation-timing) ease-out;
+}
+/* header.main .container.wrapper .logo:hover {
+    box-shadow: inset 0 0 4px 0 var(--white), 0 4px 10px 2px var(--redAlt);
+} */
+header.main .container.wrapper .logo a {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--gap);
+    display: block;
+    background: var(--redAlt) url('../img/logo/logo-256px.webp') center / cover;
+    filter: brightness(1);
 }
 header.main a {
     color: var(--white);
@@ -154,6 +177,16 @@ header.main a {
 }
 header.main a:hover, header.main a:focus {
     filter: brightness(1);
+}
+header.main .menu {
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+}
+header.main nav {
+    display: none;
+    float: right;
+    clear: both;
 }
 header.main nav ul li {
     margin-right: var(--gap);
@@ -172,6 +205,34 @@ header.main nav ul li a {
 }
 header.main nav ul li a:hover {
     border-color: var(--linkColor);
+}
+header.main .menu h2 {
+    float: right;
+    clear: both;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: none;
+    padding: var(--gap-xxl) var(--gap-xxxl);
+    margin: 0 var(--gap-xl) var(--gap-xxl) 0;
+    border-radius: var(--gap-xxxl);
+    box-shadow: inset 0 4px 10px 0 var(--black);
+}
+@media(min-width: 1024px) {
+    header.main .grid-2 {
+        grid-template-columns: 128px auto;
+    }
+    header.main .container.wrapper .logo {
+        width: 128px;
+        height: 128px;
+    }
+    header.main .menu h2 {
+        display: block;
+    }
+    header.main nav {
+        display: block;
+    }
 }
 /* Homepage */
 .homepage {
@@ -235,6 +296,13 @@ header.main nav ul li a:hover {
     background: var(--gray);
     display: block;
 }
+.homepage .highlight-wrapper .highlight ul li a {
+    transition: all var(--animation-timing) ease-out;
+    text-shadow: 0 0 2px var(--black);
+}
+.homepage .highlight-wrapper .highlight ul li a:hover {
+    text-shadow: 0 2px 8px var(--black);
+}
 @media screen and (width >= 960px) {
     .homepage .highlight-wrapper {
         padding: 0;   
@@ -266,7 +334,7 @@ header.main nav ul li a:hover {
 .welcome.message .wrapper {
     border: 2px solid var(--white);
     padding: var(--gap-xxl);
-    border-radius: var(--gap);
+    border-radius: var(--rounded);
     transition: all var(--animation-timing) ease-out;
 }
 .welcome.message .wrapper:hover {
@@ -299,7 +367,7 @@ header.category.page .wrapper * {
 .button {
     display: inline-block;
     padding: var(--gap-xl) var(--gap-xxl);
-    border-radius: var(--gap);
+    border-radius: var(--rounded);
     transition: all var(--animation-timing) ease-out;
     font-size: 16px;
     position: relative;

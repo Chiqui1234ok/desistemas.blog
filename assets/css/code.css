@@ -32,7 +32,7 @@ code {
     background: var(--codeBackground);
     color: var(--codeText);
     padding: var(--gap-xl);
-    border-radius: var(--gap-xl);
+    border-radius: var(--rounded);
     display: inline-block;
     font-size: var(--textColorFontSize);
 }
