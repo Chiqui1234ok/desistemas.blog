@@ -1,6 +1,6 @@
 main header.post {
     width: 100%;
-    background: var(--black);
+    background: var(--gray);
     border-bottom: var(--gap-xl) solid var(--red);
     border-radius: 0 0 var(--gap);
     margin-bottom: var(--gap-xxxl);

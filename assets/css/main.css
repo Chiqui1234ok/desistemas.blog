@@ -238,7 +238,7 @@ header.main .menu h2 {
 .homepage {
     width: 100%;
     position: relative;
-    background: var(--black);
+    background: var(--gray);
 }
 .homepage .homepage-wrapper {
     max-width: 1600px;
