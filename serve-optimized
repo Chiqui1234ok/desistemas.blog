@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+
+# Requiere: cwebp, find, sed
+# Requiere: chmod +x serve-optimized
+# Uso: ./serve-optimized
+
+POSTS_DIR="_posts"
+IMAGES_DIR="assets/posts"
+
+echo "🔍 Convirtiendo links en posts de .png a .webp..."
+for post in $POSTS_DIR/*.md; do
+  # Reemplaza .png por .webp en los posts (solo en links/imágenes)
+  sed -i 's/\.png/.webp/g' "$post"
+done
+
+echo "🖼 Procesando imágenes en $IMAGES_DIR..."
+find "$IMAGES_DIR" -type d ! -path "*/png" | while read -r dir; do
+  for img in "$dir"/*.png; do
+    [ -e "$img" ] || continue
+
+    base=$(basename "$img" .png)
+    subdir="$dir/png"
+
+    mkdir -p "$subdir"
+
+    # Convierte a webp solo si no existe
+    if [ ! -f "$dir/$base.webp" ]; then
+      echo "➡️  Convirtiendo: $img → $dir/$base.webp"
+      cwebp -q 80 "$img" -o "$dir/$base.webp"
+    fi
+
+    # Mueve el PNG original
+    mv "$img" "$subdir/"
+  done
+done
+
+POSTS_DIR="_posts"
+
+echo "🔍 Convirtiendo imágenes en posts..."
+
+find "$POSTS_DIR" -type f -name "*.md" | while read -r post; do
+  echo "Procesando $post"
+  # Regex: busca {{ base.url }}/assets/posts/... .png → .webp
+  sed -i -E 's|(\{\{ *base\.url *\}\}/assets/posts/[^)]+)\.png|\1.webp|g' "$post"
+done
+
+echo "✅ Listo!"
+
+
+echo "🚀 Iniciando Jekyll..."
+bundler exec jekyll serve
