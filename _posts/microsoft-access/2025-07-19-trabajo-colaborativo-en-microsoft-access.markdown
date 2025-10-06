@@ -40,15 +40,15 @@ Una vez realizado este backup, se puede abrir el archivo original con Microsoft 
 
 Al abrir el archivo **.accdb**, se debe ir a la pestaña "Herramientas de la base de datos" y luego presionar el botón "Base de datos de Access".
 
-![Presionar el botón "Base de datos de Access" bajo la pestaña "Herramientas de la base de datos", para iniciar con la división]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/asistente-base-de-datos-de-access.png)
+![Presionar el botón "Base de datos de Access" bajo la pestaña "Herramientas de la base de datos", para iniciar con la división]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/asistente-base-de-datos-de-access.webp)
 
 Se abrirá el asistente para la división de la base de datos. Se confirma realizando clic en el botón "Dividir base de datos".
 
-![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/asistente-con-boton-dividir-base-de-datos.png)
+![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/asistente-con-boton-dividir-base-de-datos.webp)
 
 Este proceso tardará unos segundos, y la ventana de guardado querrá almacenar un nuevo archivo con el sufijo **_be**. Le damos al botón Dividir, que está al lado de Cancelar.
 
-![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/guardar-back-end.png)
+![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/guardar-back-end.webp)
 
 Al guardar el archivo, pasarán unos segundos y el resultado será una ventana que anuncia "La base de datos se dividió satisfactoriamente". Se presiona el botón "Aceptar".
 
@@ -56,14 +56,14 @@ Al guardar el archivo, pasarán unos segundos y el resultado será una ventana q
 
 Al presionar el botón "Aceptar", Access tendrá el nuevo front-end abierto. Se observan cambios:
 
-![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/cambios-objetos-en-bd-dividida.png)
+![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/cambios-objetos-en-bd-dividida.webp)
 
 - Hay un asterisco al lado de cada tabla, indicando que es un link
 - Al posar el cursor por arriba de alguna tabla, por ejemplo, "CERTIFICADOS", saldrá un recuadro blanco indicando que hace referencia al archivo con el sufijo **_be** (el back-end).
 
 Sólo para recapitular, si miramos el backup de la base de datos que se realizó antes de comenzar con la división, los objetos de la tabla se verán así:
 
-![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/objetos-de-bd-backup.png)
+![alt text]({{ base.url }}/assets/posts/trabajo-colaborativo-en-microsoft-access/objetos-de-bd-backup.webp)
 
 Sin asterisco al lado de cada tabla y, además, este archivo pesa más que el back-end.
 

@@ -4,6 +4,7 @@ title:  "\"SR-IOV\" en LXC • Compartir GPU entre contenedores"
 date:   2025-03-16 17:26:00 -0300
 categories: [hardware, highlight]
 tags: guía, tutorial, linux, lxc, contenedor, sr-iov, nvidia, rtx, decoding, encoding, jellyfin, hardware
+image: /assets/posts/sr-iov-en-lxc/msi-rtx-3070-ventus-3x.webp
 ---
 
 # Preámbulo
@@ -12,6 +13,8 @@ Poder compartir una misma tarjeta gráfica era tarea imposible hace un tiempo, p
 Sin embargo, este post presenta una solución dónde el driver se instala en la máquina host (Linux), y así podrá repartirse el poder de cómputo entre distintos contenedores LXC, que hoy se pueden crear de forma fácil mediante la UI de Proxmox.
 
 Para el caso del tutorial, se utilizará una RTX 3070 8GB con la distribución Proxmox 8 (basada en Debian 12).
+
+![MSI RTX 3070 Ventus 3X]({{ base.url }}/assets/posts/sr-iov-en-lxc/msi-rtx-3070-ventus-3x.webp)
 
 Comencemos.
 

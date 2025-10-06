@@ -4,6 +4,7 @@ title:  "Instalar un dominio en Cloudflare • Hostinger"
 date:   2025-02-23 23:30:02 -0300
 categories: [homelabing]
 tags: cloudflare, hostinger, dominio, dns, apuntar, apuntado
+description: "En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare"
 ---
 
 # Preámbulo
@@ -36,13 +37,13 @@ Este plan será suficiente para tener un servicio correcto, y es el elegido en e
 
 En esta nueva página, Cloudflare notifica que pudo haber omitido subdominios y registros DNS, en especial los relacionados al email.
 
-![Revisar DNS añadidos]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/4-review-dns-1.PNG)
+![Revisar DNS añadidos]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/4-review-dns-1.webp)
 
 En este tutorial no se utilizarán MX ni DMARC, pero son vitales para tener una casilla de email funcional y de buena reputación, es decir, que no caiga en SPAM fácilmente. DeSistemas intentará hacer un tutorial sobre el tema de los correos lo antes posible.
 
 A continuación se indican que dominios deberán eliminarse, porque sino no podrá utilizarse el dominio **inforce.cloud** con un servidor propio en el futuro.
 
-![Revisar DNS añadidos]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/4-review-dns-2.PNG)
+![Revisar DNS añadidos]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/4-review-dns-2.webp)
 
 # 5. Tomar nota de los nameservers de Cloudflare
 

@@ -1,9 +1,17 @@
-{%- assign og_description = page.excerpt | strip_html | truncate: 160 -%}
-{%- unless og_description -%}
-    {%- assign og_description = site.description -%}
-{%- endunless -%}
-<meta property="og:title" content="{{ page.title | default: site.title }}" />
-<meta property="og:description" content="{{ og_description }}" />
-<meta property="og:type" content="{{ page.og_type | default: 'website' }}" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url }}" />
+<!-- HTML Meta Tags -->
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}">
+<meta property="twitter:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">

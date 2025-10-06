@@ -4,6 +4,8 @@ title:  "Averigüar el init del sistema • Linux"
 date:   2025-02-26 19:00:01 -0300
 categories: [linux]
 tags: linux, init, systemd, sysvinit, tutorial
+description: "En este post el administrador de sistemas verá distintas opciones para averiguar el \"init\" del sistema"
+image: https://earthly.dev/blog/assets/images/systemd/1.png
 ---
 
 # Preámbulo
