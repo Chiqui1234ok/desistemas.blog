@@ -23,7 +23,7 @@ Habiendo aclarado esto, empecemos.
 
 La imágen se debe descargar desde la [web oficial](https://downloads.openwrt.org/releases/23.05.5/targets/). Primero, se selecciona la arquitectura del CPU dónde se ejecutará el sistema operativo, comúnmente "x86".
 
-![Arquitectura del CPU]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/arquitectura-del-cpu.png)
+![Arquitectura del CPU]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/arquitectura-del-cpu.webp)
 
 A continuación, se muestran items como "64", "generic", "geode" y "legacy". Se selecciona "64", salvo que no tengas un procesador moderno. Una vez habiendo elegido la opción correcta, aparecerán distintos archivos. La [documentación](https://openwrt.org/docs/guide-user/installation/openwrt_x86#download_disk_images) explica cada una, pero te adelanto que la opción **generic-squashfs-combined-efi.img.gz** tiene las mejores características, según mi criterio. Estas características son:
 
@@ -123,15 +123,15 @@ Al ejecutar este comando, se creará una máquina virtual y se volcará la imág
 
 La máquina no iniciará sola, por lo que en la interfaz web de Proxmox deberá seleccionarse la VM 201 y, luego, apretar el botón "Start" de la esquina superior derecha.
 
-![iniciar la vm en proxmox]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/iniciar-la-vm.png)
+![iniciar la vm en proxmox]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/iniciar-la-vm.webp)
 
 Al entrar al item "Console", puede parecer que OpenWRT deja de cargar el sistema y se cuelga, así:
 
-![Pareciera que OpenWRT se cuelga al iniciar, pero no]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/openwrt-se-cuelga-al-iniciar.png)
+![Pareciera que OpenWRT se cuelga al iniciar, pero no]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/openwrt-se-cuelga-al-iniciar.webp)
 
 Cuándo esto sucede, se debe seleccionar la consola con el mouse para hacer foco en la VM, y luego apretar la tecla ENTER. OpenWRT dará la bienvenida:
 
-![Bienvenida de OpenWRT al iniciar la VM]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/openwrt-welcoming.png)
+![Bienvenida de OpenWRT al iniciar la VM]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/openwrt-welcoming.webp)
 
 # Configurar una contraseña
 
@@ -159,7 +159,7 @@ ip addr
 
 La salida será:
 
-![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/reconocer-los-adaptadores-de-red-con-ip-addr.png)
+![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/reconocer-los-adaptadores-de-red-con-ip-addr.webp)
 
 El adaptador ***br-lan*** es un bridge virtual montado sobre ***eth0***. Esto está mal, porque el ***eth0*** se utilizará para la red WAN. El archivo de networking debe sufrir algunas modificaciones, para poder tener acceso a internet y empezar a routear cosas.
 
@@ -180,13 +180,13 @@ vi /etc/config/network
 
 El archivo se verá así:
 
-![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/etc-config-network-default.png)
+![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/etc-config-network-default.webp)
 
 Se debe editar para que ***br-lan*** utilice el puerto ***eth1***, y la WAN utilice el ***eth0***. Esto es porque el ***eth0*** está "mapeado" al bridge de proxmox que recibe internet, mientras que el ***eth1*** será utilizado por la LAN (la red interna dónde estarían los dispositivos en una red hogareña, carente de VLANs). Aunque esta configuración es sencilla, se realizará así para probar cosas y tener un punto dónde el router funciona bien.
 
 Además, se eliminaron las características de IPv6, que no se usarán en redes hogareñas (ni la mayoría de profesionales), al menos por unos largos años. La edición del archivo queda así:
 
-![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/edicion-de-network-inicial.png)
+![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/edicion-de-network-inicial.webp)
 
 Luego, se reinicia la red con:
 
@@ -194,23 +194,23 @@ Luego, se reinicia la red con:
 /etc/init.d/network reload
 ```
 
-![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/network-reload-1.png)
+![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/network-reload-1.webp)
 
 # Epílogo
 
 La nueva versión 24.10 consume unos 15MB más de RAM que la anterior (23.05.5), pero contiene los paquetes más seguros hasta la fecha, con todos sus parches de seguridad.
 
-![consumo de recursos]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/consumo-de-recursos.png)
+![consumo de recursos]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/consumo-de-recursos.webp)
 
 Pronto se creará un nuevo post, para poder configurar el router completamente a nuestro gusto. Por ahora, si conectan máquinas virtuales o contenedores de Proxmox al adaptador "vmbr9001", tendrán IP e internet.
 
-![Menú de conexión a bridge virtuales]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/utilizando-el-bridge-virtual-9001.png)
+![Menú de conexión a bridge virtuales]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/utilizando-el-bridge-virtual-9001.webp)
 
 ## Realizá un snapshot
 
 Para tomar "una foto" de como está ahora la máquina virtual, debés seleccionar la máquina virtual > Snapshots > Take snapshot.
 
-![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/take-snapshot.png)
+![alt text]({{ base.url }}/assets/posts/instalar-openwrt-en-vm/take-snapshot.webp)
 
 Así, en caso de tener mala suerte con los cambios, siempre podés volver a este estado de la máquina virtual, cuándo funcionaba.
 

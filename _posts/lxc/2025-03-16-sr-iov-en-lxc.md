@@ -25,7 +25,7 @@ En este caso, descargar e instalar manualmente el driver da una mayor estabilida
 
 La página de Nvidia es esta, y deben especificarse los detalles de la placa de video a configurar.
 
-![Selección de driver]({{ base.url }}/assets/posts/sr-iov-en-lxc/seleccion-de-driver.png)
+![Selección de driver]({{ base.url }}/assets/posts/sr-iov-en-lxc/seleccion-de-driver.webp)
 
 Al hacer clic en el botón "Find", la nueva página indicará detalles del driver más reciente. A día de hoy, el último driver es el 570.124.04 (lanzado el día 2025-02-27). Se aprieta el botón "View" y, en la nueva página, se copia el link del botón "Download".
 

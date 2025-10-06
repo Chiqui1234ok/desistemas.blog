@@ -65,7 +65,7 @@ smbpasswd -a sistemas
 
 Solicitará la contraseña y su confirmación. Al tipear lo mismo en ambos casos, nos notificará que el usuario "sistemas" se añadió a Samba.
 
-![Notificación de Samba al agregar un usuario]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/usuario-anadido-a-samba.png)
+![Notificación de Samba al agregar un usuario]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/usuario-anadido-a-samba.webp)
 
 2. Ahora será posible loguearse en el servidor con el usuario "sistemas", de la siguiente forma:
 
@@ -75,7 +75,7 @@ smbclient -L localhost -U sistemas
 
 Como se muestra en la imágen a continuación, luego de este comando Samba pedirá la contraseña del usuario "sistemas", que debe ser idéntica a la configurada anteriormente. Luego de tipearla y presionar ENTER, se mostrarán los Shares disponibles para ese usuario.
 
-![Ingreso a SAMBA exitoso]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/ingreso-a-samba.png)
+![Ingreso a SAMBA exitoso]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/ingreso-a-samba.webp)
 
 También se notifica que SMB1 está desactivado, lo cuál es el comportamiento deseado (es un protocolo muy viejo e inseguro).
 
@@ -123,7 +123,7 @@ testparm
 
 Este comando confirmará que la configuración está bien y define el rol como:
 
-![Rol del servidor]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/rol-del-servidor.png)
+![Rol del servidor]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/rol-del-servidor.webp)
 
 # Conclusión
 
@@ -131,7 +131,7 @@ Con esta configuración ya es posible conectarse al Controlador de dominio con c
 
 Esto ya fue probado en Windows 11:
 
-![alt text]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/win-11-ya-bajo-el-controlador-de-dominio.png)
+![alt text]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/win-11-ya-bajo-el-controlador-de-dominio.webp)
 
 ---
 

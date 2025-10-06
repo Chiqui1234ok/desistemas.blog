@@ -30,11 +30,11 @@ Se puede descargar e instalar desde [este link](https://mlocati.github.io/articl
 
 Se debe descargar la opción x64 "static", para asegurarse de que no falta ninguna biblioteca (DLL).
 
-![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/descargar-gettext-static-para-windows.png)
+![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/descargar-gettext-static-para-windows.webp)
 
 Al terminar de descargar el archivo comprimido, se debe hacer clic derecho > Extraer todo... , y luego se presiona el botón "Extraer".
 
-![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/extraer-gettext.png)
+![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/extraer-gettext.webp)
 
 > En el caso del tutorial, se extrae en **\\10.0.0.2\home\sgimenez\Downloads\gettext0.24-iconv1.17-static-64**, y se utilizará esta ruta para los ejemplos.
 
@@ -50,21 +50,21 @@ La instalación de este programa es muy sencilla. Como casi cualquier instalaci�
 
 1. Descargar desde la [página oficial](https://poedit.net/download).
 
-![Botón de descarga de Poedit para Windows 10 y superiores]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/descargar-poedit.png)
+![Botón de descarga de Poedit para Windows 10 y superiores]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/descargar-poedit.webp)
 
 2. Abrir el archivo ejecutable
 
 3. Autorizar la apertura del archivo, haciendo clic en el botón "Ejecutar":
 
-![Autorización del instalador]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/captura-de-autorizacion-de-instalador.png)
+![Autorización del instalador]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/captura-de-autorizacion-de-instalador.webp)
 
 4. Aceptar el acuerdo de licencia en el primer paso del instalador
 
-![Aceptar el acuerdo de licencia]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/aceptar-el-acuerdo-de-licencia.png)
+![Aceptar el acuerdo de licencia]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/aceptar-el-acuerdo-de-licencia.webp)
 
 5. Instalar y esperar.
 
-![Instalar poedit]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/instalar-poedit.png)
+![Instalar poedit]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/instalar-poedit.webp)
 
 6. Al terminar la instalación, apretar el botón "Finalizar". Esto abrirá el programa.
 
@@ -378,40 +378,40 @@ msgstr ""
 
 Ahora, con ***Poedit*** se procede a abrir la plantilla **.pot** y empezar a traducir.
 
-![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/importar-plantilla-poedit.png)
+![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/importar-plantilla-poedit.webp)
 
 Como primer medida, ***Poedit*** pregunta sobre el idioma al que desea traducirse. En el caso del ejemplo se utilizó Español (Argentina) como base, pero se quiere traducir a Inglés (Estados Unidos), por ende:
 
-![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-seleccion-de-idioma.png)
+![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-seleccion-de-idioma.webp)
 
 > ¡Ojo! El archivo .pot no se toma como una traducción. Por ende, si querés tener traducción al mismo idioma del archivo **.pot**, deberás re-abrir el archivo **.pot**, elegir idioma "Español (Argentina)" y luego guardarlo como **es_AR.po**.
 
 Al responder y aceptar, se mostrará la aplicación sin más ventanas emergentes. Podés probar las traducciones automáticas desde este botón:
 
-![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-traducciones-automaticas.png)
+![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-traducciones-automaticas.webp)
 
 Pero, lamentablemente, la aplicación debe aprender (o eso menciona) sobre nuestras propias traducciones. Al menos en la versión gratuita.
 
-![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-no-puede-traducir-automaticamente.png)
+![alt text]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-no-puede-traducir-automaticamente.webp)
 
 # Comienza la traducción
 
 La aplicación es súmamente sencilla. En la parte inferior, mostrará el texto original y luego otro campo para colocar la traducción. Yo ya traducí del español al inglés:
 
-![Así podemos comenzar con la traducción]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/comienza-la-traduccion.png)
+![Así podemos comenzar con la traducción]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/comienza-la-traduccion.webp)
 
 # Guardar la traducción
 
 Desde este botón se podrá guardar la traducción en formato **.po**.
 
-![Guardar traducción en formato .po]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-guardar-traduccion.png)
+![Guardar traducción en formato .po]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/poedit-guardar-traduccion.webp)
 
 # Compilar a formato .mo
 
 El formato **.mo** es utilizado, por ejemplo, por templates Wordpress. En síntesis, el archivo **.po** es utilizado para desarrollar las traducciones, mientras que **.mo** es el archivo que utilizará el programa para el cuál estamos creando la traducción (en este caso, Wordpress).
 ***Poedit*** automáticamente compila en formato **.mo** al guardar el **.po**. En caso de que eso no haya sucedido, se puede compilar desde Archivo > Compilar en MO... .
 
-![Compilar en formato MO]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/compilar-en-formato-mo.png)
+![Compilar en formato MO]({{ base.url }}/assets/posts/traducir-sitios-webs-con-poedit/compilar-en-formato-mo.webp)
 
 
 ---

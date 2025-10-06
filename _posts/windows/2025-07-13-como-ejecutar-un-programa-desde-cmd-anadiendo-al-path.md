@@ -18,7 +18,7 @@ Sin embargo, cuándo se instalan aplicaciones de terceros como ***node***, ***mo
 
 Si la aplicación se instaló en (por ejemplo) **C:\Users\Santiago\.lmstudio\bin**, debemos añadir esa ruta al PATH.
 
-![Hay que encontrar dónde está el ejecutable que se desea abrir]({{ base.url }}/assets/posts/como-anadir-al-path-windows/aca-esta-el-ejecutable-que-deseamos-abrir.png)
+![Hay que encontrar dónde está el ejecutable que se desea abrir]({{ base.url }}/assets/posts/como-anadir-al-path-windows/aca-esta-el-ejecutable-que-deseamos-abrir.webp)
 
 Como se ve en la imágen, es importante asegurarse de que el ejecutable que se desea abrir desde el CMD o PowerShell esté en la carpeta que se va a añadir al PATH. Es decir que si se copia ahora la ruta a la carpeta **C:\Users\Santiago\.lmstudio** (sin la sub-carpeta **bin**), Windows no localizará el ejecutable y arrojará error al tipear el nombre del programa.
 
@@ -30,21 +30,21 @@ Al instalar algunas aplicaciones, el binario que se buscar ejecutar no está en 
 
 Desde el menú de Windows, buscar "variables" y hacer clic en "Editar las variables de entorno del sistema".
 
-![abrir la opcion de Editar las variables de entorno del sistema]({{ base.url }}/assets/posts/como-anadir-al-path-windows/editar-variables-de-entorno-del-sistema.png)
+![abrir la opcion de Editar las variables de entorno del sistema]({{ base.url }}/assets/posts/como-anadir-al-path-windows/editar-variables-de-entorno-del-sistema.webp)
 
 Luego, se debe hacer clic en el botón "Variables de entorno...":
 
-![alt text]({{ base.url }}/assets/posts/como-anadir-al-path-windows/boton-variables-de-entorno.png)
+![alt text]({{ base.url }}/assets/posts/como-anadir-al-path-windows/boton-variables-de-entorno.webp)
 
 ## 3. Editar las variables de entorno
 
 Para poder añadir la ruta de nuestro programa a las variables de entorno, se hace clic en "Path" y luego el botón "Editar":
 
-![Seleccionar "Path" y luego botón "Editar"]({{ base.url }}/assets/posts/como-anadir-al-path-windows/seleccionar-path-y-boton-editar.png)
+![Seleccionar "Path" y luego botón "Editar"]({{ base.url }}/assets/posts/como-anadir-al-path-windows/seleccionar-path-y-boton-editar.webp)
 
 A continuación, se realizan los siguientes pasos:
 
-![Pasos para añadir una ruta al PATH]({{ base.url }}/assets/posts/como-anadir-al-path-windows/pasos-para-anadir-una-ruta-al-path.png)
+![Pasos para añadir una ruta al PATH]({{ base.url }}/assets/posts/como-anadir-al-path-windows/pasos-para-anadir-una-ruta-al-path.webp)
 
 Como es evidente en la imágen, se hizo clic en el botón "Nuevo" y se pegó la ruta que se copió anteriormente: **C:\Users\Santiago\.lmstudio\bin**.
 
@@ -58,6 +58,6 @@ De ahora en más, cualquier nueva ventana de CMD y PowerShell cargará el nuevo 
 
 Como se ve en la imágen, no es necesario añadir la extensión del archivo.
 
-![Prueba abriendo el programa "lms"]({{ base.url }}/assets/posts/como-anadir-al-path-windows/prueba-abriendo-el-programa-lms.png)
+![Prueba abriendo el programa "lms"]({{ base.url }}/assets/posts/como-anadir-al-path-windows/prueba-abriendo-el-programa-lms.webp)
 
 ¡Saludos! Te invito a visitar la [página principal]({{ site.url }}) del blog para ver más tutoriales útiles que impulsarán tus ganas de experimentar con un homelab.

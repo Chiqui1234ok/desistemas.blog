@@ -22,7 +22,7 @@ De esta forma se pueden publicar servicios online sin exponer la IP y puertos de
 
 Este formulario debe observarse para entender bien lo que se está a punto de hacer:
 
-![Formulario public hostnames]({{ base.url }}/assets/posts/exponer-servicios-en-la-nube-con-public-hostnames/formulario-public-hostnames.png)
+![Formulario public hostnames]({{ base.url }}/assets/posts/exponer-servicios-en-la-nube-con-public-hostnames/formulario-public-hostnames.webp)
 
 Tiene cuatro campos clave:
 
@@ -46,13 +46,13 @@ Es importante mencionar que esta opción se refiere al protocolo de la aplicaci�
 Se debe ir a [Cloudflare Zero Trust](https://one.dash.cloudflare.com/) > Seleccionar cuenta. Se cargará el panel de Cloudflare, y allí se selecciona desde la barra lateral: Networks > Tunnels y se elije el túnel "Inforce" de la tabla.
 Esta acción mostrará una barra lateral con el botón "Edit" al cuál se le hace clic.
 
-![El botón "Edit" se sitúa en la zona superior de la barra lateral]({{ base.url }}/assets/posts/exponer-servicios-en-la-nube-con-public-hostnames/edit-tunnel.png)
+![El botón "Edit" se sitúa en la zona superior de la barra lateral]({{ base.url }}/assets/posts/exponer-servicios-en-la-nube-con-public-hostnames/edit-tunnel.webp)
 
 Aquél botón llevará a la configuración del túnel "Inforce", dónde en este caso ya se listan dos URLs porque previamente el autor del post creó dos Public hostnames. Se ve claramente como cada dirección apunta a una IP y puerto, en el caso del primer registro. Esto es porque el protocolo HTTP tiene un puerto por defecto en el número 80. El número 8080 es otro, por ende se debe especificar.
 
 La sección para añadir este tipo de registros se encuentra en la pestaña **PUBLIC HOSTNAMES**.
 
-![alt text]({{ base.url }}/assets/posts/exponer-servicios-en-la-nube-con-public-hostnames/seccion-public-hostnames.png)
+![alt text]({{ base.url }}/assets/posts/exponer-servicios-en-la-nube-con-public-hostnames/seccion-public-hostnames.webp)
 
 En la página que aparecerá a continuación, se pueden añadir los dominios como se explicó en el título "Funcionamiento de un Public Hostname".
 

@@ -22,7 +22,7 @@ Este blog se hostea con este mismo stack de red: OpenWRT + Cloudflare Tunnel.
 
 La versión a descargar depende del hardware dónde se ejecuta OpenWRT. En el caso del tutorial, el software está instalado en una máquina virtual x86_64 y se descargará para esa arquitectura, en la versión binaria.
 
-![La versión a descargar desde el sitio oficial es x86_64, en el caso del tutorial]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/version-de-descarga.png)
+![La versión a descargar desde el sitio oficial es x86_64, en el caso del tutorial]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/version-de-descarga.webp)
 
 [Link de descarga oficial](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/#linux).
 
@@ -70,7 +70,7 @@ Se debe especificar un email válido, y para la contraseña se solicita al menos
 - 1 caracter especial (como por ejemplo: **$**, **!**, **@**, **%**, **&**)
 - Sin espacios al principio ni final
 
-![Registro en Cloudflare]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/registro-en-cloudflare.png)
+![Registro en Cloudflare]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/registro-en-cloudflare.webp)
 
 Se comprueba ser un humano y luego toca hacer clic en el botón **Sign Up**.
 
@@ -78,17 +78,17 @@ Se comprueba ser un humano y luego toca hacer clic en el botón **Sign Up**.
 
 Ahora hay que dirigirse a [Zero Trust](https://one.dash.cloudflare.com/). Allí, preguntará que cuenta usar. Se selecciona la que se quiere utilizar para el futuro tunneling.
 
-![Seleccionar cuenta para realizar el tunneling]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/seleccionar-cuenta-para-tunneling.png)
+![Seleccionar cuenta para realizar el tunneling]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/seleccionar-cuenta-para-tunneling.webp)
 
 > Si, la dirección de correo está tachada porque en este caso, es mi email personal.
 
 En el paso siguiente, Cloudflare preguntará por un nombre de equipo (URL para permitir conexiones con Cloudflare WARP). Bajo este nombre luego se podrán crear usuarios, para habilitar dispositivos y permisos para la utilización del túnel.
 
-![Nombre de equipo para Cloudflare]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/cloudflare-team.png)
+![Nombre de equipo para Cloudflare]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/cloudflare-team.webp)
 
 El plan gratuito sobrará para el homelab o pruebas que estés realizando. Es compatible con ruteos y soporta hasta 50 usuarios, siendo más que generoso.
 
-![Listado de planes de Cloudflare Zero Trust]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/planes-cloudflare-zero-trust.png)
+![Listado de planes de Cloudflare Zero Trust]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/planes-cloudflare-zero-trust.webp)
 
 Se selecciona el Plan gratuito, y se colocan los datos de la tarjeta y ubicación (si, incluso en el plan gratuito solicita estos datos). Se recomienda utilizar una tarjeta de crédito que luego se pueda pausar, para evitar cobros sin preguntar.
 
@@ -96,7 +96,7 @@ Luego de colocar los datos en el formulario, la página permite finalizar con el
 
 # Ver el nombre del equipo
 
-![Ver nombre del equipo]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/ver-nombre-del-equipo.png)
+![Ver nombre del equipo]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/ver-nombre-del-equipo.webp)
 
 Desde [Cloudflare Zero Trust](https://one.dash.cloudflare.com/) > **Settings** > **Custom Pages** se verá el nombre del equipo, que puede ser editado desde ese mismo menú.
 
@@ -110,13 +110,13 @@ cloudflared tunnel login
 
 Esta acción hará que la terminal muestre un link, el cuál se debe pegar en el navegador (el link cambia todo el tiempo, debés copiar el propio):
 
-![Ruta de login en Cloudflare, para autorizar el OpenWRT]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/cloudflare-tunnel-login-url.png)
+![Ruta de login en Cloudflare, para autorizar el OpenWRT]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/cloudflare-tunnel-login-url.webp)
 
 Una vez se haya cargado la página mediante el link, se debe seleccionar la cuenta de Cloudflare deseada para crear el tunel hasta OpenWRT:
 
 Al seleccionar la cuenta, se abrirá una ventana que dice: "To finish configuring Tunnel for your zone, click Authorize below.". Se hace clic en el botón "Authorize", y se observa la ventana del éxito.
 
-![Ventana de tunel exitoso]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/ventana-success-cloudflare.png)
+![Ventana de tunel exitoso]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/ventana-success-cloudflare.webp)
 
 # Conexión del tunel
 
@@ -225,7 +225,7 @@ TUNNEL_ORIGIN_CERT=/etc/inforce/cert.pem cloudflared tunnel run desistemas
 
 Dirigirse a la web [Cloudflare Zero Trust](https://one.dash.cloudflare.com/) y luego Network > Tunnels.
 
-![Comprobar túnel]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/comprobar-tunel.png)
+![Comprobar túnel]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/comprobar-tunel.webp)
 
 El túnel se puede ver creado y en estado "HEALTHY" (saludable), en la tabla como la mostrada en la imágen de arriba.
 
@@ -233,7 +233,7 @@ El túnel se puede ver creado y en estado "HEALTHY" (saludable), en la tabla com
 
 En este mismo listado de Túneles, se debe realizar clic en las opciones del túnel en cuestión, en el icono que se encuentra a la derecha:
 
-![Opciones del túnel]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/opciones-del-tunel.png)
+![Opciones del túnel]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/opciones-del-tunel.webp)
 
 Luego, opción **Configure**.
 
@@ -355,7 +355,7 @@ Y al ejecutar el comando ***ps***, veremos que el servicio fue iniciado sin prob
 ps | grep desistemas | grep -v grep
 ```
 
-![Cloudflared ya está ejecutándose, según el comando "ps"]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/cloudflared-ps.png)
+![Cloudflared ya está ejecutándose, según el comando "ps"]({{ base.url }}/assets/posts/instalar-cloudflared-en-openwrt/cloudflared-ps.webp)
 
 # Epílogo
 

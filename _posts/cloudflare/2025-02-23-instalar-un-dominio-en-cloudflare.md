@@ -18,19 +18,19 @@ El tutorial asume que el dominio ya fue adquirido y la cuenta en Cloudflare ya f
 
 Hay que dirigirse al [panel de control de Cloudflare](https://dash.cloudflare.com/), e iniciar sesión. Allí, se debe realizar clic en "Add a domain".
 
-![Añadir un dominio]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/1-add-domain.png)
+![Añadir un dominio]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/1-add-domain.webp)
 
 # 2. Anotar el dominio a vincular
 
 El botón "Add a domain" llevará a la siguiente página, dónde se debe escribir el dominio sin http/https. Luego de haberlo escrito y verificado, se prosigue con el botón "Continue" para poder seguir con la elección del plan.
 
-![Escribir dominio]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/2-write-domain.png)
+![Escribir dominio]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/2-write-domain.webp)
 
 # 3. Seleccionar un plan gratuito
 
 Este plan será suficiente para tener un servicio correcto, y es el elegido en el tutorial. Para seleccionarlo, se hace clic en el título "Free", en la sección inferior de la página. Luego se debe presionar el botón "Continue".
 
-![Seleccionar plan gratuito]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/3-select-free-plan.png)
+![Seleccionar plan gratuito]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/3-select-free-plan.webp)
 
 # 4. Revisar los DNS
 
@@ -50,29 +50,29 @@ A continuación, Cloudflare indica los nameservers que se deben utilizar el la "
 
 > Es importante que tomes nota de tus DNS y no de los míos, porque es posible que Cloudflare tenga otra URL en tu caso, y no te funcione con los de la foto.
 
-![Anotar los dos nameservers de Cloudflare]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/5-take-note-of-those-nameservers.png)
+![Anotar los dos nameservers de Cloudflare]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/5-take-note-of-those-nameservers.webp)
 
 # 6. Dirigirse al portafolio de dominios
 
 Para quitar los nameservers viejos y colocar los de Cloudflare para terminar con la conexión, dirigirse al [hpanel](https://hpanel.hostinger.com/) > Dominios > Portafolio de dominios.
 
-![Portafolio de dominios]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/6-domain-portfolio.png)
+![Portafolio de dominios]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/6-domain-portfolio.webp)
 
 # 7. Administrar dominio
 
 Para poder editar los DNS al cuál apunta este dominio, se debe realizar clic en "Administrar", en el dominio **inforce.cloud**.
 
-![Administrar dominio]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/7-admin-domain.png)
+![Administrar dominio]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/7-admin-domain.webp)
 
 # 8. Botón de edición de DNS
 
 En el panel administrativo del dominio, se aprecia el link "Editar" en el título "DNS/Nameservers". Hay que hacerle clic.
 
-![Editar DNS en Hostinger]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/8-edit-dns-button.png)
+![Editar DNS en Hostinger]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/8-edit-dns-button.webp)
 
 Ésto lanzará una ventana, a la cuál se cliquea en el botón "Cambiar nameservers".
 
-![Aceptar la ventana emergente sobre si realmente se desean cambiar los DNS]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/9-change-name-servers-button.png)
+![Aceptar la ventana emergente sobre si realmente se desean cambiar los DNS]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/9-change-name-servers-button.webp)
 
 # 9. Editar los DNS en el formulario
 
@@ -80,7 +80,7 @@ Finalmente, se borran las URLs que están por defecto y se completan con los que
 
 En el caso del tutorial, se completaron así:
 
-![DNS de Cloudflares en formulario de Hostinger]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/10-change-nameservers.png)
+![DNS de Cloudflares en formulario de Hostinger]({{ base.url }}/assets/posts/instalar-un-dominio-en-cloudflare/10-change-nameservers.webp)
 
 1. Se cliquea la opción "Cambiar nameservers".
 2. En el primer campo de texto, se colocó el primer DNS proporcionado por Cloudflare.
