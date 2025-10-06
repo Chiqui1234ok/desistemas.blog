@@ -235,6 +235,10 @@ header.main .menu h2 {
     }
 }
 /* Homepage */
+article .container .comparison {
+    margin: var(--gap-xxl) 0;
+    width: 100%;
+}
 .homepage {
     width: 100%;
     position: relative;
