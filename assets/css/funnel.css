@@ -1,0 +1,33 @@
+.funnel {
+    margin-top: 0;
+    padding-top: 0;
+}
+.funnel img {
+    width: 100%;
+    object-fit: cover;
+}
+.funnel h2 {
+    margin: var(--gap-xxxl) 0 var(--gap-xl) 0;
+    /* padding: var(--gap-xxl); */
+    /* border-radius: var(--rounded); */
+}
+.funnel h3 {
+    margin: var(--gap-xxl) 0 var(--gap) 0;
+}
+.funnel .callToAction {
+    margin: var(--gap-xl) 0;
+}
+.metodos-de-pago-mas-convenientes {
+    grid-template-columns: 100%;
+    align-items: center;
+}
+@media(min-width: 600px) {
+    .metodos-de-pago-mas-convenientes {
+        grid-template-columns: 128px auto;
+    }
+}
+@media(min-width: 768px) {
+    .metodos-de-pago-mas-convenientes {
+        grid-template-columns: 192px auto
+    }
+}

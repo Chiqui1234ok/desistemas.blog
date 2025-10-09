@@ -7,7 +7,8 @@
     --background: #fff;
     --codeBackground: #000;
     --codeText: #fff;
-    --blockquoteBackground: #f37f7f;
+    --blockquoteBackground: #494949;
+    --blockquoteShadow: #f37f7f;
     --blockquoteText: #fff;
     --titleColor: #292929;
     --textColor: #1b1b1b;
@@ -58,6 +59,31 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     color: var(--titleColor);
 }
+p {
+    font-size: clamp(1rem, 1.2vw, 1.2rem); /* ~16–19px */
+    margin-bottom: 1em;
+}
+
+/* Encabezados */
+h1 {
+    font-size: clamp(2rem, 4vw, 3rem); /* ~32–48px */
+    font-weight: 700;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem); /* ~24–36px */
+    font-weight: 600;
+}
+
+h3 {
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem); /* ~20–28px */
+    font-weight: 600;
+}
+
+h4, h5, h6 {
+    font-size: clamp(1.1rem, 2vw, 1.4rem); /* ~18–22px */
+    font-weight: 500;
+}
 p, ul li, ol li, span, blockquote {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -68,7 +94,8 @@ p, ul li, ol li, span, blockquote {
 }
 blockquote {
     background: var(--blockquoteBackground);
-    padding: var(--gap-xxl);
+    box-shadow: 4px 4px 2px 0px var(--blockquoteShadow);
+    padding: var(--gap-xxl) var(--gap-xxxl);
     border-radius: var(--rounded);
     display: block;
     margin: var(--gap-xxl) auto;
@@ -76,6 +103,7 @@ blockquote {
 }
 blockquote p {
     color: var(--blockquoteText);
+    margin: 0;
 }
 ul li, ol li {
     margin-bottom: var(--gap-xl);
@@ -113,6 +141,9 @@ a:hover, a:focus {
     min-height: 100vh;
 }
 /* Lists */
+.container ul, .container ol {
+    padding: var(--gap-xl) var(--gap-xxxl);
+}
 .minimal { list-style: none }
 ul.inline li { display: inline-block }
 /* Grid */
@@ -371,6 +402,7 @@ header.category.page .wrapper * {
 .button {
     display: inline-block;
     padding: var(--gap-xl) var(--gap-xxl);
+    text-align: center;
     border-radius: var(--rounded);
     transition: all var(--animation-timing) ease-out;
     font-size: 16px;
