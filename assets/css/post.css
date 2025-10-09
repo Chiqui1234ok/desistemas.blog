@@ -4,7 +4,7 @@ main header.post {
     border-bottom: var(--gap-xl) solid var(--red);
     border-radius: 0 0 var(--gap);
     margin-bottom: var(--gap-xxxl);
-    box-shadow: 0 8px 16px -8px var(--black);
+    box-shadow: 0 8px 16px -8px var(--shadow);
 }
 main header.post h1, main header.post p {
     color: var(--white);

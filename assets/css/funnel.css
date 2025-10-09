@@ -1,0 +1,97 @@
+/* header funnel */
+.wallpaper {
+    padding: var(--gap-xxxl) 0;
+    background: var(--gray) center / cover;
+    aspect-ratio: 16 / 9;
+    z-index: 10;
+}
+@media (min-aspect-ratio: 16/9) {
+    .wallpaper {
+        aspect-ratio: 16 / 9;
+    }
+}
+@media (max-aspect-ratio: 9/16) {
+    .wallpaper {
+        aspect-ratio: 9 / 16;
+    }
+}
+.wallpaper .container {
+    padding: var(--gap-xxl) var(--gap-xxxl);
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: var(--rounded);
+}
+.wallpaper h2 {
+    text-align: center;
+}
+.wallpaper h2 figcaption {
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 600;
+}
+.wallpaper .center p {
+    margin: var(--gap-xl) 0 0 0;
+}
+@media(min-width: 1024px) {
+    .wallpaper {
+        top: var(--gap-xxl);
+    }
+    .wallpaper h2 {
+        text-align: left;
+    }
+    .wallpaper p {
+        text-align: left;
+    }
+    .wallpaper .center h3 {
+        text-align: left;
+    }
+    .wallpaper .center p {
+        text-align: right;
+    }
+}
+/*  */
+.funnel {
+    margin-top: 0;
+    padding-top: 0;
+}
+.funnel img {
+    width: 100%;
+    object-fit: cover;
+}
+.funnel h2 {
+    margin: var(--gap-xxxl) 0 var(--gap-xl) 0;
+    /* padding: var(--gap-xxl); */
+    /* border-radius: var(--rounded); */
+}
+.funnel h3 {
+    margin: var(--gap-xxl) 0 var(--gap) 0;
+}
+.funnel .callToAction {
+    margin: var(--gap-xl) 0;
+}
+.metodos-de-pago-mas-convenientes {
+    grid-template-columns: 100%;
+    align-items: center;
+}
+@media(min-width: 600px) {
+    .metodos-de-pago-mas-convenientes {
+        grid-template-columns: 128px auto;
+    }
+}
+@media(min-width: 768px) {
+    .metodos-de-pago-mas-convenientes {
+        grid-template-columns: 192px auto
+    }
+}
+/*  */
+.storeAboutMe {
+    /* width: calc( 100% - var(--gap-xxxl) * 2 ); */
+    width: calc( 100% - var(--gap) * 2 );
+    margin: var(--gap-xxxl) auto;
+    padding: var(--gap) var(--gap-xxxl) var(--gap-xxl);
+    border-radius: var(--rounded);
+    box-shadow: 0px 4px 12px 0px var(--shadow);
+}
+@media(min-width: 1024px) {
+    .storeAboutMe {
+        width: calc( 100% - var(--gap-xxxl) * 2 );
+    }
+}
