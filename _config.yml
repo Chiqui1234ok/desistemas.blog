@@ -30,6 +30,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  store:
+    output: true   # Si querés que cada producto tenga su propia página HTML
+    permalink: /store/:name/
 
 # Build settings
 plugins:
