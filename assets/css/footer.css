@@ -12,6 +12,8 @@ footer .mini p {
     line-height: 32px;
 }
 .backToTop {
+    width: 44px;
+    height: 44px;
     position: fixed;
     bottom: var(--gap-xxxl);
     right: var(--gap-xxxl);

@@ -1,18 +1,22 @@
-<main class="post" aria-label="Content" id="top">
+<main class="store list" aria-label="Content" id="top">
     <div class="container">
-        <ul class="minimal grid-4">
-            {% for product in site.store %}
-                <li>
-                <h2><a href="{{ product.url }}">{{ product.title }}</a></h2>
-                <p>Precio: ${{ product.price }}</p>
-                {% if product.image %}
-                    <img src="{{ product.image }}" alt="{{ product.title }}" />
-                {% else %}
-                    <img src="{{ base.url }}/assets/store/no-image.webp" alt="Sin imágen" />
-                {% endif %}
-                <p>{{ product.description }}</p>
-                </li>
-            {% endfor %}
-        </ul>
+        <h1>Hardware para todos los bolsillos y funcionamiento <span>garantizado</span></h1>
+      <ul class="listing minimal grid-4">
+        {% for product in site.store | where_exp:"item","item.categories contains 'pc'" %}
+          <li>
+            <h2><a href="{{ product.url }}">{{ product.title }}</a></h2>
+            <p>Precio: ${{ product.price }}</p>
+  
+            {% if product.image %}
+              <img src="{{ product.image }}" alt="{{ product.title }}" width="100%" />
+            {% else %}
+              <img src="{{ base.url }}/assets/store/no-image.webp" alt="Sin imagen" />
+            {% endif %}
+  
+            <p>{{ product.description }}</p>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-</main>
+  </main>
+  
