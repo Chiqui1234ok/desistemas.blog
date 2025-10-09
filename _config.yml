@@ -32,7 +32,7 @@ collections:
     permalink: /:path/
   store:
     output: true   # Si querés que cada producto tenga su propia página HTML
-    permalink: /store/:name/
+    permalink: /tienda/:name/
 
 # Build settings
 plugins:
