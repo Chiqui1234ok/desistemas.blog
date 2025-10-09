@@ -5,6 +5,9 @@
     aspect-ratio: 16 / 9;
     z-index: 10;
 }
+.wallpaper .button {
+    text-align: center;
+}
 @media (min-aspect-ratio: 16/9) {
     .wallpaper {
         aspect-ratio: 16 / 9;
@@ -29,6 +32,9 @@
 }
 .wallpaper .center p {
     margin: var(--gap-xl) 0 0 0;
+}
+.wallpaper .button.review {
+    margin-right: var(--gap-xxl);
 }
 @media(min-width: 1024px) {
     .wallpaper {
