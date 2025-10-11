@@ -1,6 +1,7 @@
-Jekyll::Hooks.register :documents, :post_render do |doc|
-    if doc.output_ext == '.html'
-      # agrega loading="lazy" y decoding="async" a todas las etiquetas <img>
-      doc.output.gsub!(/<img(?![^>]*loading=)/, '<img loading="lazy" decoding="async"')
-    end
+Jekyll::Hooks.register :documents, :post_write do |doc|
+  if doc.output_ext == '.html'
+    content = File.read(doc.destination(doc.site.dest))
+    content.gsub!(/<img(?![^>]*loading=)/, '<img loading="lazy" decoding="async"')
+    File.write(doc.destination(doc.site.dest), content)
   end
+end
