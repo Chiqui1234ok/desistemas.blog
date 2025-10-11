@@ -33,9 +33,6 @@ collections:
   store:
     output: true   # Si querés que cada producto tenga su propia página HTML
     permalink: /tienda/:name/
-markdown: kramdown
-kramdown:
-  parse_block_html: true
 
 # Build settings
 plugins:
