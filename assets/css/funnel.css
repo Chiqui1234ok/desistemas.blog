@@ -73,6 +73,9 @@
 .funnel .callToAction {
     margin: var(--gap-xl) 0;
 }
+.funnel .carousel {
+    margin: var(--gap-xl) 0 var(--gap-xxxl) 0;
+}
 .metodos-de-pago-mas-convenientes {
     grid-template-columns: 100%;
     align-items: center;

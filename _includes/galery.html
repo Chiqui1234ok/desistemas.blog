@@ -1,0 +1,62 @@
+{% assign folder = include.folder %}
+{% assign images = site.static_files | where_exp: "file", "file.path contains folder" %}
+<div class="carousel wrapper">
+  <div class="carousel">
+    <ul class="categories carousel minimal inline">
+      {% for image in images %}
+      <li class="category" style="background-image: url('{{ image.path }}');">
+        <a href="{{ image.path }}" aria-label="Ver imagen {{ forloop.index }}"></a>
+      </li>
+      {% endfor %}
+    </ul>
+    <button class="carousel-btn prev" aria-label="Anterior"><</button>
+    <button class="carousel-btn next" aria-label="Siguiente">></button>
+  </div>
+</div>
+
+<style>
+    .store .carousel, .post .carousel {
+        height: 240px;
+    }
+    @media(min-width: 640px) {
+        .store .carousel, .post .carousel {
+            height: 320px;
+        }
+    }
+    @media(min-width: 640px) {
+        .store .carousel, .post .carousel {
+            height: 420px;
+        }
+    }
+    @media(min-width: 1366px) {
+        .store .carousel, .post .carousel {
+            height: 520px;
+        }
+    }
+    .store .carousel ul, .post .carousel ul {
+        padding: 0;
+    }
+    .store .carousel ul.categories.carousel li, .post .carousel ul.categories.carousel li {
+        width: 80%;
+    }
+    .store .carousel.wrapper::before, .store .carousel.wrapper::after, .post .carousel.wrapper::before, .post .carousel.wrapper::after {
+        background: none;
+    }
+</style>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.querySelector(".categories.carousel");
+    const prev = document.querySelector(".carousel-btn.prev");
+    const next = document.querySelector(".carousel-btn.next");
+    const scrollAmount = 456;
+  
+    prev.addEventListener("click", () => {
+      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+  
+    next.addEventListener("click", () => {
+      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+  });
+  </script>
+  

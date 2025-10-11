@@ -306,12 +306,12 @@ article .container .comparison {
     }
 }
 /* Homepage: categories carousel */
-.homepage .carousel.wrapper {
+.carousel.wrapper {
     display: block;
     position: relative;
     z-index: 2;
 }
-.homepage .carousel.wrapper::before {
+.carousel.wrapper::before {
     width: 60px;
     height: 100%;
     content: '';
@@ -320,7 +320,7 @@ article .container .comparison {
     top: 0;
     left: 0;
 }
-.homepage .carousel.wrapper::after {
+.carousel.wrapper::after {
     width: 60px;
     height: 100%;
     content: '';
@@ -328,6 +328,9 @@ article .container .comparison {
     position: absolute;
     top: 0;
     right: 0;
+}
+.carousel ul.categories.carousel li a {
+    display: block;
 }
 /* Homepage: highlight list */
 .homepage .highlight-wrapper {
