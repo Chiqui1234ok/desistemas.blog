@@ -24,6 +24,8 @@
     --rounded: 32px;
     /* Timing */
     --animation-timing: .25s;
+    /*  */
+    --shadowInset: inset 0 4px 10px 0 var(--shadow);
 }
 * {
     scroll-behavior: smooth;
@@ -251,7 +253,7 @@ header.main .menu h2 {
     padding: var(--gap-xxl) var(--gap-xxxl);
     margin: 0 var(--gap-xl) var(--gap-xxl) 0;
     border-radius: var(--gap-xxxl);
-    box-shadow: inset 0 4px 10px 0 var(--shadow);
+    box-shadow: var(--shadowInset);
 }
 @media(min-width: 1024px) {
     header.main .grid-2 {
