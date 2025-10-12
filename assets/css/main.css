@@ -21,7 +21,8 @@
     --gap-xxl: 16px;
     --gap-xxxl: 32px;
     /* Radius */
-    --rounded: 32px;
+    /* --rounded: 32px; */
+    --rounded: 16px;
     /* Timing */
     --animation-timing: .25s;
     /*  */

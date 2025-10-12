@@ -17,11 +17,10 @@
             </li>
           </ul>
         </aside>
-        <ul class="listing minimal grid-4">
-          {% for announcement in site.announcement  %}
+        <ul class="listing minimal grid-2">
+          {% for announcement in site.announcements  %}
             <li>
               <h2><a href="{{ announcement.url }}">{{ announcement.title }}</a></h2>
-              <p>Precio: ${{ announcement.price }}</p>
     
               {% if announcement.image %}
                 <img src="{{ announcement.image }}" alt="{{ announcement.title }}" width="100%" />
