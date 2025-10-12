@@ -24,14 +24,14 @@ og_image: "/assets/img/og_image.webp"
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Blog sobre desarrollo y arquitectura de software, homelabing, redes y sistemas.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: ""
 collections:
   pages:
     output: true
     permalink: /:path/
   store:
-    output: true   # Si querés que cada producto tenga su propia página HTML
+    output: true   # Cada producto tendrá su propia URL
     permalink: /tienda/:name/
 
 # Build settings

@@ -97,7 +97,7 @@ p, ul li, ol li, span, blockquote, figcaption {
 }
 blockquote {
     background: var(--blockquoteBackground);
-    box-shadow: 4px 4px 2px 0px var(--blockquoteShadow);
+    box-shadow: 0 8px 16px -8px var(--blockquoteShadow);
     padding: var(--gap-xxl) var(--gap-xxxl);
     border-radius: var(--rounded);
     display: block;
