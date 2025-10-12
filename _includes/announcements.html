@@ -1,0 +1,38 @@
+<main class="store list" aria-label="Content" id="top">
+    <div class="container">
+        <h1 class="title">
+          Tené un adelanto de lo que estamos trabajando, de forma <span>gratuita</span>
+        </h1>
+        <h2 class="subtitle">
+          Fotos y unboxings que van a darle vida a próximos reviews 😁
+        </h2>
+      <div class="hasAside grid-2 gap-xxl">
+        <aside>
+          <h2>Nuestras redes</h2>
+          <ul>
+            <li>
+              <a href="#">
+                YouTube
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <ul class="listing minimal grid-2">
+          {% for announcement in site.announcements  %}
+            <li>
+              <h2><a href="{{ announcement.url }}">{{ announcement.title }}</a></h2>
+    
+              {% if announcement.image %}
+                <img src="{{ announcement.image }}" alt="{{ announcement.title }}" width="100%" />
+              {% else %}
+                <img src="{{ base.url }}/assets/store/no-image.webp" alt="Sin imagen" />
+              {% endif %}
+    
+              <p>{{ announcement.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </main>
+  

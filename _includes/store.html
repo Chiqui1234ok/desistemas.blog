@@ -1,6 +1,11 @@
 <main class="store list" aria-label="Content" id="top">
     <div class="container">
-        <h1>Hardware para todos los bolsillos y funcionamiento <span>garantizado</span></h1>
+        <h1 class="title">
+          Hardware para todos los bolsillos y funcionamiento <span>garantizado</span>
+        </h1>
+        <h2 class="subtitle">
+          Probamos todo lo que vendemos, y le sumamos pruebas de rendimiento para que sepas <span>qué joya te estás llevando</span>
+        </h2>
       <ul class="listing minimal grid-4">
         {% for product in site.store | where_exp:"item","item.categories contains 'pc'" %}
           <li>
