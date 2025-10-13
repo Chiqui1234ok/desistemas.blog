@@ -290,7 +290,7 @@ article .container .comparison {
 @media screen and (width >= 768px) {
     .homepage .homepage-wrapper.grid-2 {
         grid-template-columns: 100%;
-        grid-template-rows: 420px;
+        grid-template-rows: 460px;
     }
 }
 @media screen and (width >= 960px) {
