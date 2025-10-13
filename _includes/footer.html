@@ -25,8 +25,8 @@
     </p>
   </div>
 </footer>
-</body>
-</html>
+
+{% if jekyll.environment == "production" %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8GWXLQNGE"></script>
 <script>
@@ -36,3 +36,7 @@
 
   gtag('config', 'G-W8GWXLQNGE');
 </script>
+{% endif %}
+
+</body>
+</html>
