@@ -24,4 +24,4 @@ Ya tiene 5 años en el mercado, y podrá seguir -por lo menos- dando alegrías a
 
 {% include youtube.html videoUrl="https://www.youtube.com/embed/FP-ZdMNqE2Q?si=LR6K-cGUXWb9SRgm" %}
 
-<!-- ¿Querés enterarte cuándo suba el post completo? -->
+Pronto estarán publicados los datos recopilados en gaming y diseño 3D, ¡no te olvides de visitar desistemas.blog! 😁
