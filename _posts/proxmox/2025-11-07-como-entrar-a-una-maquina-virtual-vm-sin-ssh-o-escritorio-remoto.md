@@ -2,8 +2,8 @@
 layout: post
 title:  "Como entrar a una máquina virtual (VM) sin SSH, SPICE/QXL o escritorio remoto • Proxmox"
 date:   2025-11-07 10:37:00 -0300
-categories: [programacion]
-tags: gettext, poedit, traducir wordpress, traducir, traducciones, ingles, español, wordpress, traducción, po, mo, pot, desarrollo
+categories: [homelabing]
+tags: proxmox, ssh, qxl, spice, serial, puerto serie
 ---
 
 # Preámbulo
@@ -18,6 +18,8 @@ Hoy, el router no funcionaba. Ayer había hecho unos cambios muy tarde y algo hi
 # Entrar a una VM desde la terminal
 
 Si, se puede entrar a una VM, incluso desde el host Proxmox sin necesidad de interfaz gráfica (es decir, sin gestor de ventanas ni escritorio).
+
+Esto es posible gracias al puerto de escucha / socket que puede crearse con un puerto serie (serial) virtual.
 
 ✍ En tan sólo 5 minutos, se explica el caso, la solución y la prueba.
 
