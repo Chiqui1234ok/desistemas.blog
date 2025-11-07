@@ -8,7 +8,7 @@ tags: gettext, poedit, traducir wordpress, traducir, traducciones, ingles, espa�
 
 # Preámbulo
 
-Hoy, el router no funcionaba. Ayer había hecho unos cambios muy tarde, y algo hice mal, por ende hoy no tenía red y no podía entrar a ningún lado (ni siquiera al panel de Proxmox, para arreglar el desastre).
+Hoy, el router no funcionaba. Ayer había hecho unos cambios muy tarde y algo hice mal. Por culpa del sueño, hoy no tenía red y ni era posible entrar a ninguna web (ni siquiera al panel de Proxmox, para arreglar el desastre).
 
 ### Mi caso:
 
@@ -21,12 +21,7 @@ Si, se puede entrar a una VM, incluso desde el host Proxmox sin necesidad de int
 
 ✍ En tan sólo 5 minutos, se explica el caso, la solución y la prueba.
 
-<figure class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OmHjDegXKA0?si=PYdRPR013AmY9ZoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <figcaption>
-    📺 Ayudá al blog a crecer, <a href="https://www.youtube.com/@desistemas-blog?sub_confirmation=1">suscribite al canal de YouTube</a>, por favor.
-  </figcaption>
-</figure>
+{% include youtube.html videoUrl="https://www.youtube.com/embed/OmHjDegXKA0?si=PYdRPR013AmY9ZoM" %}
  
 # Epílogo
 
