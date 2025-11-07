@@ -8,7 +8,7 @@ tags: gettext, poedit, traducir wordpress, traducir, traducciones, ingles, espa�
 
 # Preámbulo
 
-Hoy, el router no funcionaba. Ayer había hecho unos cambios muy tarde y algo hice mal. Por culpa del sueño, hoy no tenía red y ni era posible entrar a ninguna web (ni siquiera al panel de Proxmox, para arreglar el desastre).
+Hoy, el router no funcionaba. Ayer había hecho unos cambios muy tarde y algo hice mal. Por culpa del sueño, hoy no tenía red ni era posible entrar a ninguna web (tampoco al panel de Proxmox, para arreglar el desastre).
 
 ### Mi caso:
 
