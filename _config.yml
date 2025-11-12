@@ -34,7 +34,7 @@ collections:
     output: true   # Cada producto tendrá su propia URL
     permalink: /tienda/:name/
   announcements:
-    output: true   # Si querés que cada producto tenga su propia página HTML
+    output: true   # Cada producto tendrá su propia URL
     permalink: /adelantos/:name/
 
 # Build settings
