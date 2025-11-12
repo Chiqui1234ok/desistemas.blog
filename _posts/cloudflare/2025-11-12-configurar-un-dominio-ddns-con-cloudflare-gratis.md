@@ -282,7 +282,7 @@ protocol=cloudflare, \
 zone=inforce.cloud, \
 ttl=1, \
 login=token, \
-password=RYQTfRhOjMUoIhBlJqRrnR1iSs8R0MDRYg2vxmyo \
+password=<api token provista por cloudflare> \
 inforce.cloud
 ```
 
@@ -305,14 +305,14 @@ protocol=cloudflare, \
 zone=inforce.cloud, \
 ttl=1, \
 login=token, \
-password=RYQTfRhOjMUoIhBlJqRrnR1iSs8R0MDRYg2vxmyo \
+password=<api token provista por cloudflare> \
 inforce.cloud
 
 protocol=cloudflare, \
 zone=inforce.cloud, \
 ttl=1, \
 login=token, \
-password=RYQTfRhOjMUoIhBlJqRrnR1iSs8R0MDRYg2vxmyo \
+password=<api token provista por cloudflare> \
 test.inforce.cloud
 ```
 
