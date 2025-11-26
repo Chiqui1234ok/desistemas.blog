@@ -1,20 +1,28 @@
 ---
 layout: post
 title:  "Como exponer un servicio o app fácil (SSL) • Nginx"
-date:   2025-11-16 20:00:00 -0300
+description: "Si estás queriendo lanzar tu aplicación a producción sin necesidad de Docker y con certificados SSL, esta guía actualizada te va a servir enormemente."
+image: "/assets/posts/como-exponer-un-servicio-o-app-con-nginx-facil-ssl/portada.webp"
+date:   2025-11-26 16:45:00 -0300
 categories: [homelabing]
 tags: nginx, servicio, app, ssl, certificado
 ---
 
 # Preámbulo
 
-Tengo aproximadamente 5 años de experiencia realizando aplicaciones en Javascript y Typescript, tanto back-end como front-end. En este post se va a enseñar a exponer una app / servicio en un puerto específico mediante proxy inverso (reverse proxy).
+Bienvenido a un tutorial corto para una pieza de software que desborda en funciones. No se va a encontrar nada más potente que Nginx, que a día de hoy se utiliza para:
+- Servidor web HTTP (soporta SSL/TLS): entrega contenido HTML, HTM, PHP, etc.
+- Cachear contenido: se puede construir un CDN muy potente y para una infinidad de formatos de archivo.
+- **Proxy inverso**: la solución para conectar un servicio que escucha en un puerto y redirigirlo a otro. Por ejemplo, una API en NodeJs / Python que está en el puerto 3000, pero que se desea montar en el puerto 80 de la ruta "api.desistemas.blog".
+- Balanceador de carga: seleccionar servidores o recursos de forma inteligente para nivelar las peticiones de clientes entre todos los servidores.
+- Servidor proxy TCP/UDP
+- Servidor proxy de correo
+
+En este post se va a enseñar a exponer una app / servicio en un puerto específico mediante **proxy inverso** (reverse proxy).
 
 También se verá como obtener un certificado SSL gratis.
 
-Esta implementación se realiza de la forma que considero más efectiva para estabilidad y rendimiento, ya que es ideal para servidores con escasos recursos que tienen una aplicación de baja o media cantidad de usuarios.
-
-Tuve servidores ejecutando configuraciones como estas sin quejas y por años. Siempre funciona como "el primer día", y sin arañar más recursos de los necesarios.
+> La implementación se basa en las que hago regularmente en empresas. Siempre funciona como "el primer día", y sin arañar más recursos de los necesarios.
 
 # Equipo del tutorial
 
@@ -28,8 +36,8 @@ Tuve servidores ejecutando configuraciones como estas sin quejas y por años. Si
 # Apuntar correctamente los DNS
 
 Para averiguar la IP del servidor hay dos opciones:
-1. Revisar el dato en el panel de control del servidor, en el hosting que hayan contratado.
-2. Consultar api.ipify.org desde la terminal:
+1. Revisar el dato en el panel de control del servidor, en el hosting que se contrató.
+2. Consultar [api.ipify.org](https://api.ipify.org) desde la terminal:
 
 ```bash
 curl https://api.ipify.org/
@@ -37,25 +45,37 @@ curl https://api.ipify.org/
 
 Cualquiera de estas dos opciones informará la IP.
 
-Una vez se consigue este dato, se debe ir a la zona DNS del proveedor del dominio y crear un registro de tipo A. Por ejemplo:
+Una vez se consigue este dato, se debe ir a la zona DNS del proveedor del dominio y crear un registro de tipo A.
 
-![alt text]({{ base.url }}/assets/posts/como-exponer-un-servicio-o-app-con-nginx-facil-ssl/apuntado-de-dns.png)
+> Los DNS tipo "A" son los que vinculan una dirección URL a una IPv4, como por ejemplo, *186.160.160.14*.
+
+En la siguiente imágen, se muestra como realizar esto:
+
+![alt text]({{ base.url }}/assets/posts/como-exponer-un-servicio-o-app-con-nginx-facil-ssl/apuntado-de-dns.webp)
 
 De esta forma, se consigue que cuándo alguien busque "vite.desistemas.blog", el servidor DNS apunte a la IP del servidor que se está configurando. Así, el usuario llega al servidor nginx, que toma la solicitud y la pasa por el proxy inverso que se configurará más adelante.
 
-> Esto también es clave para poder configurar el certificado SSL.
+> Esto también es clave para poder configurar el certificado SSL. Se verá más adelante.
 
 # Comprobar la expansión de DNS
 
-Se puede consultar el sitio web [DNS Checker](https://dnschecker.org) y escribir la URL que se está configurando. En cuestión de segundos se verá que el dominio apunta correctamente a la IP del servidor.
+Se puede consultar el sitio web [DNS Checker](https://dnschecker.org) y escribir la URL que se está configurando (vite.desistemas.blog). En cuestión de segundos se verá que el dominio apunta correctamente a la IP del servidor.
 
-![alt text]({{ base.url }}/assets/posts/como-exponer-un-servicio-o-app-con-nginx-facil-ssl/expansion-de-dns.png)
+![alt text]({{ base.url }}/assets/posts/como-exponer-un-servicio-o-app-con-nginx-facil-ssl/expansion-de-dns.webp)
 
 Sólo falta [generar el certificado SSL](#generar-el-certificado-ssl) y la [configuración de Nginx](#configuración-de-nginx).
 
 # Actualización de los repositorios
 
-Para poder instalar algo, primero se debe ejecutar:
+Para poder instalar algo, primero se deben ejecutar dos comandos:
+
+1. Elevar permisos como usuario root:
+
+```bash
+su -
+```
+
+2. Actualizar los repositorios de paquetes (APT):
 
 ```bash
 apt update
@@ -64,6 +84,8 @@ apt update
 Ahora, será posible instalar el servidor Nginx.
 
 # Instalación de Nginx
+
+Con los permisos elevados, se ejecuta:
 
 ```bash
 apt install nginx -y
@@ -75,24 +97,22 @@ Nginx deberá ser configurado **después** de [generar el certificado SSL](#gene
 
 ## Instalación de las dependencias
 
-Como usuario *root* debe ejecutarse el siguiente comando:
+Como usuario root debe ejecutarse el siguiente comando, que instalará "certbot" y el plugin para nginx:
 
 ```bash
 apt install certbot python3-certbot-nginx -y
 ```
 
-## Ejecutar certbot
+## Generar el certificado con Certbot
 
 Este proceso es sencillo. Realizará unas breves preguntas y luego solicitará el certificado.
-Debe ejecutarse este comando como usuario *root*:
+Para lograrlo, debe ejecutarse este comando como usuario root (para el caso del tutorial, se quiere solicitar un certificado para el nuevo sub-dominio "vite.desistemas.blog"):
 
 ```bash
 certbot --nginx -d vite.desistemas.blog
 ```
 
-Cuándo *certbot* finaliza exitosamente, lo indicará de la siguiente manera:
-
-> Es importante mencionar que se configura la renovación automática del certificado, por lo cuál no debería haber problema de certificado (TODO / EXPANDIR INFO).
+Cuándo Certbot finaliza exitosamente, lo indicará de la siguiente manera:
 
 ```
 Successfully received certificate.
@@ -106,6 +126,8 @@ Deploying certificate
 Successfully deployed certificate for vite.desistemas.blog to /etc/nginx/sites-enabled/default
 Congratulations! You have successfully enabled HTTPS on https://vite.desistemas.blog
 ```
+
+> Es importante mencionar que se configura la renovación automática del certificado, por lo cuál no debería haber problema de certificado (TODO / EXPANDIR INFO).
 
 ## Las rutas dónde se guarda el certificado
 
@@ -123,33 +145,18 @@ Y la clave se almacenó en:
 
 Se debe tomar nota de estas rutas, porque deberán especificarse en la configuración de Nginx.
 
-
 # Configuración de Nginx
 
-Texto.
+Nginx es un motor HTTP que recibe peticiones de clientes y las procesa. Explicar el funcionamiento "detrás del telón" es importante para que el administrador del sistema entienda qué configura. A continuación, se enumera un caso de ejemplo para que se comprenda el funcionamiento:
 
-## Creación del usuario nginx
+1. Un cliente tipea "vite.desistemas.blog" en su navegador web.
+2. El router de ese cliente recibe la petición, y consulta a un servidor DNS a qué servidor debe entrar
+    - Por eso es importante [Apuntar correctamente los DNS](#apuntar-correctamente-los-dns), caso contrario, los usuarios no podrán saber a qué servidor apunta "vite.desistemas.blog".
+3. El servidor DNS devuelve la IP del servidor HTTP.
+4. El cliente consulta nuestro servidor con un HEADER HTTP. Entre los datos que envía en ese header, está la dirección URL.
+5. El servidor recibe la dirección URL que se consultó mediante el HEADER y, si coincide con la URL configurada en Nginx, le entrega al cliente la página web o recurso que el administrador haya configurado para ese dominio.
 
-Se crea el usuario de bajos privilegios:
-
-```bash
-sudo useradd -M -U nginx
-```
-
-- Parámetro M: evita que se cree un directorio "home" para el usuario.
-- Parámetro U: crea un grupo para el usuario con el mismo nombre (nginx).
-
-Se comprueba el usuario y el grupo al que pertenece con el comando:
-
-```bash
-id nginx
-```
-
-Y el resultado será:
-
-```bash
-uid=1000(nginx) gid=1000(nginx) groups=1000(nginx)
-```
+Nginx, entonces, recibe peticiones que indican qué URL quiere mostrarse. Por ende, un mismo servidor puede atender consultas de dominios como desistemas.blog, vite.desistemas.blog, inforce.cloud, google.com, yahoo.com, etc; siempre y cuándo los servidores DNS del mundo sepan que todos esos dominios apuntan a un mismo servidor (y por ende, misma IP).
 
 ## Baja del sitio "default"
 
@@ -304,6 +311,8 @@ class Handler(BaseHTTPRequestHandler):
 HTTPServer(('', 5173), Handler).serve_forever()
 ```
 
+Y dentro de la aplicación nano, se guarda con CTRL + O + ENTER, y sale con las teclas CTRL + X.
+
 4. Se ejecuta el código:
 
 ```
@@ -312,7 +321,7 @@ python3 servidor_test.py
 
 5. Se visita la URL **vite.desistemas.blog** para comprobar que todo está bien.
 
-![alt text]({{ base.url }}/assets/posts/como-exponer-un-servicio-o-app-con-nginx-facil-ssl/check-de-que-todo-esta-bien.png)
+![alt text]({{ base.url }}/assets/posts/como-exponer-un-servicio-o-app-con-nginx-facil-ssl/check-de-que-todo-esta-bien.webp)
 
 # Epílogo
 
