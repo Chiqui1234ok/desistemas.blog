@@ -24,6 +24,12 @@
     text-align: center;
     border-radius: var(--gap) var(--gap) 0 0;
 }
+/* [class*=language-] pre .o {
+    color: var(--white);
+}
+[class*=language-] pre .nv {
+    color: var(--red);
+} */
 code {
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
@@ -42,6 +48,9 @@ code * {
 [class*=language-] pre code {
     display: inline-block;
     min-width: 50%;
+    max-width: 100%;
+    max-height: 720px;
+    overflow: auto;
 }
 [class*=language-] pre code * {
     color: var(--white);
