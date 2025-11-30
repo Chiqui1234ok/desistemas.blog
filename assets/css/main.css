@@ -358,9 +358,10 @@ article .container .comparison {
 }
 .highlight.container {
     width: calc(100% - var(--gap-xxxl) * 2);
+    padding: var(--gap-xxl) 0;
 }
 .highlight h2 {
-    margin-bottom: var(--gap-xxl);
+    margin-bottom: 0;
     color: var(--white);
 }
 .highlight ul li a, .highlight ul li span {
