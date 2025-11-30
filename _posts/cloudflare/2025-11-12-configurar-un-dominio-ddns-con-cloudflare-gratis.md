@@ -3,7 +3,7 @@ layout: post
 title:  "Como configurar un dominio con DDNS (IP dinámica) • Cloudflare"
 date:   2025-11-12 14:35:00 -0300
 image: "/assets/posts/configurar-un-dominio-ddns-con-cloudflare-gratis/portada.webp"
-categories: [homelabing]
+categories: [homelabing, highlight]
 tags: cloudflare, router, ip estática, ip fija, ip dinámica, ddns, dynamic dns, dinámico
 ---
 
