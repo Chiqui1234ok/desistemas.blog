@@ -5,7 +5,6 @@ date:   2025-11-25 21:00:00 -0300
 image: "/assets/posts/arreglar-samba-stopped-en-truenas/portada.webp"
 categories: [homelabing, truenas]
 tags: truenas, scale, nas, problema, samba, samba stopped, arranque, inicio
-image: /assets/posts/arreglar-samba-stopped-en-truenas/samba-stopped-truenas-scale.webp
 ---
 
 # Preámbulo
