@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Instalar Cloudflared • OpenWRT"
+description: "Si ya tenés OpenWRT y querés evitar gastos en hosting a la hora de publicar sitios webs, podés vincular un dominio a tu router sin necesidad de IP Pública. Y si tenés IP Pública pero no querés mostrarla ni tener más puertos abiertos aparte del 80 y 443, Cloudflare ya hace esto por vos 😁"
+image: "/assets/posts/instalar-cloudflared-en-openwrt/portada.webp"
 date:   2025-02-24 13:00:00 -0300
 categories: [homelabing]
 tags: openwrt, tunel, cloudflared, router, virtual, cloudflare, openwrt
@@ -8,7 +10,11 @@ tags: openwrt, tunel, cloudflared, router, virtual, cloudflare, openwrt
 
 # Preámbulo
 
-En este tutorial, se utilizará la aplicación ***cloudflared*** para crear un túnel seguro desde un router OpenWRT hasta Cloudflare. Esto permite exponer servicios a internet a pesar de no tener acceso al router del ISP y, por ende, no poder abrir puertos en él.
+En este tutorial, se utilizará la aplicación ***cloudflared*** para crear un túnel seguro desde un router OpenWRT hasta Cloudflare.
+
+> Si no tenés OpenWRT instalado en tu Proxmox, [acá hay un tutorial]({% post_url openwrt/2025-04-17-instalar-router-openwrt-en-vm-proxmox %}) completísimo. Paso a paso y con imágenes.
+
+Esto permite exponer servicios a internet a pesar de no tener acceso al router del ISP y, por ende, no poder abrir puertos en él.
 
 > También es posible descargar "Cloudflare WARP", un cliente que permite entrar a la VPN del router. Igualmente, esto no es necesario para montar servicios en la nube y no entra en lo que es el objetivo del tutorial.
 
@@ -16,7 +22,7 @@ Además, oculta la IP pública del router OpenWRT porque se utiliza a Cloudflare
 
 Las aplicaciones web bajo este método tendrán un certificado SSL/TSL sin necesidad de pasos o costos extra.
 
-Este blog se hostea con este mismo stack de red: OpenWRT + Cloudflare Tunnel.
+Este blog se hosteaba con este mismo stack de red: OpenWRT + Cloudflare Tunnel.
 
 # Descargar Cloudflared
 
