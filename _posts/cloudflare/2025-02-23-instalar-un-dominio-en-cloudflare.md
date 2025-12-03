@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Instalar un dominio en Cloudflare • Hostinger"
+description: "Cloudflare ofrece muchos servicios gratuitos, ideales para el programador o homelaber que quiere llevar sitios web a la nube, sin requerir ni exponer su IP pública."
+image: "/assets/posts/instalar-un-dominio-en-cloudflare/portada.webp"
 date:   2025-02-23 23:30:02 -0300
 categories: [homelabing]
 tags: cloudflare, hostinger, dominio, dns, apuntar, apuntado
@@ -9,7 +11,7 @@ description: "En este tutorial se enseñará a utilizar un dominio registrado en
 
 # Preámbulo
 
-Cloudflare es un servicio que evita ataques DDoS, sirve como CDN, cachea contenido estático y permite mostrar sitios webs usando tu infraestructura, a pesar de que estés detrás de un NAT. En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si el "Registrar" (dónde fue comprado el dominio) no es Hostinger, el procedimiento que enseña el tutorial no es difícil y puede ser interpretado para realizarlo en DreamHost, DonWeb y más.
+Cloudflare ofrece servicios que evitan ataques DDoS, te brindan un CDN que cachea contenido estático y [gracias a **cloudflared** se pueden llevar sitios web de tu PC a la nube, sin requerir IP pública]({% post_url openwrt/2025-02-18-instalar-cloudflared-en-openwrt %}). En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si el "Registrar" (dónde fue comprado el dominio) no es Hostinger, el procedimiento que enseña el tutorial no es difícil y puede ser interpretado para realizarlo en DreamHost, DonWeb y más.
 
 El procedimiento del Registrar es sencillo, sólo se debe averiguar dónde editar los apuntados DNS.
 
