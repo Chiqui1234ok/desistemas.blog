@@ -1,6 +1,6 @@
 ---
 title: "Generar credenciales y certificados SSL • ARCA AFIP"
-description: "En esta completa guía se enseña como conseguir los accesos y delegaciones necesarias para poder programar en ambientes de desarrollo y producción, utilizando los WebServices de ARCA."
+description: "En esta guía se enseña como conseguir los accesos y delegaciones necesarias para poder programar en ambientes de desarrollo y producción, utilizando los WebServices de ARCA."
 image: "/assets/posts/generar-credenciales-y-certificados-en-arca-afip/portada.webp"
 date:   2025-12-1 09:00:00 -0300
 layout: post

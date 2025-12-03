@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Instalar router OpenWRT en VM • Proxmox"
-description: "Utilizando infraestructura que ya existe y opcionalmente, unas placas de red, es posible tener un router para homelab y/o producción de forma sencilla y con un consumo muy inferior a PfSense y OPNSense."
+description: "Como instalar un router para homelab y/o producción, fácil y con menor consumo que PfSense/OPNSense."
 image: "/assets/posts/instalar-router-openwrt-en-vm-proxmox/portada.webp"
 date:   2025-04-17 23:56:00 -0300
 categories: [homelabing]

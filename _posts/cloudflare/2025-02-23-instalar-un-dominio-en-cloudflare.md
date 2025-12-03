@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Instalar un dominio en Cloudflare • Hostinger"
-description: "Cloudflare ofrece muchos servicios gratuitos, ideales para el programador o homelaber que quiere llevar sitios web a la nube, sin requerir ni exponer su IP pública."
+description: "Cloudflare ofrece muchos servicios gratuitos, ideales para quién quiere llevar sitios web a la nube, sin requerir ni exponer su IP pública."
 image: "/assets/posts/instalar-un-dominio-en-cloudflare/portada.webp"
 date:   2025-02-23 23:30:02 -0300
 categories: [homelabing]
 tags: cloudflare, hostinger, dominio, dns, apuntar, apuntado
-description: "En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare"
 ---
 
 # Preámbulo
