@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Controlador de dominio en Linux • Samba AD-DC"
+title:  "Cómo instalar un controlador de dominio en Linux • Samba AD-DC"
 description: "¿Sabías que se puede crear un domain controller (dc) sin Windows Server? Debian Linux + Samba lo hacen posible."
 image: "/assets/posts/controlador-de-dominio-en-linux/portada.webp"
 date:   2025-09-27 21:30:00 -0300
@@ -12,16 +12,17 @@ tags: homelabing, samba, it, linux, guia, active directory, domain controller, l
 
 Por limitaciones presupuestarias o preferencia propia, se termina utilizando Linux en los servidores de un negocio determinado. Aunque el software que conforma un [Controlador de dominio](https://es.wikipedia.org/wiki/Controlador_de_dominio) y [Active Directory](https://es.wikipedia.org/wiki/Active_Directory) fueron creados por Microsoft, los desarrolladores de SAMBA hacen un gran trabajo para mantener sistemas Linux y Windows comunicados mediante el mismo protocolo, recurriendo en muchos casos a ingeniería inversa.
 
-Hace ya unos años que, según la experiencia de quién les escribe, esta implementación funciona muy bien y se puede configurar tal cuál como si se estuviera en un sistema Windows, aunque cueste creer.
-
-Esta guía enseñará lo básico y fundamental para tener un servidor corriendo en óptimas condiciones. Además, en un próximo post se registrará un equipo con Windows 11 IoT Enterprise 2024 en el controlador de dominio por dos vías:
+Esta guía enseñará lo básico y fundamental para tener un servidor corriendo en óptimas condiciones. Además, en un próximo post se registrará un equipo con Windows 11 en el controlador de dominio por dos vías:
 - En la instalación del propio sistema operativo en el equipo.
 - En un sistema ya instalado hace pocos días.
 
 # Configuración básica del software del servidor
 
 Esta guía se realiza sobre un Debian 12.11 recién instalado y sin ningún tipo de escritorio/interfaz gráfica. 
-Además del usuario "root" super-usuario, se creó "sistemas" sin privilegios elevados.
+Además del superusuario, se creó otro con el nombre "sistemas" sin privilegios elevados.
+
+![alt text]({{ base.url }}/assets/posts/controlador-de-dominio-en-linux/ssh-server-debian-instalation.webp)
+
 Durante el proceso de instalación del mismo sistema operativo se decidió incorporar el "SSH Server", para poder interactuar con el servidor de forma remota.
 
 Las particiones se configuraron así:
