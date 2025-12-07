@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Controlador de dominio en Linux • Samba AD-DC"
+description: "¿Sabías que se puede crear un domain controller (dc) sin Windows Server? Debian Linux + Samba lo hacen posible."
+image: "/assets/posts/controlador-de-dominio-en-linux/portada.webp"
 date:   2025-09-27 21:30:00 -0300
 categories: [homelabing, highlight]
 tags: homelabing, samba, it, linux, guia, active directory, domain controller, linux, samba-ad-dc
