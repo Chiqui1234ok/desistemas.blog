@@ -7,7 +7,7 @@ tags: mikrotik, reseña, review, proxmox, bridges, vmbr, sin internet, sin red, 
 
 # Preámbulo
 
-Este post está escrito para responder un problema puntual. De esos que uno puede pasarse días preguntandole a una IA, yendo en círculos y volviendose loco por no poder resolver. Si querés configurar un troncal en un MikroTik Router OS virtualizado sin éxito, este es tu post.
+Este post está escrito para responder un problema puntual. De esos que uno puede pasarse días preguntandole a una IA, yendo en círculos y volviendose loco por no poder resolver. Si querés configurar un troncal en un [MikroTik Router OS virtualizado](https://community-scripts.org/scripts/mikrotik-routeros) y no estás teniendo éxito, este es tu post.
 
 # Setup de pruebas
 
@@ -21,6 +21,9 @@ Para reproducir este error, utilicé el siguiente setup:
     - **lspci** Qualcomm Atheros Killer E220x (rev 10)
 - Varias NICs virtuales, creadas como bridges VLAN aware. Se hicieron pruebas creando bridges OVS-Switch y nativos de Linux
 - Se implementaron VLANs en la pestaña "Interfaces" del MikroTik Router OS y, también, se eligió comenzar de cero y probar realizando todo en pestaña "Bridges" (especificando puertos).
+- RouterOS 7.22.1 (Stable)
+
+![routeros-7.22.1]({{ site.url }}/assets/posts/breve-resena-sobre-virtualizar-mikrotik-en-proxmox/routeros-7.22.1.png)
 
 Todos estos bridges fueron pasados a la virtual en órden, fácilmente identificables por su MAC.
 
