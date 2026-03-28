@@ -23,7 +23,7 @@ Habiendo aclarado esto, empecemos.
 
 # Descargar imágen ISO
 
-La imágen se debe descargar desde la [web oficial](https://downloads.openwrt.org/releases/23.05.5/targets/). Primero, se selecciona la arquitectura del CPU dónde se ejecutará el sistema operativo, comúnmente "x86".
+La imágen se debe descargar desde la [web oficial](https://downloads.openwrt.org/releases/25.12.2/targets/) (actualizado <time datetime="2026-03-28">28 de marzo de 2026</time>). Primero, se selecciona la arquitectura del CPU dónde se ejecutará el sistema operativo, comúnmente "x86".
 
 ![Arquitectura del CPU]({{ base.url }}/assets/posts/instalar-router-openwrt-en-vm-proxmox/arquitectura-del-cpu.webp)
 
@@ -45,7 +45,7 @@ cd /var/lib/vz/template/iso
 Una vez ahí, se ejecuta ***wget***, para descargar el archivo **generic-squashfs-combined-efi.img.gz**:
 
 ```bash
-wget https://downloads.openwrt.org/releases/24.10.1/targets/x86/64/openwrt-24.10.1-x86-64-generic-squashfs-combined-efi.img.gz && \
+wget https://downloads.openwrt.org/releases/25.12.2/targets/x86/64/openwrt-25.12.2-x86-64-generic-squashfs-combined.img.gz
 ```
 
 Y se descomprime:
