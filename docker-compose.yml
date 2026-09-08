@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    container_name: desistemas
+    image: jekyll/builder
+    command: jekyll serve
+    ports:
+      - "0.0.0.0:4000:4000/tcp"
+    volumes:
+      - $PWD:/srv/jekyll
