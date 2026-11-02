@@ -8,17 +8,28 @@
                 <h2>
                     Virtualización, Contenedores, Reviews de hardware y más
                 </h2>
-                <nav>
-                    <ul class="minimal inline">
-                        <li><a href="{{ site.baseurl }}/">Inicio</a></li>
-                        <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-                        <li><a href="{{ site.baseurl }}/adelantos/">Adelantos</a></li>
-                        <li><a href="{{ site.baseurl }}/tienda/">Tienda</a></li>
-                        <li><a href="{{ site.baseurl }}/acerca-de/">Sobre mí</a></li>
-                        <li><a href="{{ site.baseurl }}/contacto/">Contacto</a></li>
-                    </ul>
-                </nav>
+		{% include sitemapLinks.html %}
             </div>
+	    <ul class="hamburguer">
+		    <a href="#sidebar" onclick="addClassToElement('.hamburguer', 'active')">
+			<li class="line line1"></li>
+			<li class="line line2"></li>
+			<li class="line line3"></li>
+		    </a>
+	    </ul>
         </div>
     </div>
 </header>
+<aside id="sidebar">
+	<header class="grid center">
+		<h2>Menú de navegación</h2>
+	</header>
+	<div class="wrapper grid center">
+		{% include sitemapLinks.html %}
+	</div>
+</aside>
+<script>
+	function addClassToElement(domElement, className) {
+		document.querySelector(domElement).classList.add(className);
+	}
+</script>

@@ -5,7 +5,8 @@ header.main {
     /* padding: 64px 0 0 0; */
 }
 header.main .grid-2 {
-    grid-template-columns: 64px 32px;
+    grid-template-columns: 64px auto 32px;
+    align-items: center;
 }
 header.main .container.wrapper .logo {
     width: 64px;
@@ -13,9 +14,6 @@ header.main .container.wrapper .logo {
     border-radius: var(--rounded);
     transition: all var(--animation-timing) ease-out;
 }
-/* header.main .container.wrapper .logo:hover {
-    box-shadow: inset 0 0 4px 0 var(--white), 0 4px 10px 2px var(--redAlt);
-} */
 header.main .container.wrapper .logo a {
     width: 100%;
     height: 100%;
@@ -35,6 +33,48 @@ header.main .menu {
     align-items: center;
     justify-content: right;
     text-align: right;
+}
+header.main .hamburguer {
+	width: 48px;
+	height: 48px;
+	display: block;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+header.main .hamburguer a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header.main .hamburguer .line {
+	width: 48px;
+	height: 4px;
+	background: var(--black);
+	position: absolute;
+	border-radius: var(--gap);
+}
+header.main .hamburguer .line1 {
+	top: 4px;
+	left: 0;
+}
+header.main .hamburguer .line2 {
+	top: 22px;
+}
+header.main .hamburguer .line3 {
+	bottom: 4px;
+}
+header.main .hamburguer.active .line1 {
+	transform: rotate(45deg);
+	top: 22px;
+}
+header.main .hamburguer.active .line2 {
+	opacity: 0;
+}
+header.main .hamburguer.active .line3 {
+	transform: rotate(-45deg);
+	bottom: 22px;
 }
 header.main nav {
     display: none;
@@ -72,6 +112,39 @@ header.main .menu h2 {
     border-radius: var(--gap-xxxl);
     box-shadow: var(--shadowInset);
 }
+#sidebar {
+	width: 100%;
+	height: 100%;
+	background: var(--gray);
+	padding: var(--gap-xl);
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	z-index: 120;
+	transition: var(--animation-timing) ease-out;
+}
+#sidebar:target {
+	right: 0;
+}
+#sidebar nav ul li {
+	display: block;
+	margin: 0;
+}
+#sidebar nav ul li a {
+	display: block;
+	padding: var(--gap-xl);
+	color: var(--white);
+	font-weight: bold;
+}
+#sidebar header {
+	width: 100%;
+	height: 128px;
+	background: var(--red);
+}
+#sidebar .wrapper {
+	height: calc(100% - 128px);
+}
 @media(min-width: 1024px) {
     header.main .grid-2 {
         grid-template-columns: 128px auto;
@@ -85,5 +158,8 @@ header.main .menu h2 {
     }
     header.main nav {
         display: block;
+    }
+    header.main .hamburguer {
+	    display: none;
     }
 }
