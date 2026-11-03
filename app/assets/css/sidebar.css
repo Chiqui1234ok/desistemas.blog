@@ -1,0 +1,28 @@
+#sidebar {
+	width: 100%;
+	height: calc(100% - 128px);
+	background: var(--gray);
+	# padding: var(--gap-xl);
+	text-align: center;
+	position: fixed;
+	top: 128px;
+	right: -100%;
+	z-index: 120;
+	transition: var(--animation-timing) ease-out;
+}
+#sidebar.active {
+	right: 0;
+}
+#sidebar nav ul li {
+	display: block;
+	margin: 0;
+}
+#sidebar nav ul li a {
+	display: block;
+	padding: var(--gap-xl);
+	color: var(--white);
+	font-weight: bold;
+}
+#sidebar .wrapper {
+	height: calc(100% - 128px);
+}

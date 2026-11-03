@@ -2,7 +2,12 @@
 header.main {
     background: var(--gray);
     color: var(--white);
-    /* padding: 64px 0 0 0; */
+    width: 100%;
+    height: 128px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110;
 }
 header.main .grid-2 {
     grid-template-columns: 64px auto 32px;
@@ -42,6 +47,7 @@ header.main .hamburguer {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	z-index: 122;
 }
 header.main .hamburguer a {
 	display: block;
@@ -51,9 +57,10 @@ header.main .hamburguer a {
 header.main .hamburguer .line {
 	width: 48px;
 	height: 4px;
-	background: var(--black);
+	background: var(--white);
 	position: absolute;
 	border-radius: var(--gap);
+	transition: all var(--animation-timing) ease-out;
 }
 header.main .hamburguer .line1 {
 	top: 4px;
@@ -111,41 +118,13 @@ header.main .menu h2 {
     margin: 0 var(--gap-xl) var(--gap-xxl) 0;
     border-radius: var(--gap-xxxl);
     box-shadow: var(--shadowInset);
+    text-align: center;
 }
-#sidebar {
-	width: 100%;
-	height: 100%;
-	background: var(--gray);
-	padding: var(--gap-xl);
-	text-align: center;
-	position: fixed;
-	top: 0;
-	right: -100%;
-	z-index: 120;
-	transition: var(--animation-timing) ease-out;
-}
-#sidebar:target {
-	right: 0;
-}
-#sidebar nav ul li {
-	display: block;
-	margin: 0;
-}
-#sidebar nav ul li a {
-	display: block;
-	padding: var(--gap-xl);
-	color: var(--white);
-	font-weight: bold;
-}
-#sidebar header {
-	width: 100%;
-	height: 128px;
-	background: var(--red);
-}
-#sidebar .wrapper {
-	height: calc(100% - 128px);
-}
+
 @media(min-width: 1024px) {
+	header.main {
+		height: 197px;
+	}
     header.main .grid-2 {
         grid-template-columns: 128px auto;
     }

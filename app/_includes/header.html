@@ -6,12 +6,12 @@
             </div>
             <div class="menu grid center">
                 <h2>
-                    Virtualización, Contenedores, Reviews de hardware y más
+                    Redes, Virtualización, Contenedores, Reviews de hardware y más
                 </h2>
 		{% include sitemapLinks.html %}
             </div>
 	    <ul class="hamburguer">
-		    <a href="#sidebar" onclick="addClassToElement('.hamburguer', 'active')">
+		    <a href="#sidebar" onclick="toggleClass('.hamburguer', 'active');toggleClass('#sidebar', 'active');">
 			<li class="line line1"></li>
 			<li class="line line2"></li>
 			<li class="line line3"></li>
@@ -20,16 +20,5 @@
         </div>
     </div>
 </header>
-<aside id="sidebar">
-	<header class="grid center">
-		<h2>Menú de navegación</h2>
-	</header>
-	<div class="wrapper grid center">
-		{% include sitemapLinks.html %}
-	</div>
-</aside>
-<script>
-	function addClassToElement(domElement, className) {
-		document.querySelector(domElement).classList.add(className);
-	}
-</script>
+{% include sidebar.html %}
+<script src="{{ base.url }}/assets/js/sidebarCtrl.js"></script>

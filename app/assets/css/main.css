@@ -146,6 +146,10 @@ a:hover, a:focus {
     width: 100%;
     min-height: 100vh;
 }
+/* Wrappers fixes */
+.headerGap {
+	margin-top: 128px;
+}
 /* Lists */
 .container ul, .container ol {
     padding: var(--gap-xl) var(--gap-xxxl);
@@ -174,6 +178,7 @@ ul.inline li { display: inline-block }
     .grid-6 {grid-template-columns: repeat(3, 1fr)}
     .grid-4 {grid-template-columns: repeat(2, 1fr)}
     .grid-4 .span {grid-column: 1 / span 2}
+    .headerGap {margin-top: 197px;}
 }
 @media (min-width: 1600px) {
     .grid-4 {grid-template-columns: repeat(4, 1fr)}
