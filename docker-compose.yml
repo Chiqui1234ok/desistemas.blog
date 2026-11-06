@@ -2,8 +2,10 @@ services:
   jekyll:
     container_name: desistemas
     image: jekyll/builder
+    restart: unless-stopped
     command: bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload"
+    #command: bash -c "bundle install && bundle exec jekyll build"
     ports:
       - "0.0.0.0:4000:4000/tcp"
     volumes:
-      - ./app:/srv/jekyll
+      - ./:/srv/jekyll

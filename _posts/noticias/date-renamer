@@ -1,0 +1,9 @@
+for file in *; do
+  [ -f "$file" ] || continue
+  # Extrae la segunda columna de la primera línea que coincida con "date:"
+  fecha=$(grep -m 1 "^date:" "$file" | awk '{print $2}')
+  
+  if [ -n "$fecha" ]; then
+    mv "$file" "${fecha}-${file}"
+  fi
+done
