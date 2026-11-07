@@ -205,12 +205,12 @@ article .container .comparison {
 @media screen and (width >= 768px) {
     .homepage .homepage-wrapper.grid-2 {
         grid-template-columns: 100%;
-        grid-template-rows: 460px;
+        grid-template-rows: 480px;
     }
 }
 @media screen and (width >= 960px) {
     .homepage .homepage-wrapper.grid-2 {
-        grid-template-columns: auto 420px;
+        grid-template-columns: auto 480px;
     }
 }
 /* @media screen and (width >= 1024px) {
@@ -220,7 +220,7 @@ article .container .comparison {
 } */
 @media screen and (width >= 1280px) {
     .homepage .homepage-wrapper.grid-2 {
-        grid-template-columns: auto 460px;
+        grid-template-columns: auto 480px;
     }
 }
 /* Homepage: categories carousel */

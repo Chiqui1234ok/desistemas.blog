@@ -2,7 +2,7 @@
 layout: post
 title: "Los procesadores Intel Nova Lake-S podrían limitar su frecuencia a 5.1 GHz al superar los 90°C"
 description: "Filtraciones indican que la arquitectura Nova Lake-S de Intel aplicará un límite de frecuencia preventivo cuando el procesador supere los 90°C."
-image: ![Intel Nova Lake-S](https://tpucdn.com/img/hPNmioXEut0SN81v.jpg)
+image: https://tpucdn.com/img/hPNmioXEut0SN81v.jpg
 date: 2026-11-04 16:40:35 -0300
 categories: [hardware]
 tags: intel, nova lake, hardware, cpu, filtraciones

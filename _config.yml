@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blog sobre desarrollo y arquitectura de software, homelabing, redes y sistemas.
 baseurl: ""
 url: ""
+paginate: 9
 collections:
   pages:
     output: true

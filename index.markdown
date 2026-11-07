@@ -1,6 +1,7 @@
 ---
 layout: home
 title: DeSistemas
+limit: 9
 ---
 
 ## Acerca del blog
