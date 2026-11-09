@@ -5,7 +5,7 @@ description: "Nuevas imágenes del SoC Nova Lake-H revelan su configuración de 
 image: https://tpucdn.com/img/WKqSVzVB8ia7exq9.jpg
 date: 2026-11-05 14:39:20 -0300
 categories: [hardware, analisis]
-tags: [intel, novalake, hardware, core ultra, arquitectura]
+tags: intel, novalake, hardware, core ultra, arquitectura
 ---
 
 Se ha dado a conocer una nueva imagen del SoC "Nova Lake-H", integrante de la serie Intel Core Ultra 4000. Esta es la segunda vez que este componente aparece en la esfera pública, aunque en esta ocasión se presenta como una fotografía de baja resolución y sin [anotaciones de terceros](https://www.techpowerup.com/353791/intel-nova-lake-hx-and-nova-lake-h-die-shots-appear).

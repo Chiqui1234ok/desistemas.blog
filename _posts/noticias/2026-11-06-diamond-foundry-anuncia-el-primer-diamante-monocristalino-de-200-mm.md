@@ -5,7 +5,7 @@ description: "La producción de diamantes de 200 mm permite escalar este materia
 image: https://www.techpowerup.com/img/EIuGyf7MOE9JPeGf.jpg
 date: 2026-11-06 13:06:32 -0300
 categories: [hardware]
-tags: [diamond foundry, diamante monocristalino, semiconductores, hardware, tecnología]
+tags: diamond foundry, diamante monocristalino, semiconductores, hardware, tecnología
 ---
 
 ## Un avance en la escala de materiales para semiconductores

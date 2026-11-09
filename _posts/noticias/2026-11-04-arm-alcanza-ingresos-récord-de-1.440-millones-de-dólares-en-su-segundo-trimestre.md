@@ -5,7 +5,7 @@ description: "Arm reporta un crecimiento del 27% interanual impulsado por la dem
 image: https://www.techpowerup.com/img/MX0ANK54KXXBZ2qw.jpg
 date: 2026-11-04 21:14:18 -0300
 categories: [hardware]
-tags: [arm, semiconductores, ingresos, chips, tecnología]
+tags: arm, semiconductores, ingresos, chips, tecnología
 ---
 
 Arm (NASDAQ: ARM) ha presentado una carta a sus accionistas con los resultados financieros correspondientes al segundo trimestre del año fiscal 2027, finalizado el 30 de septiembre de 2026. La compañía ha registrado un desempeño histórico, consolidando su posición en el mercado de la arquitectura de computación.

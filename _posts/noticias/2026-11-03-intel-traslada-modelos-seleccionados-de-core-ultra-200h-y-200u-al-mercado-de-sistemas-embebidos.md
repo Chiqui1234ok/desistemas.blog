@@ -5,7 +5,7 @@ description: "Intel moverá modelos específicos de Core Ultra 200H y 200U al me
 image: https://www.techpowerup.com/img/8FZgQ8bDXpsOu8kk.jpg
 date: 2026-11-03 14:10:57 -0300
 categories: [hardware]
-tags: [intel, core ultra, arrow lake, cpu, hardware]
+tags: intel, core ultra, arrow lake, cpu, hardware
 ---
 
 Intel ha emitido un Aviso de Cambio de Producto (PCN) en el que se especifica que los procesadores móviles de las arquitecturas "Arrow Lake-H" y "Arrow Lake-U", comercializados bajo las nomenclaturas Core Ultra 200H y Core Ultra 200U, dejarán de ofrecerse como componentes estándar para el mercado de consumo masivo.

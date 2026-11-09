@@ -5,7 +5,7 @@ description: "ASRock lanza actualizaciones de vBIOS para la serie Radeon RX 7000
 image: https://www.techpowerup.com/img/5APNvBrwN7m1N31G.jpg
 date: 2026-10-31 13:46:29 -0300
 categories: [hardware]
-tags: [asrock, radeon, rx 7000, amd, vbios, firmware, hardware]
+tags: asrock, radeon, rx 7000, amd, vbios, firmware, hardware
 ---
 
 ASRock ha puesto a disposición actualizaciones de vBIOS para diez de sus modelos basados en la serie Radeon RX 7000, siguiendo los pasos de fabricantes como Sapphire y GIGABYTE. La nueva versión de firmware, identificada como 1.0.5, fue publicada el pasado 29 de octubre en las [páginas de soporte de ASRock](https://www.asrock.com/support/index.asp?cat=BIOS).

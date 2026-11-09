@@ -5,7 +5,7 @@ description: "Bazzite 45 debuta con base en Fedora 45, nuevos kernels y un verif
 image: https://www.techpowerup.com/img/O5B4BRKwmjklxvtH.jpg
 date: 2026-11-05 12:23:23 -0300
 categories: [gaming, hardware]
-tags: [bazzite, fedora, linux, gaming, hardware, epic games]
+tags: bazzite, fedora, linux, gaming, hardware, epic games
 ---
 
 Poco después del lanzamiento oficial de Fedora 45, se ha presentado la nueva versión de Bazzite 45. Esta actualización se ha rebasado a Fedora 45 e integra entornos de escritorio actualizados, incluyendo GNOME 51.1 y KDE Plasma 6.8.2.

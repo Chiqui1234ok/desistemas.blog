@@ -5,7 +5,7 @@ description: "Microsoft aclara que la ausencia de la función de arrastre para l
 image: https://www.techpowerup.com/img/YgRFnvRRZPjI8BrY.jpg
 date: 2026-10-31 20:11:27 -0300
 categories: [analisis]
-tags: [microsoft, windows 11, barra de tareas, diseño, interfaz de usuario]
+tags: microsoft, windows 11, barra de tareas, diseño, interfaz de usuario
 ---
 
 ## Microsoft redefine la interacción con la barra de tareas en Windows 11

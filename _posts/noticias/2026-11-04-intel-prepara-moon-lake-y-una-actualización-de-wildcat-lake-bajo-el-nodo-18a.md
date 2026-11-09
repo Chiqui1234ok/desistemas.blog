@@ -5,7 +5,7 @@ description: "Intel desarrolla nuevas arquitecturas de bajo consumo bajo el nodo
 image: https://www.techpowerup.com/img/uKvJCSSoON69LcQT.jpg
 date: 2026-11-04 05:59:55 -0300
 categories: [hardware, homelabbing]
-tags: [intel, moon lake, wildcat lake, 18a, procesadores, arquitectura]
+tags: intel, moon lake, wildcat lake, 18a, procesadores, arquitectura
 ---
 
 Intel está preparando dos nuevas variantes de procesadores enfocadas en la computación de consumo energético extremadamente bajo. La primera, denominada "Moon Lake" (MNL), ha sido diseñada como un SoC de núcleos puramente de eficiencia (LPE). Esta generación no contará con núcleos de rendimiento (P-Cores) y dispondrá de hasta cuatro núcleos LPE "Darkmont" fabricados mediante el nodo Intel 18A.

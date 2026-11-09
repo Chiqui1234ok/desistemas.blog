@@ -5,7 +5,7 @@ description: "El retraso en la entrega de kits de diseño de NVIDIA a sus socios
 image: https://tpucdn.com/img/PKPxraJria2cM5Q4.jpg
 date: 2026-11-02 07:00:44 -0300
 categories: [hardware]
-tags: [nvidia, rtx 5080, hardware, gpu, gdgd7]
+tags: nvidia, rtx 5080, hardware, gpu, gdgd7
 ---
 
 Informes recientes indican que los socios de placa de NVIDIA aún no cuentan con el suministro de los kits de diseño para la GeForce RTX 5080 de 24 GB, lo que sugiere que un lanzamiento inminente resulta improbable. Según BenchLife, estos kits, que contienen el chip de la GPU y los módulos de memoria enviados directamente por NVIDIA, todavía no han sido entregados a los socios de tarjetas de expansión.

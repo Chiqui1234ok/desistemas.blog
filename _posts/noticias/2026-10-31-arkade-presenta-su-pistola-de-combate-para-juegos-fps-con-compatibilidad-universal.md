@@ -5,7 +5,7 @@ description: "La nueva Arkade Gaming Gun promete una experiencia intuitiva para 
 image: https://www.techpowerup.com/img/Jz4Lct6sARtA78eH.jpg
 date: 2026-10-31 17:44:51 -0300
 categories: [hardware, gaming]
-tags: [arkade, gaming gun, periféricos, fps, hardware]
+tags: arkade, gaming gun, periféricos, fps, hardware
 ---
 
 La empresa Arkade ha revelado nuevos detalles sobre su dispositivo "Gaming Gun", un periférico diseñado para ofrecer una forma de juego más intuitiva en títulos de disparos en primera persona (FPS). Según la compañía, este hardware busca proporcionar métricas de rendimiento que compitan con los ratones de alta gama, basándose en [pruebas internas de la marca](https://www.arkade.games/whitepaper). Mientras que la industria de los ratones continúa enfocada en la [sensibilidad](https://www.techpowerup.com/353511/keychron-officially-launches-g6-he-wireless-gaming-mouse-for-usd-89-99-pre-order) y en nuevas [características](https://www.techpowerup.com/353005-logitech-g-marks-10-years-of-pro-with-a-new-generation-of-competitive-gear), Arkade propone un cambio en el paradigma de interacción.

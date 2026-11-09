@@ -5,7 +5,7 @@ description: "Registros de envío en Vietnam confirman la existencia de placas A
 image: https://tpucdn.com/img/qsVggFlpirTPGw5W_thm.jpg
 date: 2026-11-02 19:35:53 -0300
 categories: [hardware]
-tags: [intel, asrock, z970, nova lake, motherboards, filtraciones]
+tags: intel, asrock, z970, nova lake, motherboards, filtraciones
 ---
 
 Según ha informado [Club386](https://www.club386.com/intel-z970-motherboards-shipping-nova-lake/), dos placas base basadas en el [chipset Intel Z970](https://www.techpowerup.com/346111/intel-900-series-desktop-motherboard-chipset-specs-leak) han aparecido en la base de datos de envíos NBD, la cual registra los datos de aduanas de Vietnam. Por su nomenclatura, ambos modelos parecen pertenecer al fabricante ASRock: se trata de la Z970 LiveMixer WiFi y la Z970 Pro-A WiFi. Los registros indican que el envío de las placas de circuito impreso (PCB) se realizó a finales de septiembre de 2026.

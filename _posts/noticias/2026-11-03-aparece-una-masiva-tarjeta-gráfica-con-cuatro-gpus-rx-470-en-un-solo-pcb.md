@@ -5,7 +5,7 @@ description: "Se ha descubierto una placa de video de dimensiones colosales que 
 image: https://www.techpowerup.com/img/JfIgYwUR5aqXQXfz.jpg
 date: 2026-11-03 17:14:45 -0300
 categories: [hardware]
-tags: [amd, rx 470, gpu, hardware, mineria, polaris]
+tags: amd, rx 470, gpu, hardware, mineria, polaris
 ---
 
 Un usuario de la plataforma X, bajo el pseudónimo GOK, ha [compartido imágenes](https://x.com/GOKForFree/status/2117551629918785974) de una tarjeta gráfica de dimensiones excepcionales que integra cuatro GPUs de arquitectura Polaris en un único PCB. El dispositivo presenta una disposición de los procesadores en un esquema de 2x2, y cada unidad parece estar rodeada por ocho chips de memoria GDDR5. Esta configuración resultaría en 8 GB de VRAM por cada GPU, alcanzando un total masivo de 32 GB de memoria en toda la placa.

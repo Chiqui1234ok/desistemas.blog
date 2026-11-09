@@ -5,7 +5,7 @@ description: "La ausencia de kits de diseño para la RTX 5080 de 24 GB podría p
 image: https://tpucdn.com/img/PKPxraJria2cM5Q4.jpg
 date: 2026-11-02 07:00:44 -0300
 categories: [hardware]
-tags: [nvidia, geforce, rtx 5080, gpu, hardware]
+tags: nvidia, geforce, rtx 5080, gpu, hardware
 ---
 
 De acuerdo con informes de BenchLife, los socios de placa de NVIDIA aún no han recibido los kits de diseño necesarios para la GeForce RTX 5080 de 24 GB, lo que plantea dudas sobre un lanzamiento inmediato. Estos kits de diseño, que consisten en el chip de la GPU y los módulos de memoria suministrados directamente por NVIDIA, son esenciales para que los fabricantes puedan trabajar en sus diseños de placas de circuito impreso (PCB) personalizados.

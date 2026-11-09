@@ -5,7 +5,7 @@ description: "La NVIDIA GeForce RTX 5070 Ti experimenta un aumento de precio sig
 image: https://www.techpowerup.com/img/zDSDMHFV2mQnWClI.jpg
 date: 2026-11-06 16:44:10 -0300
 categories: [hardware, gaming]
-tags: [nvidia, rtx 5070 ti, hardware, gpu, precios]
+tags: nvidia, rtx 5070 ti, hardware, gpu, precios
 ---
 
 ![NVIDIA GeForce RTX 5070 Ti](https://www.techpowerup.com/img/zDSDMHFV2mQnWClI.jpg)

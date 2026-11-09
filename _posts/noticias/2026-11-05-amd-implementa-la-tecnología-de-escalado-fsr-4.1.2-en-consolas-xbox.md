@@ -5,7 +5,7 @@ description: "Las consolas Xbox Series X|S y dispositivos portátiles con proces
 image: https://www.techpowerup.com/img/aSpqEgtVSMhFWZ9f.jpg
 date: 2026-11-05 08:29:38 -0300
 categories: [gaming, hardware]
-tags: [amd, xbox, fsr, upscaling, machine learning, ryzen]
+tags: amd, xbox, fsr, upscaling, machine learning, ryzen
 ---
 
 Las consolas Xbox Series X y Xbox Series S integrarán la tecnología de escalado basada en aprendizaje automático (machine learning) mediante la llegada de FSR Upscaling 4.1.2. El Kit de Desarrollo de Juegos (GDK) de Microsoft ha incluido oficialmente esta actualización de AMD en dos variantes distintas.

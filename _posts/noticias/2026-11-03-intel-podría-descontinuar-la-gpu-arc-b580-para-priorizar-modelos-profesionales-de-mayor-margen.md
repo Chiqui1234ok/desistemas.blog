@@ -5,7 +5,7 @@ description: "Rumores indican que Intel podría retirar la Arc B580 para enfocar
 image: https://tpucdn.com/img/dj3FofIiBSdUs2Qf_thm.jpg
 date: 2026-11-03 16:12:07 -0300
 categories: [hardware, gaming]
-tags: [intel, arc b580, gpu, battlemage, hardware]
+tags: intel, arc b580, gpu, battlemage, hardware
 ---
 
 Según la información compartida por el filtrador [Haze2K1 en X](https://x.com/Haze2K1/status/2117241776688037938), Intel podría incluir la tarjeta gráfica Arc B580 en su lista de fin de vida útil (EOL). Aunque la compañía no ha emitido una confirmación oficial, los reportes sugieren que la empresa busca priorizar las tarjetas destinadas a estaciones de trabajo e inferencia de inteligencia artificial, como la serie Arc Pro, debido a su alto volumen de ventas y sus mayores márgenes de beneficio.

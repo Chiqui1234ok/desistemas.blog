@@ -5,7 +5,7 @@ description: "Intel lanza el PDK 0.9 para su nodo 14A, permitiendo a los cliente
 image: https://tpucdn.com/img/HR7c6C6KjCSvI13j.jpg
 date: 2026-11-04 06:24:22 -0300
 categories: [hardware]
-tags: [intel, 14a, semiconductor, foundry, tecnología]
+tags: intel, 14a, semiconductor, foundry, tecnología
 ---
 
 ## Avances en el desarrollo del nodo 14A

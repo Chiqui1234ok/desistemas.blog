@@ -5,7 +5,7 @@ description: "Electronic Arts digitaliza un vasto archivo histórico para llevar
 image: https://www.techpowerup.com/img/ItCQ4lU09rd2gqv3.jpg
 date: 2026-11-06 14:45:13 -0300
 categories: [gaming]
-tags: [ea, steam, road rash, wing commander, juegos clásicos, retro gaming]
+tags: ea, steam, road rash, wing commander, juegos clásicos, retro gaming
 ---
 
 Electronic Arts ha integrado 25 títulos clásicos de PC en la plataforma Steam, tras un proceso de recuperación de archivos que cuenta con una [historia fascinante](https://www.ea.com/news/from-the-vault-to-your-library). Entre los lanzamientos se encuentran siete versiones restauradas denominadas "Anniversary Editions" de *Road Rash* y seis títulos de la saga *Wing Commander*. El resto de los juegos, que incluye 18 títulos más como *Theme Hospital*, *Strike Commander*, la serie *Crusader* y once juegos de *Ultima*, llegan a Steam por primera vez.

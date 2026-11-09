@@ -5,7 +5,7 @@ description: "Netgear reporta ingresos por 167,3 millones de dólares en el terc
 image: https://www.techpowerup.com/img/34K14lZfbCH8xZM3.jpg
 date: 2026-11-04 19:00:21 -0300
 categories: [hardware]
-tags: [netgear, resultados financieros, networking, mercado]
+tags: netgear, resultados financieros, networking, mercado
 ---
 
 Netgear, Inc. (NASDAQ: NTGR), compañía líder global en soluciones de redes inteligentes, ha publicado sus resultados financieros correspondientes al tercer trimestre finalizado el 27 de septiembre de 2026.

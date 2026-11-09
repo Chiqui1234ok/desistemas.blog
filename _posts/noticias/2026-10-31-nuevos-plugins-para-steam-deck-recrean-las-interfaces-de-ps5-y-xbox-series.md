@@ -5,7 +5,7 @@ description: "Complementos de Decky Loader permiten transformar la interfaz de l
 image: https://www.techpowerup.com/img/u84IL4NP5KQtQK5i.jpg
 date: 2026-10-31 14:23:52 -0300
 categories: [gaming, hardware]
-tags: [steam deck, decky loader, ps5, xbox, personalización]
+tags: steam deck, decky loader, ps5, xbox, personalización
 ---
 
 Desde el lanzamiento de la Steam Deck, su interfaz de usuario ha sido uno de sus principales puntos de venta, destacando por su facilidad de uso y su naturaleza abierta al usuario. Aprovechando esta flexibilidad, nuevos complementos para Decky Loader permiten implementar los diseños de las interfaces de PlayStation 5 y Xbox Series X|S, sustituyendo efectivamente la apariencia nativa de Steam.

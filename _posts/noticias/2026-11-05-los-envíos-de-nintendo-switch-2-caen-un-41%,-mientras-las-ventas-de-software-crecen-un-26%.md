@@ -5,7 +5,7 @@ description: "Nintendo registra una caída en los envíos de la Switch 2, pero e
 image: https://www.techpowerup.com/img/4OYD5hJJlsyYWxwr.jpg
 date: 2026-11-05 07:39:04 -0300
 categories: [hardware, gaming, analisis]
-tags: [nintendo, switch 2, hardware, gaming, finanzas]
+tags: nintendo, switch 2, hardware, gaming, finanzas
 ---
 
 ## Descenso en el volumen de hardware

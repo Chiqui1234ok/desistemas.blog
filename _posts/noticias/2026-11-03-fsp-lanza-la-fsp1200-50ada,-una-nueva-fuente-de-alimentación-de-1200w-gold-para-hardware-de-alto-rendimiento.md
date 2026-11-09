@@ -5,7 +5,7 @@ description: "La nueva fuente de la serie 50ADA de FSP cumple el estándar ATX 3
 image: https://www.techpowerup.com/img/EKDdqM1Lm5GdJ9aC.jpg
 date: 2026-11-03 12:42:15 -0300
 categories: [hardware, gaming]
-tags: [fsp, hardware, fuente de alimentación, atx 3.1, gaming, inteligencia artificial]
+tags: fsp, hardware, fuente de alimentación, atx 3.1, gaming, inteligencia artificial
 ---
 
 FSP Group ha anunciado la expansión de su popular serie 50ADA con el lanzamiento de la FSP1200-50ADA, una nueva fuente de alimentación no modular de 1200 W con certificación Gold. Este modelo ha sido desarrollado específicamente para satisfacer las demandas de usuarios de alto rendimiento, incluyendo jugadores expertos y desarrolladores de aplicaciones de inteligencia artificial.

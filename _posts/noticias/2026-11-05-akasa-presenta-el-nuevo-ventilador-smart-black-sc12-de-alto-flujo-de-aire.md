@@ -5,7 +5,7 @@ description: "El nuevo ventilador PWM de 120 mm de Akasa ofrece hasta 88 CFM de 
 image: https://www.techpowerup.com/img/OEFfELWk4vqOGWEn.jpg
 date: 2026-11-05 15:04:17 -0300
 categories: [hardware]
-tags: [akasa, ventiladores, refrigeración, hardware, pc building]
+tags: akasa, ventiladores, refrigeración, hardware, pc building
 ---
 
 Akasa, proveedor especializado en soluciones térmicas, ha anunciado el lanzamiento del Smart Black SC12. Se trata de un ventilador PWM de 120 x 120 x 25 mm diseñado con una excelente relación coste-rendimiento, orientado tanto a integradores de sistemas como a entusiastas del montaje de PC.

@@ -5,7 +5,7 @@ description: "Santa Monica Studio anuncia un retraso de tres meses para el lanza
 image: https://www.techpowerup.com/img/BFNgfUdrENMXjEzD.jpg
 date: 2026-11-04 15:33:59 -0300
 categories: [gaming]
-tags: [god of war, santa monica studio, playstation 5, retraso, gaming]
+tags: god of war, santa monica studio, playstation 5, retraso, gaming
 ---
 
 Santa Monica Studio ha anunciado un retraso de aproximadamente tres meses para el lanzamiento de *God of War Laufey*. El título, exclusivo de PlayStation 5, ha sido reprogramado para el 20 de mayo de 2027, postergando su salida original del 16 de febrero.

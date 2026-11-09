@@ -5,7 +5,7 @@ description: "Scyrox lanza la serie V12 con sensor PixArt PAW Next I, switches �
 image: https://www.techpowerup.com/img/EYdaiIKbZkIzwSOq.jpg
 date: 2026-10-31 23:17:37 -0300
 categories: [hardware, gaming]
-tags: [scyrox, ratones gaming, periféricos, hardware, gaming]
+tags: scyrox, ratones gaming, periféricos, hardware, gaming
 ---
 
 Scyrox, marca consolidada como una alternativa competitiva frente a gigantes como Logitech y Razer, ha anunciado el lanzamiento de su nueva serie de ratones gaming ultraligeros: la serie V12. Estos dispositivos mantienen la filosofía de la marca de ofrecer componentes de alto rendimiento y pesos reducidos a un precio más accesible.

@@ -5,7 +5,7 @@ description: "Pruebas de rendimiento revelan que una RTX 2080 Ti con 22 GB de VR
 image: https://www.techpowerup.com/img/4cKwzYRREBgHBcLw.jpg
 date: 2026-11-01 17:44:48 -0300
 categories: [hardware, gaming, analisis]
-tags: [nvidia, rtx 2080 ti, vram, modding, hardware, rendimiento]
+tags: nvidia, rtx 2080 ti, vram, modding, hardware, rendimiento
 ---
 
 [PC Games Hardware](https://www.pcgameshardware.de/Geforce-RTX-2080-Ti-Grafikkarte-267862/Tests/RTX-2080-Ti-22GB-Alibaba-Hardware-Mod-Test-1554585/) ha sometido a diversas pruebas una [GeForce RTX 2080 Ti modificada con 22 GB](https://www.techpowerup.com/282018/nvidia-geforce-rtx-2080-ti-modded-to-support-22-gb-of-gddr6-memory) de memoria VRAM. Los resultados indican que el incremento de capacidad resulta determinante una vez que los títulos superan el límite de memoria de los modelos convencionales.

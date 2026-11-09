@@ -5,7 +5,7 @@ description: "Intel reasignará recursos de su nodo 18A para fortalecer la produ
 image: https://www.techpowerup.com/img/jFysXu6YjqTakdah.jpg
 date: 2026-10-31 12:06:19 -0300
 categories: [hardware, analisis]
-tags: [intel, xeon, panther lake, fabricación, semiconductores]
+tags: intel, xeon, panther lake, fabricación, semiconductores
 ---
 
 Intel ha anunciado la reasignación de parte de su capacidad de fabricación, desplazándola de los chips de consumo hacia la creciente demanda de sus procesadores de servidor Xeon. Durante la [conferencia de resultados del tercer trimestre de 2026](https://www.techpowerup.com/354291/intel-reports-third-quarter-2026-financial-results), la compañía detalló que convertirá algunos recursos del nodo Intel 18A en sus instalaciones de Oregón al nodo Intel 3, el cual sustenta la arquitectura Xeon 6 "Granite Rapids".

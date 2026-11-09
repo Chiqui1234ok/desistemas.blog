@@ -5,7 +5,7 @@ description: "Sony presenta los nuevos MDR-3R, auriculares con cable que rescata
 image: https://www.techpowerup.com/img/owp2aGqptNJoawFU.jpg
 date: 2026-11-05 13:09:20 -0300
 categories: [hardware]
-tags: [sony, auriculares, walkman, usb-c, audio]
+tags: sony, auriculares, walkman, usb-c, audio
 ---
 
 Sony Electronics Inc. ha anunciado oficialmente el lanzamiento de los MDR-3R, una nueva línea de auriculares con cable compatibles con USB-C. El diseño de este modelo se inspira directamente en los originales MDR-3, los cuales debutaron junto al icónico reproductor Walkman TPS-L2.

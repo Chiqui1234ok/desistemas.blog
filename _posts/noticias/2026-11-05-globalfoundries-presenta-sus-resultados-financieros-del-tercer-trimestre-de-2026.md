@@ -5,7 +5,7 @@ description: "La fabricante de semiconductores reporta ingresos de 1.899 mil mil
 image: https://www.techpowerup.com/img/uqSZxIBg16xdJoHU.jpg
 date: 2026-11-05 16:44:34 -0300
 categories: [hardware]
-tags: [globalfoundries, semiconductores, hardware, finanzas]
+tags: globalfoundries, semiconductores, hardware, finanzas
 ---
 
 GlobalFoundries Inc. (GF) ha comunicado sus resultados financieros preliminares correspondientes al tercer trimestre finalizado el 30 de septiembre de 2026.

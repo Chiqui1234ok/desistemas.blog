@@ -5,7 +5,7 @@ description: "Las nuevas actualizaciones de Windows 11 mejoran la multitarea en 
 image: https://www.techpowerup.com/img/TUil0h22tbC6HuFO.jpg
 date: 2026-11-03 16:07:51 -0300
 categories: [hardware, analisis]
-tags: [windows 11, microsoft, hardware, optimización, ram]
+tags: windows 11, microsoft, hardware, optimización, ram
 ---
 
 Microsoft ha lanzado una serie de optimizaciones para Windows 11 diseñadas específicamente para ordenadores que cuentan con 8 GB de memoria RAM. Esta actualización busca proporcionar mejoras significativas en el rendimiento de dispositivos con capacidades de memoria limitadas.

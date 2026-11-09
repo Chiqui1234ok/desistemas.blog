@@ -5,7 +5,7 @@ description: "La nueva solución gráfica externa de ASUS aplica un drástico re
 image: https://www.techpowerup.com/img/Dy9cPH9nVTWJZEBS.jpg
 date: 2026-11-02 14:30:17 -0300
 categories: [hardware, gaming]
-tags: [asus, radeon, rx 9060 xt, egpu, usb4, hardware]
+tags: asus, radeon, rx 9060 xt, egpu, usb4, hardware
 ---
 
 ## Ajustes de rendimiento para la solución externa de ASUS

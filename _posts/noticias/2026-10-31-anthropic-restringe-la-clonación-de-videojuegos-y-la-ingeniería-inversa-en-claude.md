@@ -5,7 +5,7 @@ description: "La IA de Anthropic implementa nuevas políticas que impiden la rec
 image: https://tpucdn.com/img/agqont7XNNozD8Vt.jpg
 date: 2026-10-31 13:27:11 -0300
 categories: [gaming, analisis]
-tags: [anthropic, claude, inteligencia artificial, videojuegos, desarrollo de juegos]
+tags: anthropic, claude, inteligencia artificial, videojuegos, desarrollo de juegos
 ---
 
 El auge de la clonación de videojuegos, la ingeniería inversa y la descompilación mediante inteligencia artificial ha impulsado la aparición de numerosos proyectos, que abarcan desde polémicos [clones de Fallout](https://www.techpowerup.com/353383/ai-built-fallout-new-york-game-goes-offline-after-bethesda-sends-cease-and-desist) hasta [puertos de consola realizados por fans](https://www.techpowerup.com/354192/recomplauncher-gathers-nearly-200-fan-made-console-ports-into-one-pc-catalog). Ante este panorama, Anthropic parece haber tomado medidas frente a la mala prensa y la [posible presión de grandes compañías de la industria del videojuego](https://www.techpowerup.com/354186/epic-games-will-soon-train-ai-on-unreal-engine-outputs).

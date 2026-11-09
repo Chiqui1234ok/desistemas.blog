@@ -5,7 +5,7 @@ description: "Un informe de Newzoo revela que el formato físico sigue siendo vi
 image: https://tpucdn.com/img/9CJmBeSJCKloetli.jpg
 date: 2026-11-06 21:40:58 -0300
 categories: [gaming]
-tags: [consolas, juegos físicos, mercado de videojuegos, newzoo, hardware]
+tags: consolas, juegos físicos, mercado de videojuegos, newzoo, hardware
 ---
 
 Un reciente informe técnico publicado por [Newzoo](https://newzoo.com/reports/game-purchasing-behavior-in-an-era-of-choice), desarrollado con el apoyo de G2A, indica que las copias físicas representan cerca de un tercio de los juegos de consola que los usuarios poseen actualmente.

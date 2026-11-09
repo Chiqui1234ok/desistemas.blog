@@ -5,7 +5,7 @@ description: "La nueva actualización de Intel optimiza títulos como Football M
 image: https://www.techpowerup.com/img/QVUFd2Kq76vhcjiO.jpg
 date: 2026-11-05 03:21:02 -0300
 categories: [hardware, gaming]
-tags: [intel, arc, gpu, drivers, controladores, gaming, actualización]
+tags: intel, arc, gpu, drivers, controladores, gaming, actualización
 ---
 
 Intel ha presentado la versión más reciente de sus controladores para las tarjetas gráficas Arc, identificada como la versión 101.9175 WHQL. Esta actualización introduce optimizaciones de rendimiento específicas para los títulos "Football Manager 27", "Phantom Blade Zero" y "World of Warcraft: Forever".

@@ -5,7 +5,7 @@ description: "La firma alemana amplía su gama con el Apex 1 AM5 White, combinan
 image: https://www.techpowerup.com/img/M3YnRwHnEQeJEXWd.jpg
 date: 2026-11-02 05:09:34 -0300
 categories: [hardware]
-tags: [alphacool, am5, hardware, refrigeración líquida, amd]
+tags: alphacool, am5, hardware, refrigeración líquida, amd
 ---
 
 Alphacool International GmbH, empresa con sede en Braunschweig, Alemania, ha anunciado la expansión de su línea de refrigeración para CPU con el nuevo bloque de agua **Apex 1 AM5 White**. Con más de dos décadas de experiencia en el sector de la refrigeración líquida para PC, la compañía continúa consolidando su catálogo de productos de alto rendimiento.

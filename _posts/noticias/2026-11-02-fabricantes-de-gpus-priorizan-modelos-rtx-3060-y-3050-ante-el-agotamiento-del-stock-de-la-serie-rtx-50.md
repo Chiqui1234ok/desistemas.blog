@@ -5,7 +5,7 @@ description: "La escasez de la serie RTX 50 de NVIDIA impulsa a los fabricantes 
 image: https://www.techpowerup.com/img/BDWNzPhV6QAinBTE.jpg
 date: 2026-11-02 16:38:13 -0300
 categories: [hardware]
-tags: [nvidia, gpu, rtx 50-series, rtx 3060, hardware, escasez]
+tags: nvidia, gpu, rtx 50-series, rtx 3060, hardware, escasez
 ---
 
 Los fabricantes de unidades de procesamiento gráfico (GPU) en Asia, particularmente en China, han comenzado a redirigir su oferta comercial hacia modelos de generaciones anteriores. Esta maniobra responde a la baja disponibilidad de las tarjetas gráficas más recientes de NVIDIA, correspondientes a la serie GeForce RTX 50 con arquitectura "Blackwell".

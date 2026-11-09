@@ -5,7 +5,7 @@ description: "Silver Lake y PIF inician conversaciones para la compra de Unity S
 image: https://tpucdn.com/img/6YZpjTU7XewOkpoE.jpg
 date: 2026-11-06 18:12:39 -0300
 categories: [gaming, hardware]
-tags: [unity, ea, silver lake, pif, industria de videojuegos, adquisiciones]
+tags: unity, ea, silver lake, pif, industria de videojuegos, adquisiciones
 ---
 
 Según un informe reciente de [Reuters](https://www.reuters.com/world/silver-lake-pif-have-held-recent-talks-buy-gaming-software-provider-unity-2026-11-05/), los fondos PIF y Silver Lake han mantenido reuniones con Unity Software para iniciar conversaciones orientadas a la adquisición del desarrollador del motor de videojuegos. De acuerdo con fuentes cercanas a la operación, este proceso seguiría un modelo de adquisición apalancada, similar al utilizado para la compra de Electronic Arts (EA) por parte de los mismos grupos. Hasta el momento, no se ha revelado una cifra oficial para la potencial transacción.

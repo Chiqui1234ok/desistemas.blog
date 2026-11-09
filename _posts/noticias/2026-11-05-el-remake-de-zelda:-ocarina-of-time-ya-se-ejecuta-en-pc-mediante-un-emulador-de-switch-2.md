@@ -5,7 +5,7 @@ description: "Usuarios logran ejecutar el nuevo Zelda en PC usando Lichii, aunqu
 image: https://www.techpowerup.com/img/a28CxUs3wnazCQ2y.jpg
 date: 2026-11-05 16:18:06 -0300
 categories: [gaming]
-tags: [nintendo, zelda, emulación, switch 2, lichii]
+tags: nintendo, zelda, emulación, switch 2, lichii
 ---
 
 El lanzamiento de *The Legend of Zelda: Ocarina of Time* remake para la consola Switch 2 ha coincidido con la aparición de versiones ejecutables en PC. Antes de la salida oficial, se confirmó la existencia de una copia del juego, según informó la cuenta de X [Senhor Linguica Pro](https://x.com/SrLinguicaVIVE/status/2118063873102127124), aunque inicialmente no se disponía de un emulador capaz de procesarlo adecuadamente.

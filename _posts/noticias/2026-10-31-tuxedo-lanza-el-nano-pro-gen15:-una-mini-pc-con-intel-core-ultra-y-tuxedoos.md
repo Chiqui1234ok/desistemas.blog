@@ -5,7 +5,7 @@ description: "La nueva Mini PC de Tuxedo Computers integra procesadores Intel Pa
 image: https://tpucdn.com/img/BDPkLSoELJeQsvCY.jpg
 date: 2026-10-31 16:39:37 -0300
 categories: [hardware, homelabbing, gaming]
-tags: [tuxedo, mini pc, intel, panther lake, linux, hardware]
+tags: tuxedo, mini pc, intel, panther lake, linux, hardware
 ---
 
 Tuxedo Computers ha anunciado oficialmente el lanzamiento de su nuevo [Nano Pro Gen15](https://www.tuxedocomputers.com/en/TUXEDO-Nano-Pro-Gen15-INTEL.tuxedo#configurator), una Mini PC diseñada para ofrecer un rendimiento sólido en formatos compactos. El dispositivo está equipado con la arquitectura Intel Panther Lake, específicamente el procesador Intel Core Ultra X7 358H, acompañado por la unidad de gráficos integrados (iGPU) Arc B390.

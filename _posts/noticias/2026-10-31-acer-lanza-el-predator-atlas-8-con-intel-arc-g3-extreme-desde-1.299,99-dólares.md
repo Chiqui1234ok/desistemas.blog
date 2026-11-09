@@ -5,7 +5,7 @@ description: "La nueva consola portátil de Acer llega equipada con la arquitect
 image: https://tpucdn.com/img/em8nDhQaVtrGQ5U9.jpg
 date: 2026-10-31 12:33:28 -0300
 categories: [hardware, gaming]
-tags: [acer, predator atlas 8, intel arc g3, gaming handheld, tecnología]
+tags: acer, predator atlas 8, intel arc g3, gaming handheld, tecnología
 ---
 
 Acer ha presentado oficialmente el Predator Atlas 8, su nueva consola portátil de videojuegos, con un precio inicial de 1.299,99 dólares en Best Buy. El dispositivo, que fue exhibido por primera vez en la Computex de junio de 2026 junto a Intel, utiliza las nuevas APU [Intel Arc G3](https://www.techpowerup.com/349784/acer-predator-at-computex-2026-atlas-handheld-helios-18-ai-xb273k-3d-monitor).

@@ -5,7 +5,7 @@ description: "Microsoft busca optimizar la experiencia de juego en PC con una ac
 image: https://www.techpowerup.com/img/FZr9vA8SJkZdK5YD.jpg
 date: 2026-11-05 20:16:23 -0300
 categories: [gaming]
-tags: [xbox, microsoft, pc, gaming, optimización]
+tags: xbox, microsoft, pc, gaming, optimización
 ---
 
 Tras las recientes declaraciones de Epic Games sobre la velocidad de su lanzador y las actualizaciones de rendimiento implementadas por Steam, Microsoft ha anunciado mejoras significativas para su aplicación de Xbox en PC. Según un [comunicado oficial](https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud/), la compañía busca ofrecer una experiencia de usuario más ágil y eficiente.

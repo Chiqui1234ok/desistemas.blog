@@ -5,7 +5,7 @@ description: "La salida de Helen Chiang tras solo tres meses en el cargo de COO 
 image: https://tpucdn.com/img/vqpsPKgkomTCEbdU.jpg
 date: 2026-11-03 20:21:44 -0300
 categories: [gaming]
-tags: [xbox, microsoft, helen chiang, industria de los videojuegos, reestructuración]
+tags: xbox, microsoft, helen chiang, industria de los videojuegos, reestructuración
 ---
 
 Helen Chiang, la primera Directora de Operaciones (COO) en la historia de Xbox, ha dejado Microsoft apenas tres meses después de asumir el cargo. La noticia fue comunicada mediante un breve memorando interno de Asha Sharma, CEO de Microsoft Gaming, el cual fue obtenido por [The Verge](https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure). En el comunicado, se agradeció a Chiang por sus años de servicio sin especificar los motivos de su salida. Por su parte, Kari Perez, vicepresidenta de comunicaciones de Xbox, señaló que la compañía no comenta asuntos de carácter personal de sus empleados.

@@ -5,7 +5,7 @@ description: "Linux Mint recupera el soporte de hibernación para evitar el dren
 image: https://www.techpowerup.com/img/5juywUa4QzCbnt59.jpg
 date: 2026-10-31 18:16:45 -0300
 categories: [hardware]
-tags: [linux, linux mint, hibernación, gestión de energía, actualización]
+tags: linux, linux mint, hibernación, gestión de energía, actualización
 ---
 
 Linux Mint se mantiene como una de las distribuciones de Linux más recomendadas, especialmente para aquellos usuarios que buscan realizar la transición desde Windows, debido a su interfaz familiar y su facilidad de uso para principiantes. No obstante, al estar basada en Ubuntu, la distribución se ve sujeta a diversas decisiones de su base, como la eliminación previa del soporte para la hibernación en favor del modo de suspensión.

@@ -5,7 +5,7 @@ description: "El nuevo dock ASUS XG Core utiliza una Radeon RX 9060 XT con frecu
 image: https://www.techpowerup.com/img/Dy9cPH9nVTWJZEBS.jpg
 date: 2026-11-02 14:30:17 -0300
 categories: [hardware, gaming]
-tags: [asus, amd, radeon, rx 9060 xt, usb4, gpu externa]
+tags: asus, amd, radeon, rx 9060 xt, usb4, gpu externa
 ---
 
 Según la información más reciente proporcionada por ASUS, las especificaciones oficiales de la tarjeta ASUS XG Core Radeon RX 9060 XT LP presentan diferencias significativas respecto a la versión de escritorio convencional. Al tratarse de una solución gráfica externa, el dispositivo se alimenta directamente a través de la interfaz PCIe sin requerir conectores de alimentación externos adicionales.

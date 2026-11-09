@@ -5,7 +5,7 @@ description: "A pesar de un sólido tercer trimestre, las débiles proyecciones 
 image: https://tpucdn.com/img/nycFfjrwvuOBy7D8.jpg
 date: 2026-10-30 21:16:39 -0300
 categories: [hardware]
-tags: [intel, centros de datos, inteligencia artificial, mercado financiero, semiconductores]
+tags: intel, centros de datos, inteligencia artificial, mercado financiero, semiconductores
 ---
 
 Las acciones de Intel sufrieron una caída aproximada del 29%, cerrando en 65,76 dólares el pasado viernes, tras presentar unas previsiones para el cuarto trimestre significativamente inferiores a las expectativas de Wall Street. Según informa [CNBC](https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html), este descenso representa la peor jornada para la compañía desde la década de 1970. El valor de la acción había cerrado el jueves en 92,07 dólares, justo antes de la publicación de sus [resultados financieros del tercer trimestre de 2026](https://www.techpowerup.com/354291/intel-reports-third-quarter-2026-financial-results).

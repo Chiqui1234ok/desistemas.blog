@@ -5,7 +5,7 @@ description: "Se detecta un listado de la tarjeta NVIDIA RTX PRO 5500 con un MSR
 image: https://www.techpowerup.com/img/JKOYqJVFGt4QfCur.jpg
 date: 2026-11-05 21:03:55 -0300
 categories: [hardware, analisis]
-tags: [nvidia, rtx pro 5500, blackwell, workstation, hardware profesional]
+tags: nvidia, rtx pro 5500, blackwell, workstation, hardware profesional
 ---
 
 La tarjeta de estación de trabajo NVIDIA RTX PRO 5500, basada en la arquitectura «Blackwell», ha aparecido en el inventario de un minorista estadounidense con un precio inesperado. Según se ha observado en [X por Alex Ziskind](https://x.com/digitalix/status/2118068364559991238) y corroborado por [Videocardz](https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-appears-at-17999-msrp-higher-than-rtx-pro-6000), el distribuidor [SHI Government Solutions](https://texas.gs.shi.com/product/52521241/NVIDIA-RTX-PRO-5500-BLACKWELL-PRO-5500-BLACKWELL-WORKSTATION) ha listado el modelo fabricado por PNY con un MSRP de 17.999 dólares y un precio con descuento de 17.408,63 dólares.

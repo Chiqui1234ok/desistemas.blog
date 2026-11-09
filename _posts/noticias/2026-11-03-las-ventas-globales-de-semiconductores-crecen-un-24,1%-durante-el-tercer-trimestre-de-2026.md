@@ -5,7 +5,7 @@ description: "El mercado de chips registra un crecimiento sostenido con ventas t
 image: https://www.techpowerup.com/img/OQYsFyvOZpqXzOin.jpg
 date: 2026-11-03 13:04:51 -0300
 categories: [hardware]
-tags: [semiconductores, industria, economía, chips, tecnología]
+tags: semiconductores, industria, economía, chips, tecnología
 ---
 
 La Semiconductor Industry Association (SIA) ha comunicado que las ventas globales de semiconductores alcanzaron los 517.700 millones de dólares durante el tercer trimestre de 2026. Esta cifra representa un incremento del 24,1% en comparación con el segundo trimestre del mismo año.

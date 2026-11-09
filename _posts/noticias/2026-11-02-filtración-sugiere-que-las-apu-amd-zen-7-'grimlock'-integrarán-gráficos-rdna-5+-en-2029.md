@@ -5,7 +5,7 @@ description: "Una filtración indica que la arquitectura RDNA 5+ llegaría a los
 image: https://tpucdn.com/img/RLq1mlznPxZycO7f.jpg
 date: 2026-11-02 12:22:34 -0300
 categories: [hardware, gaming]
-tags: [amd, zen 7, grimlock, rdna 5, apu, filtración]
+tags: amd, zen 7, grimlock, rdna 5, apu, filtración
 ---
 
 Según información compartida por el filtrador [Kepler_L2](https://www.neogaf.com/threads/playstation-has-an-exclusive-of-sorts-for-rdna5-on-handhelds-rich-from-df.1702826/#post-272130707) en el foro NeoGAF, la arquitectura RDNA 5+ se integraría en las APU basadas en la microarquitectura Zen 7, bajo el nombre en clave "Grimlock", aproximadamente en el año 2029. El informante respondió a las especulaciones sobre la llegada de la tecnología RDNA 5 a los chips móviles convencionales, señalando específicamente la presencia de RDNA 5+ para el proyecto Grimlock.

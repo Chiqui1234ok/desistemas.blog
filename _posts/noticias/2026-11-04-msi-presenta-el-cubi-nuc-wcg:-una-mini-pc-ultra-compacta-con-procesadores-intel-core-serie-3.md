@@ -5,7 +5,7 @@ description: "La nueva solución de MSI destaca por su diseño de 0.55 litros, c
 image: https://www.techpowerup.com/img/DdMsPIGG0rNZteOE.jpg
 date: 2026-11-04 15:02:42 -0300
 categories: [hardware]
-tags: [msi, minipc, intel, hardware, productividad]
+tags: msi, minipc, intel, hardware, productividad
 ---
 
 MSI ha anunciado el lanzamiento del Cubi NUC WCG, una mini PC ultra compacta con un volumen de apenas 0.55 litros. Este dispositivo ha sido diseñado con el objetivo de optimizar la productividad, la conectividad y la eficiencia operativa en entornos empresariales modernos. Equipado con la serie de procesadores Intel Core 3, el equipo ofrece un rendimiento ágil para las aplicaciones de gestión y oficina más habituales.

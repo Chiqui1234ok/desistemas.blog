@@ -5,7 +5,7 @@ description: "Nuevo hub compacto de siete puertos que permite conectar dos panta
 image: https://www.techpowerup.com/img/unaD2uihWlO6mOnL.jpg
 date: 2026-11-02 16:25:39 -0300
 categories: [hardware]
-tags: [satechi, usb4, adaptador, hdmi, periféricos, productividad]
+tags: satechi, usb4, adaptador, hdmi, periféricos, productividad
 ---
 
 Satechi ha anunciado el lanzamiento del adaptador multiport ExtendView USB4 Dual HDMI. Este dispositivo se presenta como un hub compacto de siete puertos diseñado para conectar dos pantallas 4K con una frecuencia de actualización de 60 Hz a través de un cable USB4. El adaptador es compatible con ordenadores portátiles tanto de Mac como de Windows, funcionando de manera directa sin la necesidad de instalar controladores adicionales o software de DisplayLink.

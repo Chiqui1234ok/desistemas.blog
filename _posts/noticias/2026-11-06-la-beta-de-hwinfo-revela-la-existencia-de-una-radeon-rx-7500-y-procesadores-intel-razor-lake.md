@@ -5,7 +5,7 @@ description: "La última versión beta de HWiNFO incluye soporte para la inédit
 image: https://www.techpowerup.com/img/XvZyMfVnZMHmKwgj.jpg
 date: 2026-11-06 21:02:47 -0300
 categories: [hardware]
-tags: [amd, radeon, intel, hwinfo, hardware, razor lake, rdna 3]
+tags: amd, radeon, intel, hwinfo, hardware, razor lake, rdna 3
 ---
 
 La nueva versión beta de HWiNFO ([v8.55-6115](https://www.hwinfo.com/forum/threads/hwinfo-v8-55-6115-beta-released.11381/)) ha introducido el reconocimiento de una tarjeta gráfica AMD Radeon RX 7500, un modelo que aún no ha sido presentado oficialmente por el fabricante. El registro de cambios se limita únicamente al nombre del componente, por lo que las especificaciones técnicas, el chip subyacente y los planes de lanzamiento permanecen desconocidos por el momento.

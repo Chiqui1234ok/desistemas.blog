@@ -5,7 +5,7 @@ description: "Sony confirma que el desarrollo de la PlayStation 6 avanza según 
 image: https://www.techpowerup.com/img/WUgF0Cti9ildokbV.jpg
 date: 2026-11-05 16:48:40 -0300
 categories: [gaming, hardware]
-tags: [sony, playstation 6, ps6, hardware, industria de videojuegos]
+tags: sony, playstation 6, ps6, hardware, industria de videojuegos
 ---
 
 Sony ha comunicado que el desarrollo de su próxima consola de nueva generación, presuntamente la PlayStation 6, continúa siguiendo el cronograma establecido a pesar de los desafíos actuales en el suministro de memoria.

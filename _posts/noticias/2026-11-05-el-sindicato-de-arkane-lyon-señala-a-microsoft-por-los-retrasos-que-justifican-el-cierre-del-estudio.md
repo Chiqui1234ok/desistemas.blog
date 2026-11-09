@@ -5,7 +5,7 @@ description: "El sindicato STJV denuncia que una congelación de contrataciones 
 image: https://www.techpowerup.com/img/puq6Ggnq21znxfLX.jpg
 date: 2026-11-05 14:24:34 -0300
 categories: [gaming]
-tags: [arkane lyon, microsoft, xbox, marvel's blade, industria de videojuegos]
+tags: arkane lyon, microsoft, xbox, marvel's blade, industria de videojuegos
 ---
 
 ![Arkane Lyon](https://www.techpowerup.com/img/puq6Ggnq21znxfLX.jpg)

@@ -5,7 +5,7 @@ description: "Un cargamento de seis palés con componentes de NVIDIA desapareci�
 image: https://www.techpowerup.com/img/FFc4bMpQDE3aFrks.jpg
 date: 2026-11-06 18:24:56 -0300
 categories: [hardware]
-tags: [nvidia, hardware, robo, california, inteligencia artificial]
+tags: nvidia, hardware, robo, california, inteligencia artificial
 ---
 
 ## Investigación por el robo de un cargamento masivo de NVIDIA

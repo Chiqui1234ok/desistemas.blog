@@ -5,7 +5,7 @@ description: "JBL Professional lanza la serie MkIII, con monitores de estudio re
 image: https://www.techpowerup.com/img/6uI3tbmcLYfKAJzo.jpg
 date: 2026-11-04 11:29:15 -0300
 categories: [hardware]
-tags: [jbl, audio profesional, monitores de estudio, hardware, mkiii]
+tags: jbl, audio profesional, monitores de estudio, hardware, mkiii
 ---
 
 HARMAN Professional Solutions, líder global en sistemas de audio, video, control e iluminación, ha anunciado la nueva familia de monitores de estudio activos JBL Professional 3 Series MkIII.

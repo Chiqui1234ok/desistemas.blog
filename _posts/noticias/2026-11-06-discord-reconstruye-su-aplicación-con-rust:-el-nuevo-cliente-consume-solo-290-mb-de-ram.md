@@ -5,7 +5,7 @@ description: "El proyecto 'Discord Phoenix' abandona Electron para optimizar el 
 image: https://www.techpowerup.com/img/7eH3cdYrzhdh93b2.jpg
 date: 2026-11-06 17:30:17 -0300
 categories: [programacion, gaming]
-tags: [discord, rust, electron, optimización, software, gpui]
+tags: discord, rust, electron, optimización, software, gpui
 ---
 
 Discord se encuentra reescribiendo su aplicación de escritorio utilizando el lenguaje de programación Rust, lo que supone el abandono de la arquitectura basada en Electron. Los primeros datos de rendimiento resultan sumamente prometedores. El cofundador y CTO de Discord, Stanislav Vishnevskiy, compartió [una captura de pantalla del Administrador de tareas](https://x.com/svishnevskiy/status/2118081920194203799) en X, donde se observa que el nuevo cliente, denominado "Discord Phoenix", utiliza únicamente 290,2 MB de memoria RAM.

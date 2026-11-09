@@ -5,7 +5,7 @@ description: "La demanda de IA y el sector industrial impulsan un crecimiento de
 image: https://www.techpowerup.com/img/21QgycEOk7U3Zldh.jpg
 date: 2026-11-04 15:43:16 -0300
 categories: [hardware, analisis]
-tags: [semi, silicio, semiconductores, ia, mercado]
+tags: semi, silicio, semiconductores, ia, mercado
 ---
 
 El Grupo de Fabricantes de Silicio (SMG) de SEMI informó en su análisis trimestral que los envíos mundiales de obleas de silicio experimentaron un incremento del 13,4% interanual durante el tercer trimestre de 2026. La cifra alcanzó los 3.756 millones de pulgadas cuadradas (MSI), superando los 3.313 MSI registrados durante el mismo periodo de 2025. Asimismo, se registró un crecimiento del 5,1% respecto al segundo trimestre de 2026, el cual cerró con 3.573 MSI.

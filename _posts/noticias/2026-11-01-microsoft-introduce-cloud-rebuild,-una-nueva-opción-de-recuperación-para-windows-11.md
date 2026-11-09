@@ -5,7 +5,7 @@ description: "Una nueva función permite reinstalar Windows 11 y sus controlador
 image: https://www.techpowerup.com/img/NupumpDLJTPcFYVe.jpg
 date: 2026-11-01 17:13:38 -0300
 categories: [hardware]
-tags: [microsoft, windows 11, hardware, recuperación, nube]
+tags: microsoft, windows 11, hardware, recuperación, nube
 ---
 
 ## Nueva función de recuperación mediante la nube

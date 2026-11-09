@@ -5,7 +5,7 @@ description: "Un usuario logra un overclock estable de 3.9 GHz en la Radeon RX 9
 image: https://www.techpowerup.com/img/GZGgUcFpmFR0fraH.jpg
 date: 2026-10-31 12:55:47 -0300
 categories: [hardware]
-tags: [amd, radeon, overclocking, gpu, rx 9070 gre, hardware]
+tags: amd, radeon, overclocking, gpu, rx 9070 gre, hardware
 ---
 
 La tarjeta gráfica AMD Radeon RX 9070 GRE ha alcanzado oficialmente una frecuencia de 3.9 GHz bajo condiciones de prueba muy específicas. Este hito fue logrado por el usuario "ShrimpBrime" en los foros de TechPowerUp, quien desarrolló herramientas personalizadas para unidades de procesamiento gráfico Radeon denominadas "R-Team OC" y "GPU Frequency Generator".

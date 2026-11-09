@@ -5,7 +5,7 @@ description: "La alta demanda de las GPUs Blackwell provoca incrementos en los p
 image: https://www.techpowerup.com/img/CIASCL6wLXlk8ceH.jpg
 date: 2026-11-03 06:24:59 -0300
 categories: [hardware, gaming]
-tags: [nvidia, geforce rtx, serie 50, blackwell, gpu, hardware]
+tags: nvidia, geforce rtx, serie 50, blackwell, gpu, hardware
 ---
 
 Se espera que las tarjetas gráficas para juegos NVIDIA GeForce RTX serie 50, basadas en la arquitectura "Blackwell", experimenten ajustes de precio significativos durante esta semana. De acuerdo con la fuente china ChannelGate, los socios fabricantes de tarjetas adicionales (AIC) han confirmado que estos incrementos se deben a que la demanda actual de estas GPUs supera la oferta disponible en el mercado.

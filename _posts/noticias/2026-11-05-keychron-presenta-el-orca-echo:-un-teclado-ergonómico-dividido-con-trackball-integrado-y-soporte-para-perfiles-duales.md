@@ -5,7 +5,7 @@ description: "Keychron revela el Orca Echo, un teclado ergonómico split con tra
 image: https://www.techpowerup.com/img/XvWCO38wuKj72h1L.jpg
 date: 2026-11-05 19:46:13 -0300
 categories: [hardware]
-tags: [keychron, hardware, teclado ergonómico, trackball, periféricos]
+tags: keychron, hardware, teclado ergonómico, trackball, periféricos
 ---
 
 Keychron ha mantenido una actividad constante recientemente, tras el lanzamiento de [nuevos ratones de gaming](https://www.techpowerup.com/353511/keychron-officially-launches-g6-he-wireless-gaming-mouse-for-usd-89-99-pre-order), [diseños de teclados steampunk](https://www.techpowerup.com/354273/keychron-launches-steampunk-q19-he-8k-gaming-keyboard) y el reciente [trackball Nape Pro](https://www.techpowerup.com/351242/keychron-nape-pro-wireless-trackball-launches-at-usd-89-99). La compañía ha anunciado ahora el [Orca Echo](https://www.keychron.com/pages/keychron-orca-echo-pre-launch), un teclado ergonómico dividido diseñado para ser accesible a usuarios principiantes, pero con una amplia gama de funciones avanzadas.

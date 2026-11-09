@@ -5,7 +5,7 @@ description: "Un nuevo informe revela incrementos sostenidos en los precios de l
 image: https://www.techpowerup.com/img/GOQ2ejKgtnECNnqV.jpg
 date: 2026-11-03 18:01:27 -0300
 categories: [hardware, analisis]
-tags: [gpu, nvidia, rtx 5090, rtx 5080, hardware, mercado]
+tags: gpu, nvidia, rtx 5090, rtx 5080, hardware, mercado
 ---
 
 Los precios de las tarjetas gráficas han experimentado un nuevo incremento durante el mes de octubre. Según la última encuesta de [TechSpot](https://www.techspot.com/article/3192-gpu-pricing-q4-2026/) realizada en diez países, los precios de las GPU aumentaron un 11% respecto al mes anterior. Este incremento se suma a las subidas del 15% en agosto y el 7% en septiembre, lo que representa un aumento acumulado de aproximadamente el 35% en el último trimestre.

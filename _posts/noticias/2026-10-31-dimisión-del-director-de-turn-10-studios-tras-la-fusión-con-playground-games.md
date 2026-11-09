@@ -5,7 +5,7 @@ description: "El veterano Dan Greenwalt deja Microsoft tras la reestructuración
 image: https://tpucdn.com/img/Jg76FPlX5aBgiq4V.jpg
 date: 2026-10-31 18:42:29 -0300
 categories: [gaming]
-tags: [xbox, microsoft, turn 10, playground games, forza motorsport, industria del videojuego]
+tags: xbox, microsoft, turn 10, playground games, forza motorsport, industria del videojuego
 ---
 
 La incertidumbre laboral dentro de Xbox parece intensificarse tras las recientes olas de despidos ejecutadas por Microsoft. En el marco de la reestructuración iniciada a finales de septiembre —que incluyó la [transferencia de la franquicia Halo a Activision](https://www.techpowerup.com/352953/activision-to-take-over-halo-franchise-after-halo-studios-layoffs-become-official)—, la compañía ha procedido a fusionar Turn 10 y Playground Games en un único estudio.

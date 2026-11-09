@@ -5,7 +5,7 @@ description: "Corsair presenta nuevas versiones estéticas de sus sillas TC500 y
 image: https://www.techpowerup.com/img/x11vWdmGjmpxVGCq.jpg
 date: 2026-11-05 17:02:42 -0300
 categories: [hardware, gaming]
-tags: [corsair, gaming, hardware, tc500, tc100]
+tags: corsair, gaming, hardware, tc500, tc100
 ---
 
 ## Corsair presenta las nuevas sillas de gaming Dark Cherry Blossom

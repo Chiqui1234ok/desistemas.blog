@@ -5,7 +5,7 @@ description: "La nueva arquitectura HBC de Qualcomm utiliza capas LPDDR apiladas
 image: https://tpucdn.com/img/MXEl7cU2DLxb2odz.jpg
 date: 2026-11-02 13:11:21 -0300
 categories: [hardware, analisis]
-tags: [qualcomm, hbc, lpddr, inteligencia artificial, arquitectura, semi-conductores]
+tags: qualcomm, hbc, lpddr, inteligencia artificial, arquitectura, semi-conductores
 ---
 
 Qualcomm ha validado oficialmente su concepto de computación de alto ancho de banda (HBC, por sus siglas en inglés), una tecnología que la compañía presentó durante el verano pasado. A diferencia de los métodos convencionales que emplean dies de computación y memoria HBM (High Bandwidth Memory) de forma separada, Qualcomm ha desarrollado una arquitectura que apila múltiples capas de memoria LPDDR integrando un die de base que actúa como motor de computación para la inferencia de inteligencia artificial.

@@ -5,7 +5,7 @@ description: "Se filtran detalles de la arquitectura híbrida Zen 6 de la APU Me
 image: https://www.techpowerup.com/img/IX51zzIvr9oyGRd3.jpg
 date: 2026-11-05 14:08:02 -0300
 categories: [hardware]
-tags: [amd, medusa point, zen 6, rdna 4, hardware, apu]
+tags: amd, medusa point, zen 6, rdna 4, hardware, apu
 ---
 
 La APU "Medusa Point" de AMD ha aparecido en los resultados de Geekbench, mostrando una configuración de 10 núcleos y 20 hilos dividida en dos clústeres: cuatro núcleos "Zen 6" y seis núcleos "Zen 6c". Esta arquitectura sugiere que la compañía continuará con su enfoque híbrido de utilizar dos tipos de núcleos distintos en un mismo procesador.

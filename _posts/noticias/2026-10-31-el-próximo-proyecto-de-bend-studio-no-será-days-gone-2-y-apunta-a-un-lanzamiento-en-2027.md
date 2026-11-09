@@ -5,7 +5,7 @@ description: "Fuentes internas revelan que el nuevo título de Bend Studio será
 image: https://www.techpowerup.com/img/j213XhLEUgoS2alK.jpg
 date: 2026-10-31 20:50:41 -0300
 categories: [gaming]
-tags: [bend studio, days gone, sony, playstation, filtraciones]
+tags: bend studio, days gone, sony, playstation, filtraciones
 ---
 
 Bend Studio, el estudio responsable de la aventura de acción de 2019 *Days Gone*, se encuentra actualmente inmerso en la producción de su siguiente título. Según un informe de [MP1st](https://mp1st.com/news/report-bend-studios-next-game-is-a-third-person-co-op-game-reveal-set-for-2027), basado en información de fuentes internas, se ha confirmado extraoficialmente que el próximo proyecto de la desarrolladora no será una secuela de *Days Gone*.

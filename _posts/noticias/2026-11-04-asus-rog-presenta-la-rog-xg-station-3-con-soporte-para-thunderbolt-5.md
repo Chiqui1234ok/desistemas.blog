@@ -5,7 +5,7 @@ description: "La nueva estación de expansión de ASUS ROG utiliza Thunderbolt 5
 image: https://www.techpowerup.com/img/gPAfxIObhD98fKn3.jpg
 date: 2026-11-04 07:11:55 -0300
 categories: [hardware, gaming]
-tags: [asus, rog, thunderbolt 5, gpu, eGPU, hardware]
+tags: asus, rog, thunderbolt 5, gpu, eGPU, hardware
 ---
 
 ASUS Republic of Gamers (ROG) ha anunciado oficialmente la ROG XG Station 3, una estación de expansión para tarjetas gráficas externas (eGPU). Este nuevo dispositivo integra la tecnología Thunderbolt 5, lo que permite alcanzar un ancho de banda bidireccional de hasta 80 Gbps, o incluso 120 Gbps mediante la función *Thunderbolt 5 Bandwidth Boost*, diseñada específicamente para gestionar altos volúmenes de tráfico de video.

@@ -5,7 +5,7 @@ description: "NVIDIA lanza la versión 11.0.9.585 de su aplicación, mejorando l
 image: https://tpucdn.com/img/vzFnYrSME9MIvJQb.jpg
 date: 2026-11-05 21:37:13 -0300
 categories: [hardware, gaming]
-tags: [nvidia, dlss, hardware, gaming, nvidia app]
+tags: nvidia, dlss, hardware, gaming, nvidia app
 ---
 
 NVIDIA ha publicado la versión [NVIDIA App 11.0.9.585](https://www.nvidia.com/en-us/software/nvidia-app/release-highlights/), una actualización que introduce perfiles de DLSS Override para 19 juegos y perfiles de Ajustes Óptimos para otros seis títulos.

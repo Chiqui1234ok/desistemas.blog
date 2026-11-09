@@ -5,7 +5,7 @@ description: "Sony confirma que la próxima generación de PlayStation sigue su 
 image: https://www.techpowerup.com/img/WUgF0Cti9ildokbV.jpg
 date: 2026-11-05 16:48:40 -0300
 categories: [hardware, gaming]
-tags: [sony, playstation 6, ps6, hardware, consolas]
+tags: sony, playstation 6, ps6, hardware, consolas
 ---
 
 Sony ha comunicado que el desarrollo de su próxima consola de nueva generación, presumiblemente la PlayStation 6, se mantiene según el cronograma establecido, a pesar de la actual situación de escasez de memoria en el mercado. Durante la [conferencia de resultados del segundo trimestre del año fiscal 2026](https://www.sony.com/en/SonyInfo/IR/library/er/pdf/26q2_sonyspeech.pdf), la directora financiera, Lin Tao, afirmó que el proceso de desarrollo "progresa según lo previsto". Se ha indicado que la inversión en esta nueva plataforma aumentará a partir del próximo año fiscal, que comenzará en abril de 2027.

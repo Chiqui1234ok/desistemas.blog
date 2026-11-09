@@ -5,7 +5,7 @@ description: "Los datos de octubre de 2026 de Steam muestran el regreso de la RA
 image: https://tpucdn.com/img/jtVrogETzJTAEfBC_thm.jpg
 date: 2026-11-02 12:55:09 -0300
 categories: [hardware, gaming]
-tags: [steam, hardware, nvidia, intel, amd, valve]
+tags: steam, hardware, nvidia, intel, amd, valve
 ---
 
 Los resultados de la [encuesta de hardware y software de Steam](https://store.steampowered.com/hwsurvey/) de Valve correspondientes a octubre de 2026 indican una estabilización de las tendencias tras las fluctuaciones registradas en el mes de septiembre. 

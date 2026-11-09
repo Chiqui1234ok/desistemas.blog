@@ -5,7 +5,7 @@ description: "Valve implementa nuevos requisitos de verificación para reducir e
 image: https://www.techpowerup.com/img/qJ3bQeze4MkCuIrw.jpg
 date: 2026-11-04 16:05:22 -0300
 categories: [gaming]
-tags: [steam, valve, videojuegos, desarrollo, software]
+tags: steam, valve, videojuegos, desarrollo, software
 ---
 
 ## Nuevos protocolos de verificación para desarrolladores

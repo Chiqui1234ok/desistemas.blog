@@ -5,7 +5,7 @@ description: "La CEO de AMD, Lisa Su, posiciona a la compañía como una entidad
 image: https://www.techpowerup.com/img/pi6ZFG6N3nuvo03m.jpg
 date: 2026-11-06 14:09:31 -0300
 categories: [hardware, analisis]
-tags: [amd, data center, gaming, mercado, semiconductores]
+tags: amd, data center, gaming, mercado, semiconductores
 ---
 
 La directora ejecutiva de AMD, Lisa Su, ha definido recientemente a la compañía como una empresa enfocada primordialmente en los centros de datos ("data center first"). Esta declaración se produjo apenas dos días después de que la firma [reportara una caída del 40%](https://www.techpowerup.com/354446/amd-reports-record-usd-13-4b-third-quarter-2026-revenue) en sus ingresos provenientes del sector de videojuegos.

@@ -5,7 +5,7 @@ description: "El nuevo SkyLark S1 Pro de VOIDJOY ofrece controles completos en u
 image: https://www.techpowerup.com/img/Js64JObybFUDvz78.jpg
 date: 2026-11-02 09:52:39 -0300
 categories: [hardware, gaming]
-tags: [voidjoy, skylark s1 pro, mando, gamepad, periféricos, gaming portátil]
+tags: voidjoy, skylark s1 pro, mando, gamepad, periféricos, gaming portátil
 ---
 
 VOIDJOY ha anunciado la disponibilidad del SkyLark S1 Pro a través de una promoción por tiempo limitado en JSAUX GAMING. Este dispositivo ha sido desarrollado específicamente para usuarios que alternan entre consolas portátiles, ordenadores personales y dispositivos móviles, buscando un periférico que combine funcionalidad y facilidad de transporte.

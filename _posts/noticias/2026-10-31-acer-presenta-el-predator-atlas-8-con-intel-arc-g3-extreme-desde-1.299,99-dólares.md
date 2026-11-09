@@ -5,7 +5,7 @@ description: "La nueva consola portátil de Acer incorpora procesadores Intel Ar
 image: https://tpucdn.com/img/em8nDhQaVtrGQ5U9.jpg
 date: 2026-10-31 12:33:28 -0300
 categories: [hardware, gaming]
-tags: [acer, predator atlas 8, intel arc g3, gaming handheld, hardware]
+tags: acer, predator atlas 8, intel arc g3, gaming handheld, hardware
 ---
 
 Acer y Intel presentaron la consola portátil de juegos Predator Atlas 8, equipada con las nuevas APU Intel Arc G3, durante el evento [Computex en junio de 2026](https://www.techpowerup.com/349784/acer-predator-at-computex-2026-atlas-handheld-helios-18-ai-xb273k-3d-monitor). Aunque existían especulaciones sobre un costo elevado debido a las [especificaciones y el rendimiento esperado](https://www.techpowerup.com/348701/intel-arc-g3-extreme-cpu-shows-promising-performance-in-benchmark-leak), las proyecciones indicaban que sería poco probable encontrar una unidad por debajo de los 1.000 dólares.

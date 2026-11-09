@@ -5,7 +5,7 @@ description: "Qualcomm valida su arquitectura HBC, que utiliza memoria LPDDR api
 image: https://tpucdn.com/img/MXEl7cU2DLxb2odz.jpg
 date: 2026-11-02 13:11:21 -0300
 categories: [hardware, analisis]
-tags: [qualcomm, hbc, lpddr, hbm, hardware, inteligencia artificial]
+tags: qualcomm, hbc, lpddr, hbm, hardware, inteligencia artificial
 ---
 
 Qualcomm ha validado oficialmente su concepto de High Bandwidth Compute (HBC), tecnología que la compañía [presentó](https://www.techpowerup.com/350281/qualcomm-hbc-gen-1-achieves-133-tb-s-bandwidth-by-stacking-lpddr-memory) durante el verano pasado. En lugar de utilizar los métodos tradicionales de HBM y dies de computación independientes, la empresa ha desarrollado una tecnología que apila múltiples capas de LPDDR e integra un die base que funciona como motor de cómputo para la inferencia de inteligencia artificial.

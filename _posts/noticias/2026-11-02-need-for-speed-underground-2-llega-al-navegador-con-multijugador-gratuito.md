@@ -5,7 +5,7 @@ description: "Un proyecto de fans permite jugar Need for Speed: Underground 2 en
 image: https://www.techpowerup.com/img/NYAp2HcL1Nospuos.jpg
 date: 2026-11-02 20:12:03 -0300
 categories: [gaming]
-tags: [need for speed, underground 2, webassembly, webgpu, fan project, gaming]
+tags: need for speed, underground 2, webassembly, webgpu, fan project, gaming
 ---
 
 Un proyecto desarrollado por la comunidad denominado [Underground 2 Revived](https://nfsu2.xyz/) permite ejecutar Need for Speed: Underground 2 directamente desde un navegador web, integrando un modo multijugador de exploración libre. La iniciativa, lanzada a finales de octubre, es compatible con los navegadores Chrome y Firefox mediante el uso de las tecnologías WebAssembly y WebGPU, lo que facilita el acceso inmediato al juego sin necesidad de instalaciones adicionales.

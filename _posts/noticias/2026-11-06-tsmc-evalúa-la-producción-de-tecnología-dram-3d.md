@@ -5,7 +5,7 @@ description: "El fabricante de semiconductores considera entrar en el sector de 
 image: https://www.techpowerup.com/img/Tn8h5X7bFGifNDRg.jpg
 date: 2026-11-06 14:55:28 -0300
 categories: [hardware]
-tags: [tsmc, dram, 3d dram, nvidia, memoria, semiconductores]
+tags: tsmc, dram, 3d dram, nvidia, memoria, semiconductores
 ---
 
 ![TSMC evalúa la producción de DRAM 3D](https://www.techpowerup.com/img/Tn8h5X7bFGifNDRg.jpg)

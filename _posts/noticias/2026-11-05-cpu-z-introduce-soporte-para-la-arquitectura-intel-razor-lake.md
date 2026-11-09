@@ -5,7 +5,7 @@ description: "La nueva actualización de CPU-Z anticipa la llegada de Intel Razo
 image: https://www.techpowerup.com/img/Qjpc90wUqHXLxZUM.jpg
 date: 2026-11-05 15:16:41 -0300
 categories: [hardware]
-tags: [intel, cpuid, cpu-z, razor lake, procesadores, actualización]
+tags: intel, cpuid, cpu-z, razor lake, procesadores, actualización
 ---
 
 CPUID ha lanzado la versión [CPU-Z 3.02](https://www.cpuid.com/softwares/cpu-z.html), cuya principal novedad es la inclusión del soporte para la arquitectura Intel Razor Lake. Esta familia de procesadores se perfila como la sucesora de Nova Lake, aunque Intel aún no ha realizado ningún anuncio oficial al respecto.

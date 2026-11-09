@@ -5,7 +5,7 @@ description: "Qualcomm reporta crecimiento en sectores automotriz e IoT, con una
 image: https://www.techpowerup.com/img/4wwBsDOPp5Q9bqAO.jpg
 date: 2026-11-05 09:39:19 -0300
 categories: [hardware, analisis]
-tags: [qualcomm, hardware, centros de datos, resultados financieros, iot]
+tags: qualcomm, hardware, centros de datos, resultados financieros, iot
 ---
 
 Qualcomm Incorporated (NASDAQ: QCOM) ha presentado los resultados financieros correspondientes al cuarto trimestre y al cierre del año fiscal 2026, cuyo periodo finalizó el 27 de septiembre de 2026.

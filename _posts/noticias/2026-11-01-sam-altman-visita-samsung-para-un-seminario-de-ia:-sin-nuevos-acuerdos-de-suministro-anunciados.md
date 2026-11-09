@@ -5,7 +5,7 @@ description: "El CEO de OpenAI se reunió con líderes de Samsung para discutir 
 image: https://www.techpowerup.com/img/n3zg9ugmQLTsKBRN.jpg
 date: 2026-11-01 16:41:04 -0300
 categories: [hardware]
-tags: [samsung, openai, inteligencia artificial, dram, memoria, semiconductores]
+tags: samsung, openai, inteligencia artificial, dram, memoria, semiconductores
 ---
 
 Tras haber argumentado recientemente que [la memoria DRAM en los PC domésticos](https://www.techpowerup.com/354346/openai-ceo-argues-home-pcs-waste-the-worlds-limited-dram-supply) sería de mayor utilidad en los centros de datos, el CEO de OpenAI, Sam Altman, mantuvo un encuentro con aproximadamente 50 presidentes de Samsung el pasado sábado 31 de octubre. La reunión, celebrada en el centro de formación de la compañía en Yongin, no se limitó exclusivamente al sector de chips, ya que contaron con la presencia de líderes de las divisiones de finanzas y biotecnología de Samsung.

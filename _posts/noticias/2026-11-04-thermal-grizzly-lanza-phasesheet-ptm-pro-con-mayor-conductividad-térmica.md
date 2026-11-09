@@ -5,7 +5,7 @@ description: "La nueva solución de Thermal Grizzly mejora el rendimiento térmi
 image: https://www.techpowerup.com/img/dPl4OY2aMfjxhKH6.jpg
 date: 2026-11-04 07:55:41 -0300
 categories: [hardware]
-tags: [thermal grizzly, fases de cambio, pasta térmica, refrigeración, hardware]
+tags: thermal grizzly, fases de cambio, pasta térmica, refrigeración, hardware
 ---
 
 Thermal Grizzly ha anunciado el lanzamiento de PhaseSheet PTM Pro, una evolución de su tecnología PhaseSheet PTM diseñada para ofrecer una mayor conductividad térmica. Este nuevo producto presenta una composición optimizada y un nuevo film de soporte que mejora significativamente la facilidad de manipulación durante su aplicación.

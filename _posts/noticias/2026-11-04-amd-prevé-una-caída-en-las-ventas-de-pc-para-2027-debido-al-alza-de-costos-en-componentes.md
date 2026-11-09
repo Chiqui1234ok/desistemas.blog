@@ -5,7 +5,7 @@ description: "AMD prevé una caída de doble dígito en las ventas de PC para 20
 image: https://www.techpowerup.com/img/PjEhxWnCEykcNYrT.jpg
 date: 2026-11-04 12:23:01 -0300
 categories: [hardware, analisis]
-tags: [amd, ryzen, hardware, mercado, inteligencia artificial]
+tags: amd, ryzen, hardware, mercado, inteligencia artificial
 ---
 
 ## Perspectivas del mercado de PC para 2027

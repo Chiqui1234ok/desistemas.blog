@@ -5,7 +5,7 @@ description: "Claude implementa nuevas directrices que impiden la recreación de
 image: https://tpucdn.com/img/agqont7XNNozD8Vt.jpg
 date: 2026-10-31 13:27:11 -0300
 categories: [gaming, analisis]
-tags: [anthropic, claude, inteligencia artificial, videojuegos, derechos de autor]
+tags: anthropic, claude, inteligencia artificial, videojuegos, derechos de autor
 ---
 
 La proliferación de la clonación de videojuegos, la ingeniería inversa y la descompilación mediante inteligencia artificial ha generado un ecosistema de proyectos emergentes en poco tiempo. Esto incluye desde polémicos [clones de Fallout](https://www.techpowerup.com/353383/ai-built-fallout-new-york-game-goes-offline-after-bethesda-sends-cease-and-desist) hasta [puertos de consola realizados por fans](https://www.techpowerup.com/354192/recomplauncher-gathers-nearly-200-fan-made-console-ports-into-one-pc-catalog). Ante este panorama y la [posible presión de grandes empresas de la industria del gaming](https://www.techpowerup.com/354186/epic-games-will-soon-train-ai-on-unreal-engine-outputs), Anthropic parece haber tomado medidas restrictivas.

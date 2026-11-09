@@ -5,7 +5,7 @@ description: "La planta de generación 8.6 en China avanza hacia su fase de mont
 image: https://tpucdn.com/img/NWhczhfsSt1CPtAm.jpg
 date: 2026-11-07 08:28:29 -0300
 categories: [hardware]
-tags: [tcl, csot, oled, inkjet, hardware, pantallas]
+tags: tcl, csot, oled, inkjet, hardware, pantallas
 ---
 
 ## Avances en la producción de tecnología OLED

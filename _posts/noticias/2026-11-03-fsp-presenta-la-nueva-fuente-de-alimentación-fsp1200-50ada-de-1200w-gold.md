@@ -5,7 +5,7 @@ description: "La serie 50ADA se expande con la FSP1200-50ADA, una fuente de 1200
 image: https://www.techpowerup.com/img/EKDdqM1Lm5GdJ9aC.jpg
 date: 2026-11-03 12:42:15 -0300
 categories: [hardware, gaming]
-tags: [fsp, hardware, psu, gaming, atx 3.1, inteligencia artificial]
+tags: fsp, hardware, psu, gaming, atx 3.1, inteligencia artificial
 ---
 
 FSP Group, fabricante líder en el sector de fuentes de alimentación, ha anunciado la expansión de su popular serie 50ADA con el lanzamiento de la FSP1200-50ADA. Este nuevo modelo insignia de 1200 W, con certificación Gold y diseño no modular, ha sido desarrollado específicamente para satisfacer las exigencias de los entusiastas del gaming y los desarrolladores de inteligencia artificial.

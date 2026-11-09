@@ -5,7 +5,7 @@ description: "Roblox reporta una explosión de contenido gracias a sus herramien
 image: https://tpucdn.com/img/NtD0cYGZcn5PNtls.jpg
 date: 2026-10-31 20:37:45 -0300
 categories: [gaming, analisis]
-tags: [roblox, inteligencia artificial, desarrollo de juegos, industria del gaming]
+tags: roblox, inteligencia artificial, desarrollo de juegos, industria del gaming
 ---
 
 La [inteligencia artificial generativa parece estar dividiendo la industria del videojuego](https://www.techpowerup.com/345122/many-game-devs-reject-ai-in-gaming) en dos vertientes opuestas. Mientras que [Valve reconoció recientemente la problemática de los clones generados por IA](https://www.techpowerup.com/354228/valve-wont-be-gatekeepers-by-banning-ai-games-as-ai-slop-complaints-grow) en Steam, optando por no implementar restricciones estrictas, Roblox ha adoptado una postura de promoción activa de estas tecnologías.

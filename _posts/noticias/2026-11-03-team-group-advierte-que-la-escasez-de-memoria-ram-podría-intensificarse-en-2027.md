@@ -5,7 +5,7 @@ description: "La demanda impulsada por la inteligencia artificial amenaza con ag
 image: https://www.techpowerup.com/img/0fJ7wQjkpk75E6s8.jpg
 date: 2026-11-03 11:42:21 -0300
 categories: [hardware, analisis]
-tags: [team group, memoria ram, escasez, inteligencia artificial, semiconductores]
+tags: team group, memoria ram, escasez, inteligencia artificial, semiconductores
 ---
 
 ## Una crisis de suministro inminente

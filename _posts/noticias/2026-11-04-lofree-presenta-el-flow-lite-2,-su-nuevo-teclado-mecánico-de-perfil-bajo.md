@@ -5,7 +5,7 @@ description: "Lofree lanza el Flow Lite 2, un teclado mecánico de perfil bajo q
 image: https://www.techpowerup.com/img/ooS3UxAu5ruoAXET.jpg
 date: 2026-11-04 17:52:53 -0300
 categories: [hardware]
-tags: [lofree, teclado mecánico, hardware, low-profile, periféricos]
+tags: lofree, teclado mecánico, hardware, low-profile, periféricos
 ---
 
 Lofree, marca reconocida por su enfoque en el diseño de teclados y accesorios para espacios de trabajo, ha anunciado el lanzamiento del teclado mecánico de perfil bajo Flow Lite 2. Este nuevo modelo surge como sucesor del Flow Lite original, el cual ha alcanzado un volumen de ventas superior a las 250.000 unidades a nivel mundial.

@@ -5,7 +5,7 @@ description: "Gracias al crecimiento exponencial en el sector de centros de dato
 image: https://tpucdn.com/img/crgLSJTrgVQeq7mj.jpg
 date: 2026-11-04 15:04:36 -0300
 categories: [hardware, analisis]
-tags: [amd, intel, semiconductores, data center, ingresos, mercado]
+tags: amd, intel, semiconductores, data center, ingresos, mercado
 ---
 
 AMD se posiciona para alcanzar ingresos trimestrales superiores a los de Intel por primera vez en su trayectoria. Tras presentar sus [resultados récord del tercer trimestre de 2026](https://www.techpowerup.com/354446/amd-reports-record-usd-13-4b-third-quarter-2026-revenue), la compañía ha proyectado ingresos para el cuarto trimestre de aproximadamente 17.000 millones de dólares (con un margen de error del 3%), lo que sitúa su rango entre los 16.500 y 17.500 millones de dólares.

@@ -5,7 +5,7 @@ description: "Tres nuevos modelos de Zotac integran la plataforma Intel Wildcat 
 image: https://www.techpowerup.com/img/vwt8R58FgjsIP5pP.jpg
 date: 2026-11-02 11:14:15 -0300
 categories: [hardware]
-tags: [zotac, intel, wildcat lake, mini pc, hardware, fanless]
+tags: zotac, intel, wildcat lake, mini pc, hardware, fanless
 ---
 
 Zotac ha actualizado su tienda oficial con el listado de tres nuevos mini PCs de la línea ZBOX, los cuales incorporan la plataforma Intel "Wildcat Lake". Según las informaciones publicadas por FanlessTech, estos dispositivos representan uno de los primeros casos de mini PCs con refrigeración pasiva que utilizan los SoC de la arquitectura Wildcat Lake.

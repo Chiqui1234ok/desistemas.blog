@@ -5,7 +5,7 @@ description: "La escasez de memoria DRAM provoca un aumento significativo en el 
 image: https://tpucdn.com/img/uHMJcj5LWlT6k19Y.jpg
 date: 2026-11-02 13:37:35 -0300
 categories: [hardware, homelabbing]
-tags: [raspberry pi, hardware, memoria dram, precios, tecnología]
+tags: raspberry pi, hardware, memoria dram, precios, tecnología
 ---
 
 La compañía Raspberry Pi ha anunciado un nuevo incremento en sus tarifas, afectando en esta ocasión a la versión de 16 GB de la Raspberry Pi 5. Según informó el CEO Eben Upton a través de una publicación oficial, el modelo de 16 GB experimentará un aumento de 80 dólares, situando su precio final en los 385 dólares. Esta cifra representa más del triple de los 120 dólares con los que el dispositivo fue [lanzado](https://www.techpowerup.com/330855/new-raspberry-pi-5-with-16-gb-goes-on-sale-at-usd-120) en enero de 2025.

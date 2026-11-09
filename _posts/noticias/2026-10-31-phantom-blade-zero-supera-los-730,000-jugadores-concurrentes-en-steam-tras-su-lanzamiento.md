@@ -5,7 +5,7 @@ description: "El título alcanza récords de usuarios en Steam y lidera las vent
 image: https://www.techpowerup.com/img/JnYjcozqL6F3a4sX.jpg
 date: 2026-10-31 02:07:55 -0300
 categories: [gaming]
-tags: [phantom blade zero, steam, lanzamientos, videojuegos]
+tags: phantom blade zero, steam, lanzamientos, videojuegos
 ---
 
 ## Un debut masivo en Steam

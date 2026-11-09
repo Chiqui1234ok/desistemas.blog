@@ -5,7 +5,7 @@ description: "Razer lanza el Raiju V3 Pro Signature Edition, su mando insignia c
 image: https://www.techpowerup.com/img/RU8q9LKvu7rkNEsc.jpg
 date: 2026-11-03 12:55:08 -0300
 categories: [hardware, gaming]
-tags: [razer, raiju v3 pro, playstation 5, mando, periféricos, gaming]
+tags: razer, raiju v3 pro, playstation 5, mando, periféricos, gaming
 ---
 
 Razer ha anunciado oficialmente el lanzamiento del Razer Raiju V3 Pro Signature Edition, su controlador insignia con licencia oficial para la consola PlayStation 5. Este dispositivo ha sido desarrollado para usuarios que buscan alcanzar los niveles más altos de rendimiento y la calidad de construcción característica de la ingeniería de Razer.

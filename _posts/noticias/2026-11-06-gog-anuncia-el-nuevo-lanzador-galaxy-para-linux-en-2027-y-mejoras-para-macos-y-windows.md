@@ -5,7 +5,7 @@ description: "GOG confirma la llegada de su cliente Galaxy a Linux en 2027 y anu
 image: "https://www.techpowerup.com/img/Jbze5EzLnnX7EnT9.jpg"
 date: 2026-11-06 17:38:50 -0300
 categories: [gaming]
-tags: [gog, linux, gaming, software, galaxy]
+tags: gog, linux, gaming, software, galaxy
 ---
 
 ![Interfaz de GOG Galaxy](https://www.techpowerup.com/img/Jbze5EzLnnX7EnT9.jpg)

@@ -5,7 +5,7 @@ description: "Rockstar Games adelantará la descarga previa de GTA VI al 10 de n
 image: https://www.techpowerup.com/img/MLAdMMEvujlAUJjd.jpg
 date: 2026-11-03 21:05:05 -0300
 categories: [gaming, hardware]
-tags: [gta vi, rockstar games, almacenamiento, hardware, gaming]
+tags: gta vi, rockstar games, almacenamiento, hardware, gaming
 ---
 
 Rockstar Games ha adelantado la fecha de la descarga previa (*pre-load*) para Grand Theft Auto VI. Según un [post actualizado en su Newswire](https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10) y su página de soporte, las preventas digitales podrán comenzar a descargarse el 10 de noviembre, en lugar de la fecha del [12 de noviembre que se había anunciado en junio](https://www.techpowerup.com/350250/rockstar-games-announces-pre-orders-for-grand-theft-auto-vi).

@@ -5,7 +5,7 @@ description: "La nueva actualización de NVIDIA optimiza títulos clave y añade
 image: https://www.techpowerup.com/img/11R5XPJ5zyxU0dyO.jpg
 date: 2026-11-04 12:29:54 -0300
 categories: [hardware, gaming]
-tags: [nvidia, geforce, drivers, dlss 5, rtx 50, gaming, hardware]
+tags: nvidia, geforce, drivers, dlss 5, rtx 50, gaming, hardware
 ---
 
 NVIDIA ha presentado la versión más reciente de sus controladores GeForce Game Ready, identificada como la versión 621.14 WHQL. Esta actualización incluye optimizaciones específicas para "World of Warcraft: Forever" y para el nuevo modo Slaughter de "DOOM: The Dark Ages Revelations".

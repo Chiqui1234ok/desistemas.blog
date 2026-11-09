@@ -5,7 +5,7 @@ description: "A pesar del lanzamiento oficial, usuarios logran ejecutar el remak
 image: https://www.techpowerup.com/img/a28CxUs3wnazCQ2y.jpg
 date: 2026-11-04 16:00:06 -0300
 categories: [gaming]
-tags: [nintendo, zelda, emulación, switch 2, lichii, gaming]
+tags: nintendo, zelda, emulación, switch 2, lichii, gaming
 ---
 
 El lanzamiento de *The Legend of Zelda: Ocarina of Time remake* en la consola Switch 2 ha coincidido con la aparición de su ejecución en entornos de PC. Según informó la cuenta de X [Senhor Linguica Pro](https://x.com/SrLinguicaVIVE/status/2118063873102127124), los archivos del juego circularon en la red incluso antes de su salida oficial, aunque inicialmente ningún emulador era capaz de procesarlos correctamente.

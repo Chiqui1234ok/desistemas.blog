@@ -5,7 +5,7 @@ description: "Bethesda confirma que el próximo RPG de la saga se titulará Sent
 image: https://tpucdn.com/img/ACHZ52tH4H7l0dun.jpg
 date: 2026-11-03 16:43:59 -0300
 categories: [gaming]
-tags: [bethesda, the elder scrolls vi, sentinel, hammerfell, rpg, videojuegos]
+tags: bethesda, the elder scrolls vi, sentinel, hammerfell, rpg, videojuegos
 ---
 
 Bethesda Game Studios ha revelado finalmente el nombre completo de su esperado proyecto: *The Elder Scrolls VI: Sentinel*. El anuncio se realizó durante un [video conmemorativo por el 40.º aniversario del estudio](https://www.youtube.com/watch?v=uvcfI8RPZYc), en el cual Todd Howard recorre la trayectoria histórica de la compañía.

@@ -5,7 +5,7 @@ description: "El nuevo mando Nova Vision de GameSir presenta estética de Nioh 3
 image: https://www.techpowerup.com/img/SIAbI6dBTkFxMgBw.jpg
 date: 2026-11-05 16:25:44 -0300
 categories: [hardware, gaming]
-tags: [gamesir, nioh 3, hardware, gaming, periféricos]
+tags: gamesir, nioh 3, hardware, gaming, periféricos
 ---
 
 GameSir ha anunciado el lanzamiento del mando Nova Vision edición Nioh 3, un periférico con licencia oficial de KOEI TECMO. El dispositivo combina una estética de mitología oscura con un rendimiento de última generación, incluyendo una base de carga con iluminación a juego.

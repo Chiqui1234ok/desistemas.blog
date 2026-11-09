@@ -5,7 +5,7 @@ description: "Tras un incremento previo, Nintendo asegura que la disponibilidad 
 image: https://tpucdn.com/img/KqF3c86u7DaB2YQY.jpg
 date: 2026-11-05 17:33:53 -0300
 categories: [hardware, gaming]
-tags: [nintendo, switch 2, hardware, precios, memoria, consolas]
+tags: nintendo, switch 2, hardware, precios, memoria, consolas
 ---
 
 Nintendo ha manifestado que, por el momento, no contempla realizar incrementos adicionales en el precio de la Switch 2. Durante la presentación de los resultados financieros de la compañía el pasado 5 de noviembre, el presidente Shuntaro Furukawa señaló que no se han producido cambios significativos en la situación del mercado de memorias, lo que permite a la empresa asegurar "cantidades suficientes" de estos componentes, según informa [Reuters](https://www.reuters.com/business/retail-consumer/sony-posts-45-q2-profit-rise-beating-estimates-2026-11-05/).

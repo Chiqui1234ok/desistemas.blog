@@ -5,7 +5,7 @@ description: "El hallazgo de controladores y hardware original permite ejecutar 
 image: https://www.techpowerup.com/img/a3RLtEB01SvZzouL.jpg
 date: 2026-11-02 10:02:34 -0300
 categories: [hardware, gaming]
-tags: [intel, larrabee, gpu, prototipo, hardware antiguo]
+tags: intel, larrabee, gpu, prototipo, hardware antiguo
 ---
 
 El hallazgo de controladores recuperados ha permitido restaurar la aceleración 3D en un prototipo de la arquitectura Intel "Larrabee", ofreciendo a la comunidad una oportunidad excepcional para testear este proyecto gráfico abandonado por la compañía. El hardware fue descubierto por el usuario de Reddit "pkellythompson" en un lote de equipos adquiridos en una subasta de almacenamiento, el cual incluía dos unidades USB con software de desarrollo de Intel.

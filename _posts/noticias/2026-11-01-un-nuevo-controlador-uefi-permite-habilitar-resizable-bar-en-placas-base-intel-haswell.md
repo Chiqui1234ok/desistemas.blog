@@ -5,7 +5,7 @@ description: "Un desarrollador independiente lanza reBART, permitiendo que plata
 image: https://tpucdn.com/img/nw7rKfRGHl5Ucby2_thm.jpg
 date: 2026-11-01 16:09:34 -0300
 categories: [hardware, gaming]
-tags: [intel, haswell, rebar, uefi, motherboard, rebart]
+tags: intel, haswell, rebar, uefi, motherboard, rebart
 ---
 
 Los usuarios de procesadores Intel de la arquitectura Haswell disponen finalmente de un método para ejecutar Resizable BAR en placas base de la serie 8 de Intel. Según se ha informado a través de [Haze en X](https://x.com/Haze2K1/status/2116869037594423516), un desarrollador bajo el alias de roschank ha publicado [reBART](https://github.com/roschank/reBART), un controlador UEFI de código abierto compatible con placas Z87, H87, Q87, B85, Q85 y H81.

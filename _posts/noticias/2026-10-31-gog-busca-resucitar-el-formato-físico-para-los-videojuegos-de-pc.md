@@ -5,7 +5,7 @@ description: "La plataforma GOG analiza la posibilidad de permitir la compra de 
 image: https://www.techpowerup.com/img/VyOBqCN8aOQ3mq8u.jpg
 date: 2026-10-31 15:52:30 -0300
 categories: [gaming]
-tags: [gog, pc, gaming, preservacion, hardware]
+tags: gog, pc, gaming, preservacion, hardware
 ---
 
 GOG ha consolidado su posición como defensor de la preservación de videojuegos mediante su programa especializado. Este proyecto se enfoca en garantizar que los títulos clásicos de PC funcionen de manera óptima en el hardware contemporáneo, ofreciendo instaladores descargables, sin sistemas de gestión de derechos digitales (DRM) y aptos para uso offline.

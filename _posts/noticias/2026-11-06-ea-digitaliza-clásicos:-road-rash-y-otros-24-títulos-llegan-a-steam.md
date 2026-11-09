@@ -5,7 +5,7 @@ description: "Electronic Arts lanza un catálogo de 25 juegos clásicos en Steam
 image: https://www.techpowerup.com/img/ItCQ4lU09rd2gqv3.jpg
 date: 2026-11-06 14:45:13 -0300
 categories: [gaming]
-tags: [ea, steam, road rash, wing commander, retro gaming, clásicos]
+tags: ea, steam, road rash, wing commander, retro gaming, clásicos
 ---
 
 Electronic Arts ha integrado 25 juegos clásicos de PC en la plataforma Steam, un movimiento respaldado por un [interesante trasfondo](https://www.ea.com/news/from-the-vault-to-your-library) técnico y de preservación. Entre los títulos incluidos se encuentran siete versiones restauradas denominadas "Anniversary Editions" de la saga Road Rash y seis entregas de Wing Commander. El resto del catálogo, compuesto por 18 títulos adicionales, incluye clásicos como Theme Hospital, Strike Commander, la saga Crusader y once juegos de la franquicia Ultima, marcando el debut de estos últimos en la tienda de Valve.

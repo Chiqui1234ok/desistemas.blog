@@ -5,7 +5,7 @@ description: "El nuevo Beelink ME Pro ofrece un diseño modular que permite actu
 image: https://www.techpowerup.com/img/femKNetUT4kshEqH.jpg
 date: 2026-11-05 16:27:40 -0300
 categories: [hardware, homelabbing]
-tags: [beelink, nas, modular, hardware, kickstarter]
+tags: beelink, nas, modular, hardware, kickstarter
 ---
 
 Beelink ha anunciado el lanzamiento en Kickstarter del ME Pro, un sistema de almacenamiento conectado en red (NAS) de diseño modular que se presenta en configuraciones de dos y cuatro bahías. La principal característica de este dispositivo es su diseño de placa base intercambiable, el cual permite a los usuarios mejorar el rendimiento del sistema o añadir más bahías de discos según sus necesidades de capacidad y potencia.

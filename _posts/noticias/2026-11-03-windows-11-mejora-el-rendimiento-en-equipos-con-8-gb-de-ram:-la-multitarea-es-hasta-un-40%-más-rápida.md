@@ -5,7 +5,7 @@ description: "Microsoft implementa optimizaciones en Windows 11 para mejorar la 
 image: https://www.techpowerup.com/img/TUil0h22tbC6HuFO.jpg
 date: 2026-11-03 16:07:51 -0300
 categories: [hardware, analisis]
-tags: [windows 11, microsoft, hardware, ram, optimizacion]
+tags: windows 11, microsoft, hardware, ram, optimizacion
 ---
 
 ## Optimizaciones de Windows 11 para sistemas con 8 GB de RAM

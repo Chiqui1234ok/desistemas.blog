@@ -5,7 +5,7 @@ description: "NVIDIA lanza DLSS 5 para Hogwarts Legacy, War Thunder y Where Wind
 image: https://www.techpowerup.com/img/OInLFFmmhxm0kTEk.jpg
 date: 2026-11-04 06:57:16 -0300
 categories: [gaming, hardware]
-tags: [nvidia, dlss 5, hardware, gaming, inteligencia artificial]
+tags: nvidia, dlss 5, hardware, gaming, inteligencia artificial
 ---
 
 NVIDIA ha anunciado la incorporación de su tecnología de renderizado neural, DLSS 5, a tres títulos destacados durante el presente mes. El despliegue comenzará con *Hogwarts Legacy* el 5 de noviembre, seguido por *War Thunder* a mediados de mes, mientras que *Where Winds Meet* recibirá el soporte técnico el 23 de noviembre.

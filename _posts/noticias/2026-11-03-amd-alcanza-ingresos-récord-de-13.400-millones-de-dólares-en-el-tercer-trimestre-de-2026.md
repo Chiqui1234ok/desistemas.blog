@@ -5,7 +5,7 @@ description: "El crecimiento masivo en el segmento de centros de datos impulsa l
 image: https://www.techpowerup.com/img/WY1G13nwUHgZN3Ai.jpg
 date: 2026-11-03 19:33:13 -0300
 categories: [hardware]
-tags: [amd, resultados financieros, data center, ryzen, epyc, instinct]
+tags: amd, resultados financieros, data center, ryzen, epyc, instinct
 ---
 
 AMD (NASDAQ:AMD) ha anunciado sus resultados financieros correspondientes al tercer trimestre de 2026, reportando ingresos récord de 13.400 millones de dólares. Según el informe, la compañía alcanzó un margen bruto del 54%, con un beneficio operativo de 2.800 millones de dólares y un beneficio neto de 2.400 millones de dólares. El beneficio por acción diluido se situó en 1,46 dólares.

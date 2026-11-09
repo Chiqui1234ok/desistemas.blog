@@ -5,7 +5,7 @@ description: "Un grupo de cracking ha lanzado una versión de Onimusha que no so
 image: https://www.techpowerup.com/img/hgINcHhj0DrkptoG.jpg
 date: 2026-11-04 11:54:48 -0300
 categories: [gaming]
-tags: [onimusha, capcom, crack, dmenuvo, hardware, gaming]
+tags: onimusha, capcom, crack, dmenuvo, hardware, gaming
 ---
 
 El título de Capcom, *Onimusha: Way of the Sword*, ha sido objeto de un crack por parte del grupo "voices38". Un aspecto relevante de esta situación es que la distribución incluye una serie de correcciones de errores aplicadas directamente por el grupo de cracking.

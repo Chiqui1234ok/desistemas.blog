@@ -5,7 +5,7 @@ description: "ASUS lanza una solución de GPU externa basada en arquitectura RDN
 image: https://www.techpowerup.com/img/BNU3vTb8N6QoD4oH.jpg
 date: 2026-11-06 08:16:42 -0300
 categories: [hardware, gaming]
-tags: [asus, amd, radeon, gpu externa, rdn4, usb4]
+tags: asus, amd, radeon, gpu externa, rdn4, usb4
 ---
 
 ASUS ha anunciado oficialmente la XG Core Radeon RX 9060 XT LP 16 GB GDDR6, una solución de gráficos externos compacta diseñada para integrar una GPU dedicada en portátiles, consolas portátiles de juegos (handhelds) y mini PCs compatibles mediante conectividad USB4.

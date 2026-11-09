@@ -5,7 +5,7 @@ description: "Helen Chiang abandona su puesto de COO en medio de la reestructura
 image: https://tpucdn.com/img/vqpsPKgkomTCEbdU.jpg
 date: 2026-11-03 20:21:44 -0300
 categories: [gaming, analisis]
-tags: [xbox, microsoft, helen chiang, gaming, reestructuracion]
+tags: xbox, microsoft, helen chiang, gaming, reestructuracion
 ---
 
 ![Helen Chiang](https://tpucdn.com/img/vqpsPKgkomTCEbdU.jpg)

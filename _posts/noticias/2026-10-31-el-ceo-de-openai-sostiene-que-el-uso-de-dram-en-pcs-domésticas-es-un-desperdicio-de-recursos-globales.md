@@ -5,7 +5,7 @@ description: "Sam Altman argumenta que la memoria RAM de los ordenadores persona
 image: https://www.techpowerup.com/img/BDfGjf9GLj1Ag7oF.jpg
 date: 2026-10-31 11:03:41 -0300
 categories: [hardware, analisis]
-tags: [openai, dram, memoria, inteligencia artificial, sam altman, hardware]
+tags: openai, dram, memoria, inteligencia artificial, sam altman, hardware
 ---
 
 Sam Altman, director ejecutivo de OpenAI, ha manifestado su opinión respecto a la distribución global de la memoria DRAM, sugiriendo que el almacenamiento de este componente en ordenadores personales representa una ineficiencia en el contexto actual de la inteligencia artificial.

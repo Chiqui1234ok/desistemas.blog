@@ -5,7 +5,7 @@ description: "La marca de memoria Team Group asegura patentes para su SSD compat
 image: https://www.techpowerup.com/img/7HGycCC6Yr1SDvre.jpg
 date: 2026-11-06 03:28:41 -0300
 categories: [hardware]
-tags: [team group, ssd, tecnología, patente, almacenamiento]
+tags: team group, ssd, tecnología, patente, almacenamiento
 ---
 
 Team Group Inc., marca líder global en soluciones de memoria, ha obtenido dos nuevas patentes de invención en Taiwán para sus productos Team Group PD20M Mag Portable SSD y T-CREATE EXPERT P34F Find My External SSD. Estas concesiones, que se suman a patentes otorgadas previamente en diversos países, cubren tecnologías de fijación magnética y de rastreo de dispositivos, respectivamente. Con esto, la compañía refuerza su capacidad de investigación y desarrollo (I+D) para mejorar la conveniencia del almacenamiento portátil.

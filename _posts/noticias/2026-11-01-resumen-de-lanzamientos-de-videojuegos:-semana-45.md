@@ -5,7 +5,7 @@ description: "Un análisis de los lanzamientos de la semana 45, con especial én
 image: https://www.techpowerup.com/img/x1FJKEml2em6FrzE.jpg
 date: 2026-11-01 08:38:14 -0300
 categories: [gaming]
-tags: [gaming, lanzamientos, mmorpg, blizzard, world of warcraft]
+tags: gaming, lanzamientos, mmorpg, blizzard, world of warcraft
 ---
 
 El inicio de noviembre presenta una agenda de lanzamientos que combina títulos en acceso anticipado con propuestas que rescatan mecánicas de décadas pasadas.

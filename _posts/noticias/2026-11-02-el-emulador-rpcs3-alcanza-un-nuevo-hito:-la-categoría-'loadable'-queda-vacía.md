@@ -5,7 +5,7 @@ description: "El emulador RPCS3 logra vaciar la categoría 'Loadable', marcando 
 image: https://www.techpowerup.com/img/ZOtqdB3soU6oQx5Y.jpg
 date: 2026-11-02 21:05:52 -0300
 categories: [gaming, hardware]
-tags: [rpcs3, ps3, emulacion, gaming, hardware]
+tags: rpcs3, ps3, emulacion, gaming, hardware
 ---
 
 El equipo de desarrollo de RPCS3 ha anunciado que su emulador de PlayStation 3 ha logrado vaciar por completo la categoría de compatibilidad denominada "Loadable". Según se informa en una [publicación en X](https://x.com/rpcs3/status/2116556484754473413), el título *Tom Clancy's H.A.W.X. 2* ha pasado a la categoría "Ingame" tras implementarse una corrección de precisión en la SPU realizada por el colaborador Yahfz.

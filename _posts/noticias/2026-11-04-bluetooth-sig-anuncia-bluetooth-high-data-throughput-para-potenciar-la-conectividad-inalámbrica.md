@@ -5,7 +5,7 @@ description: "El nuevo estándar Bluetooth HDT introducirá mayores velocidades 
 image: https://www.techpowerup.com/img/VTGW994uTDDvlVD2.jpg
 date: 2026-11-04 16:49:23 -0300
 categories: [hardware]
-tags: [bluetooth, hdt, tecnologia, wireless, hardware]
+tags: bluetooth, hdt, tecnologia, wireless, hardware
 ---
 
 ## Un nuevo hito en la evolución de la tecnología Bluetooth

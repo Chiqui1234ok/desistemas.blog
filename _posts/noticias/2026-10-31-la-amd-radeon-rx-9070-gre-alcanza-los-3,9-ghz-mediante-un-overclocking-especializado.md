@@ -5,7 +5,7 @@ description: "Un usuario logra una frecuencia récord de 3,9 GHz en la Radeon RX
 image: https://www.techpowerup.com/img/GZGgUcFpmFR0fraH.jpg
 date: 2026-10-31 12:55:47 -0300
 categories: [hardware]
-tags: [amd, radeon, rx 9070 gre, overclocking, gpu, directx 9]
+tags: amd, radeon, rx 9070 gre, overclocking, gpu, directx 9
 ---
 
 La tarjeta gráfica AMD Radeon RX 9070 GRE ha alcanzado una frecuencia de reloj de 3,9 GHz en una prueba de concepto reciente. Este hito fue logrado por el usuario "ShrimpBrime" del foro de TechPowerUp, quien desarrolló herramientas personalizadas para GPUs Radeon denominadas "R-Team OC" y "GPU Frequency Generator".

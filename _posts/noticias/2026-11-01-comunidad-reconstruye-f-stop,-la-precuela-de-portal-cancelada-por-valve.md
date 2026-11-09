@@ -5,7 +5,7 @@ description: "Usuarios logran ensamblar una versión jugable del proyecto descar
 image: https://www.techpowerup.com/img/PU7NE5tdpv0kd0eb.jpg
 date: 2026-11-01 21:15:45 -0300
 categories: [gaming]
-tags: [valve, portal, f-stop, filtraciones, videojuegos]
+tags: valve, portal, f-stop, filtraciones, videojuegos
 ---
 
 La comunidad de entusiastas ha logrado reconstruir y hacer jugable *F-Stop*, una precuela de la franquicia *Portal* que fue cancelada por Valve en 2007. El ensamblaje de este proyecto fue posible gracias a la integración de diversos archivos obtenidos de tres filtraciones distintas.

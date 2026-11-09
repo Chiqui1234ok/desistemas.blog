@@ -5,7 +5,7 @@ description: "Marvell Technology acuerda la adquisición de Lumentum mediante un
 image: https://www.techpowerup.com/img/hlkXmHFmgQwdNwb0.jpg
 date: 2026-11-02 13:53:01 -0300
 categories: [hardware, analisis]
-tags: [marvell, lumentum, inteligencia artificial, infraestructura, tecnología óptica, semiconductores]
+tags: marvell, lumentum, inteligencia artificial, infraestructura, tecnología óptica, semiconductores
 ---
 
 Marvell Technology, Inc. y Lumentum han anunciado la firma de un acuerdo definitivo para que Marvell adquiera Lumentum mediante una transacción íntegramente compuesta por acciones. Bajo los términos del acuerdo, los accionistas de Lumentum recibirán una proporción de intercambio fija de 4,500 acciones ordinarias de Marvell por cada acción ordinaria de Lumentum que posean.

@@ -5,7 +5,7 @@ description: "Informes sugieren que The Elder Scrolls VI se titulará Sentinel y
 image: https://www.techpowerup.com/img/JrRZZt8xt64anpJ3.jpg
 date: 2026-10-31 21:27:02 -0300
 categories: [gaming]
-tags: [bethesda, the elder scrolls vi, sentinel, hammerfell, xbox]
+tags: bethesda, the elder scrolls vi, sentinel, hammerfell, xbox
 ---
 
 Se ha informado que Bethesda se encuentra preparando el anuncio de su próximo título, *The Elder Scrolls VI*. Según reporta Tom Warren para [The Verge](https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad), la empresa podría presentar el juego bajo el nombre de *The Elder Scrolls VI: Sentinel*, con una posible revelación durante el mes de noviembre.

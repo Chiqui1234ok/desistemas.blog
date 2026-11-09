@@ -5,7 +5,7 @@ description: "El desarrollo de la próxima generación de PlayStation avanza seg
 image: https://www.techpowerup.com/img/WUgF0Cti9ildokbV.jpg
 date: 2026-11-05 16:48:40 -0300
 categories: [gaming, hardware]
-tags: [sony, playstation 6, hardware, gaming, consolas]
+tags: sony, playstation 6, hardware, gaming, consolas
 ---
 
 ## Avances en la próxima generación de PlayStation

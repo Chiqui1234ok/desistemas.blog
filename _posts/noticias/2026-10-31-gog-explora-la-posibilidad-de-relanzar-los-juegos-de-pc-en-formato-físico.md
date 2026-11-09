@@ -5,7 +5,7 @@ description: "La plataforma GOG busca expandir su oferta digital hacia el format
 image: https://www.techpowerup.com/img/VyOBqCN8aOQ3mq8u.jpg
 date: 2026-10-31 15:52:30 -0300
 categories: [gaming]
-tags: [gog, gaming, pc, preservacion, hardware]
+tags: gog, gaming, pc, preservacion, hardware
 ---
 
 GOG se ha consolidado como un firme defensor de la preservación de videojuegos. A través de su [Programa de Preservación de Juegos](https://www.techpowerup.com/342400/gog-preservation-program-grows-to-248-games-with-16-new-games-including-original-hitman), la plataforma trabaja para asegurar que los títulos clásicos de PC sean compatibles con el hardware moderno, proporcionando instaladores descargables, sin DRM y aptos para uso sin conexión.

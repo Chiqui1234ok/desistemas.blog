@@ -5,7 +5,7 @@ description: "Google expandirá su línea de dispositivos con nuevos modelos des
 image: https://www.techpowerup.com/img/LCcSkDJh2tBznG4m.jpg
 date: 2026-11-04 21:34:06 -0300
 categories: [hardware]
-tags: [google, googlebook, lenovo, hardware, android]
+tags: google, googlebook, lenovo, hardware, android
 ---
 
 Durante la conferencia [Android Dev Summit 2026](https://www.youtube.com/watch?v=8Lmv7LGgL4E), Google confirmó que la evolución de su ecosistema de hardware incluirá dispositivos con teclados extraíbles. La compañía señaló que el sucesor de los Chromebook abarcará diversos formatos de pantalla, integrando modelos tipo clamshell, convertibles y, próximamente, dispositivos desmontables.

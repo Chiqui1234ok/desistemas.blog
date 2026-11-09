@@ -5,7 +5,7 @@ description: "Se ha detectado un descomunal hardware que integra cuatro núcleos
 image: https://www.techpowerup.com/img/JfIgYwUR5aqXQXfz.jpg
 date: 2026-11-03 17:14:45 -0300
 categories: [hardware]
-tags: [amd, rx 470, polaris, gpu, hardware, mineria]
+tags: amd, rx 470, polaris, gpu, hardware, mineria
 ---
 
 El usuario de la red social X, conocido como GOK, ha [compartido fotos](https://x.com/GOKForFree/status/2117551629918785974) de una enorme tarjeta gráfica de color rojo que integra cuatro GPUs de arquitectura Polaris en un único PCB. El diseño presenta una disposición de 2x2, donde cada unidad parece estar rodeada por ocho chips de memoria GDDR5. Esta configuración permitiría alcanzar una capacidad total de 32 GB de VRAM, distribuidos en 8 GB por cada GPU.

@@ -5,7 +5,7 @@ description: "Tras una jornada negativa para las acciones de IA, Apple vuelve a 
 image: https://www.techpowerup.com/img/IFI4dlD6520wTwTj.jpg
 date: 2026-10-31 11:34:38 -0300
 categories: [hardware]
-tags: [apple, nvidia, bolsa, inteligencia artificial, tecnología]
+tags: apple, nvidia, bolsa, inteligencia artificial, tecnología
 ---
 
 Apple ha recuperado nuevamente el puesto como la compañía más valiosa del mundo, superando a NVIDIA tras la sesión bursátil del viernes. Las acciones de Apple sufrieron un descenso del 1,2% el 30 de octubre, situando su capitalización de mercado en 5,03 billones de dólares, mientras que NVIDIA registró una caída del 4,2%, cerrando en 4,93 billones de dólares. Este cambio de liderazgo marca la primera vez que Apple vuelve a estar por delante de NVIDIA desde que esta última la superara brevemente a finales de julio.

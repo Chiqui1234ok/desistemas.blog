@@ -5,7 +5,7 @@ description: "El nuevo Teclast V16Q ofrece un panel IPS de 16 pulgadas con resol
 image: https://www.techpowerup.com/img/DBWUjFPD4kJA7DEj.jpg
 date: 2026-11-06 17:34:34 -0300
 categories: [hardware, gaming]
-tags: [teclast, monitor portátil, hardware, 2.5k, 144hz, ips]
+tags: teclast, monitor portátil, hardware, 2.5k, 144hz, ips
 ---
 
 Teclast ha presentado el V16Q, un monitor portátil de 16 pulgadas diseñado tanto para entornos de trabajo móvil como para el entretenimiento. El dispositivo integra un panel IPS con una resolución de 2560×1600 píxeles y una tasa de refresco de hasta 144 Hz. Este monitor puede utilizarse como una pantalla extendida para ordenadores portátiles o como un monitor compatible con consolas de videojuegos.

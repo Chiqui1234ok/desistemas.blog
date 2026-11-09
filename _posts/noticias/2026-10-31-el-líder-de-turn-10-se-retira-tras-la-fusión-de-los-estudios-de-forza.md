@@ -5,7 +5,7 @@ description: "Dan Greenwalt deja Microsoft tras la fusión de Turn 10 y Playgrou
 image: https://tpucdn.com/img/Jg76FPlX5aBgiq4V.jpg
 date: 2026-10-31 18:42:29 -0300
 categories: [gaming]
-tags: [forza motorsport, turn 10, microsoft, xbox, playground games]
+tags: forza motorsport, turn 10, microsoft, xbox, playground games
 ---
 
 La estabilidad laboral en los estudios de Xbox ha generado interrogantes tras las recientes medidas de reestructuración implementadas por Microsoft. En el marco de [la reestructuración de finales de septiembre en la que Activision asumió la franquicia Halo](https://www.techpowerup.com/352953/activision-to-take-over-halo-franchise-after-halo-studios-layoffs-become-official), la compañía también procedió a la fusión de Turn 10 y Playground Games en un único estudio, un movimiento que ha sido interpretado como un cambio de rumbo crítico para la franquicia Forza Motorsport.

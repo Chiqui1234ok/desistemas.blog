@@ -5,7 +5,7 @@ description: "La nueva aplicación de Xbox para PC promete tiempos de carga hast
 image: https://www.techpowerup.com/img/FZr9vA8SJkZdK5YD.jpg
 date: 2026-11-05 20:16:23 -0300
 categories: [gaming, analisis]
-tags: [xbox, microsoft, pc, gaming, optimización, interfaz]
+tags: xbox, microsoft, pc, gaming, optimización, interfaz
 ---
 
 Tras las recientes declaraciones de Epic Games sobre los [tiempos de carga de su nuevo launcher](https://www.techpowerup.com/353725/new-vibe-coded-epic-games-launcher-claimed-to-launch-46-faster-than-steam) y la [actualización de Steam](https://www.techpowerup.com/353749/new-steam-update-puts-startup-times-back-ahead-of-epics-vibe-coded-launcher) destinada a mejorar su rendimiento, Microsoft ha presentado un [nuevo anuncio](https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud/) centrado en la optimización de su aplicación de Xbox para PC.

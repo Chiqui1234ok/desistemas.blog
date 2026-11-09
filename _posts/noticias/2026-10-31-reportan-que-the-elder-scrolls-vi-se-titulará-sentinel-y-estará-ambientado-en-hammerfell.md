@@ -5,7 +5,7 @@ description: "Filtraciones sugieren que Bethesda revelará el subtítulo de The 
 image: https://www.techpowerup.com/img/JrRZZt8xt64anpJ3.jpg
 date: 2026-10-31 21:27:02 -0300
 categories: [gaming]
-tags: [the elder scrolls vi, bethesda, sentinel, hammerfell, xbox]
+tags: the elder scrolls vi, bethesda, sentinel, hammerfell, xbox
 ---
 
 ## Revelación de título y ambientación

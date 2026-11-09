@@ -5,7 +5,7 @@ description: "La encuesta de octubre de 2026 de Steam muestra una estabilizació
 image: https://www.techpowerup.com/img/jtVrogETzJTAEfBC.jpg
 date: 2026-11-02 12:55:09 -0300
 categories: [hardware, gaming, analisis]
-tags: [steam, hardware, nvidia, ram, gpu, valve]
+tags: steam, hardware, nvidia, ram, gpu, valve
 ---
 
 La encuesta de [Steam Hardware & Software](https://store.steampowered.com/hwsurvey/) de octubre de 2026 indica una estabilización tras los datos atípicos registrados en septiembre. Tras el breve periodo en que la memoria RAM de 32 GB superó a la de 16 GB, el escalón de 16 GB ha retomado el primer puesto con un 41,42%, mientras que la configuración de 32 GB descendió al 37,06%.
