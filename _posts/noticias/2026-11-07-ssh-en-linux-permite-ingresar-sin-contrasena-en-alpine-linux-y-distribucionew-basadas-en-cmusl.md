@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Alerta Crítica: Parche de emergencia en OpenSSH por omisión de autenticación en Alpine Linux"
-date: 2026-11-06 10:00:00 +0000
+title: "Cualquiera puede entrar a Alpine Linux sin conocer la contraseña • Nueva vulnerabilidad de SSH en combinación con C MUSL"
+date: 2026-11-07 14:10:03 +0000
 categories: [Seguridad, Sysadmin]
 tags: [openssh, alpine, vulnerabilidades, cve, ciberseguridad]
 ---
