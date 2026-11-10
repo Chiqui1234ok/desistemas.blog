@@ -1,6 +1,6 @@
 {% assign collection_type = include.type | default: "posts" %}
-{% assign items_collection = site[collection_type] %}
-{% assign per_page = include.limit | default: page.limit | default: 5 %}
+{% assign items_collection = site[collection_type] | sort: "date" | reverse %}
+{% assign per_page = include.limit | default: page.limit | default: 10 %}
 
 {% if include.category %}
   {% assign filtered_posts = items_collection | where_exp: "post", "post.categories contains include.category" %}
