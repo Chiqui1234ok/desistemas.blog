@@ -13,7 +13,7 @@ main article h1, main article h2, main article h3, main article h4, main article
     margin: var(--gap-xl) 0 var(--gap) 0;
 }
 main article img {
-    max-width: 100%;
+    max-width: 70%;
     border-radius: var(--gap-xl);
     margin: var(--gap) 0;
 }

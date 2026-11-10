@@ -2,7 +2,7 @@
 	width: 100%;
 	height: calc(100% - 128px);
 	background: var(--gray);
-	# padding: var(--gap-xl);
+	/* padding: var(--gap-xl); */
 	text-align: center;
 	position: fixed;
 	top: 128px;

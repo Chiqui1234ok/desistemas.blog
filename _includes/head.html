@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/main.css">
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/header.css?v=1">
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/sidebar.css">
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/carousel.css">
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/post.css">    
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/store.css">    
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/footer.css">    
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/code.css">    
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/pygment.css">    
-    <link rel="stylesheet" href="{{ base.url }}/assets/css/funnel.css">    
+    {% if jekyll.environment == "production" %}
+        {% assign ext = ".min.css" %}
+    {% else %}
+        {% assign ext = ".css" %}
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/main{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/header{{ ext }}?v=1">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/sidebar{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/carousel{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/post{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/store{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/footer{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/code{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/pygment{{ ext }}">
+    <link rel="stylesheet" href="{{ base.url }}/assets/css/funnel{{ ext }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
