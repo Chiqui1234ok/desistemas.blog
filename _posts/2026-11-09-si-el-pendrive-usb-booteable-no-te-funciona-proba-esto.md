@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Si el USB booteable con Rufus / Ventoy no te funciona, mirá esta solución • Disco SATA con una pequeña partición"
+title:  "Si el USB booteable con Rufus / Ventoy no te funciona, mirá esta solución • Disco con una pequeña partición"
+description: "En este post se enseñan varios problemas y cómo se pueden solucionar con una sola receta: disco SATA directo al motherboard y una configuración especial en Ventoy"
 date:   2026-11-09 20:53:00 -0300
 categories: [hardware]
 tags: pendrive, booteable, rufus, ventoy, disco usb, disco sata
