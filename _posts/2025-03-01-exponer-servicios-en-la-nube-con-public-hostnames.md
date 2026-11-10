@@ -11,9 +11,9 @@ description: "Mediante este post, el administrador en sistemas podrá exponer se
 
 Este post es la continuación de dos anteriores:
 
-1) [Instalar un dominio en Cloudflare]({% post_url cloudflare/2025-02-23-instalar-un-dominio-en-cloudflare %}).
+1) [Instalar un dominio en Cloudflare]({% post_url 2025-02-23-instalar-un-dominio-en-cloudflare %}).
 
-2) [Instalar Cloudflared en OpenWRT]({% post_url openwrt/2025-02-18-instalar-cloudflared-en-openwrt %}).
+2) [Instalar Cloudflared en OpenWRT]({% post_url 2025-02-18-instalar-cloudflared-en-openwrt %}).
 
 Mediante el contenido que se linkea arriba, es posible registrar un dominio en un *Registrar* veloz como lo es Hostinger, incluirlo en un plan gratuito de Cloudflare y configurar un túnel entre nuestra red y Cloudflare. El objetivo de esto es poder exponer servicios que están en una intranet hacia internet, accesible mediante un dominio desde cualquier lugar en el mundo y aprovechando el SSL/TLS provisto en Cloudflare.
 
@@ -59,12 +59,12 @@ En la página que aparecerá a continuación, se pueden añadir los dominios com
 
 ## Forzar la exposición de un servicio en el dominio raíz inforce.cloud
 
-Al añadir el dominio de forma automática como se explicó en el post "[Instalar un dominio en Cloudflare]({% post_url cloudflare/2025-02-23-instalar-un-dominio-en-cloudflare %})", puede suceder que la URL principal quede "reservada" a una IP, y no permita añadir un public hostname a la URL [inforce.cloud](inforce.cloud) .
+Al añadir el dominio de forma automática como se explicó en el post "[Instalar un dominio en Cloudflare]({% post_url 2025-02-23-instalar-un-dominio-en-cloudflare %})", puede suceder que la URL principal quede "reservada" a una IP, y no permita añadir un public hostname a la URL [inforce.cloud](inforce.cloud) .
 
 Para resolver ésto, se debe ir a [Cloudflare](https://dash.cloudflare.com) > inforce.cloud. Esto cargará una página específica para el dominio, y en la barra lateral se verá la opción **DNS**, a la que se hará un clic para ir automáticamente a la página "Records".
 Puede suceder que la tabla tenga un registro de tipo "A" (columna "Type") e inforce.cloud esté apuntando a una IP. En caso de ver algo así, debe eliminarse.
 
-Esto ya se mencionó en el post original de "[Instalar un dominio en Cloudflare]({% post_url cloudflare/2025-02-23-instalar-un-dominio-en-cloudflare %})", pero vale la pena volver a mencionarlo.
+Esto ya se mencionó en el post original de "[Instalar un dominio en Cloudflare]({% post_url 2025-02-23-instalar-un-dominio-en-cloudflare %})", pero vale la pena volver a mencionarlo.
 
 # Epílogo
 

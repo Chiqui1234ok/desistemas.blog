@@ -1,0 +1,75 @@
+{% assign collection_type = include.type | default: "posts" %}
+{% assign items_collection = site[collection_type] %}
+{% assign per_page = include.limit | default: page.limit | default: 5 %}
+
+{% if include.category %}
+  {% assign filtered_posts = items_collection | where_exp: "post", "post.categories contains include.category" %}
+  {% assign list_id = include.category | slugify | prepend: 'lista-' | append: '-' | append: collection_type %}
+{% else %}
+  {% assign filtered_posts = items_collection %}
+  {% assign list_id = "lista-todos-" | append: collection_type %}
+{% endif %}
+
+{% assign total_posts = filtered_posts | size %}
+{% assign total_pages = total_posts | divided_by: per_page %}
+{% assign remainder = total_posts | modulo: per_page %}
+{% if remainder > 0 %}
+  {% assign total_pages = total_pages | plus: 1 %}
+{% endif %}
+{% if total_pages == 0 %}{% assign total_pages = 1 %}{% endif %}
+
+<div class="paginacion-personalizada">
+  <ul id="{{ list_id }}" class="listing">
+    {% for post in filtered_posts %}
+      {% assign zero_index = forloop.index0 %}
+      {% assign item_page = zero_index | divided_by: per_page | plus: 1 %}
+      
+      <li data-page="{{ item_page }}" {% if item_page > 1 %}style="display: none;"{% endif %}>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if total_pages > 1 and include.category != "highlight" %}
+    {% include control-paginacion.html %}
+  {% endif %}
+</div>
+
+{% if total_pages > 1 %}
+<script>
+  if (!window.estadoPaginacion) { window.estadoPaginacion = {}; }
+  window.estadoPaginacion['{{ list_id }}'] = {
+    paginaActual: 1,
+    totalPaginas: {{ total_pages }}
+  };
+
+  if (typeof cambiarPagina !== 'function') {
+    function cambiarPagina(idLista, direccion) {
+      var estado = window.estadoPaginacion[idLista];
+      var nuevaPagina = estado.paginaActual + direccion;
+
+      if (nuevaPagina < 1 || nuevaPagina > estado.totalPaginas) return;
+
+      var items = document.querySelectorAll('#' + idLista + ' li');
+      items.forEach(function(item) {
+        if (item.getAttribute('data-page') == nuevaPagina) {
+          item.style.display = 'list-item';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      estado.paginaActual = nuevaPagina;
+      var infoEl = document.getElementById('info-' + idLista);
+      if (infoEl) {
+        infoEl.innerText = 'Página ' + estado.paginaActual + ' de ' + estado.totalPaginas;
+      }
+
+      var btnPrev = document.getElementById('btn-prev-' + idLista);
+      var btnNext = document.getElementById('btn-next-' + idLista);
+      if (btnPrev) btnPrev.disabled = (estado.paginaActual === 1);
+      if (btnNext) btnNext.disabled = (estado.paginaActual === estado.totalPaginas);
+    }
+  }
+</script>
+{% endif %}

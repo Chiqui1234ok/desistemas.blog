@@ -39,7 +39,7 @@ Por ejemplo, nuestro salvador es disco de notebook Samsung Spinpoint 250GB de 2,
 
 ![Samsung Spinpoint 250GB]({{ base.url }}/assets/posts/si-el-pendrive-usb-booteable-no-te-funciona-proba-esto/samsung-spinpoint-250gb.png)
 
-Teniendo ya preparada la ISO que se desea utilizar en la PC destino que requiere instalación de sistema operativo, se deben seguir estos pocos pasos desde un equipo que ya tenga Windows o Linux instalado:
+Teniendo ya descargada la ISO que se desea utilizar en la PC que requiere instalación de sistema operativo, se deben seguir estos pocos pasos desde un equipo que ya tenga Windows o Linux instalado:
 
 1) Descargar Ventoy para Windows/Linux desde [SourceForge](https://sourceforge.net/projects/ventoy/files/).
 

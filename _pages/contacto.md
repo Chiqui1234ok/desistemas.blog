@@ -5,8 +5,6 @@ permalink: /contacto/
 category: menu
 ---
 
-Cuándo tenga un poco de tiempo, voy a crear redes y comunidades para poder debatir y aprender a fondo.
+Podés hablar con el equipo de {{ site.title }} mediante nuestro [Instagram](#).
 
-¡Siganmé los buenos!
-
-~Santiago Gimenez
+TODO

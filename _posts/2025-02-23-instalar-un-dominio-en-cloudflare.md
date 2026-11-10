@@ -10,7 +10,7 @@ tags: cloudflare, hostinger, dominio, dns, apuntar, apuntado
 
 # Preámbulo
 
-Cloudflare ofrece servicios que evitan ataques DDoS, te brindan un CDN que cachea contenido estático y [gracias a **cloudflared** se pueden llevar sitios web de tu PC a la nube, sin requerir IP pública]({% post_url openwrt/2025-02-18-instalar-cloudflared-en-openwrt %}). En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si el "Registrar" (dónde fue comprado el dominio) no es Hostinger, el procedimiento que enseña el tutorial no es difícil y puede ser interpretado para realizarlo en DreamHost, DonWeb y más.
+Cloudflare ofrece servicios que evitan ataques DDoS, te brindan un CDN que cachea contenido estático y [gracias a **cloudflared** se pueden llevar sitios web de tu PC a la nube, sin requerir IP pública]({% post_url 2025-02-18-instalar-cloudflared-en-openwrt %}). En este tutorial se enseñará a utilizar un dominio registrado en Hostinger con Cloudflare, aunque si el "Registrar" (dónde fue comprado el dominio) no es Hostinger, el procedimiento que enseña el tutorial no es difícil y puede ser interpretado para realizarlo en DreamHost, DonWeb y más.
 
 El procedimiento del Registrar es sencillo, sólo se debe averiguar dónde editar los apuntados DNS.
 

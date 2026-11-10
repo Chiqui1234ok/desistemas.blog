@@ -42,7 +42,7 @@ Al terminar de descargar el archivo comprimido, se debe hacer clic derecho > Ext
 
 Se debe añadir **\\10.0.0.2\home\sgimenez\Downloads\gettext0.24-iconv1.17-static-64** al PATH, para poder ejecutar ***xgettext*** desde la consola y sin tener que indicarle dónde está el ejecutable.
 
-> ¿No sabés cómo añadir al PATH en Windows? Seguí [este tutorial]({% post_url windows/2025-07-13-como-ejecutar-un-programa-desde-cmd-anadiendo-al-path %}).
+> ¿No sabés cómo añadir al PATH en Windows? Seguí [este tutorial]({% post_url 2025-07-13-como-ejecutar-un-programa-desde-cmd-anadiendo-al-path %}).
 
 # Instalar *poedit*
 

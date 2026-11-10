@@ -1,5 +1,5 @@
 ---
-title: "Unboxing AMD Radeon Pro W5500 8GB"
+title: "Unboxing AMD Radeon Pro W5500"
 description: "Todos los accesorios de la placa de video, y la misma, en primer plano"
 image: "/assets/announcements/unboxing-amd-radeon-pro-w5500-8gb/img/radeon-pro-w5500-frente-1.webp"
 folder: "/assets/announcements/unboxing-amd-radeon-pro-w5500-8gb/img/"

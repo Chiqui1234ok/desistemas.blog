@@ -14,7 +14,7 @@
         grid-template-columns: 100%;
     }
     .store .hasAside.grid-2 {
-        grid-template-columns: 240px auto;
+        grid-template-columns: 180px auto;
     }
     .store .hasAside.grid-2 aside {
         border-left: none;
@@ -30,7 +30,7 @@
         grid-template-columns: 1fr 1fr;
     }
     .store .hasAside.grid-2 {
-        grid-template-columns: 240px auto;
+        grid-template-columns: 180px auto;
     }
 }
 @media(min-width: 1600px) {
@@ -62,7 +62,7 @@
     padding: 0;
 }
 .store.list ul.listing li h2 {
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-size: clamp(1.25rem, 2.5vw, 1.45rem);
     margin: 0 0 var(--gap) 0;
 }
 .store.list ul.listing li img {

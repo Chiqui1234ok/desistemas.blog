@@ -12,7 +12,7 @@ tags: openwrt, tunel, cloudflared, router, virtual, cloudflare, openwrt
 
 En este tutorial, se utilizará la aplicación ***cloudflared*** para crear un túnel seguro desde un router OpenWRT hasta Cloudflare.
 
-> Si no tenés OpenWRT instalado en tu Proxmox, [acá hay un tutorial]({% post_url openwrt/2025-04-17-instalar-router-openwrt-en-vm-proxmox %}) completísimo. Paso a paso y con imágenes.
+> Si no tenés OpenWRT instalado en tu Proxmox, [acá hay un tutorial]({% post_url 2025-04-17-instalar-router-openwrt-en-vm-proxmox %}) completísimo. Paso a paso y con imágenes.
 
 Esto permite exponer servicios a internet a pesar de no tener acceso al router del ISP y, por ende, no poder abrir puertos en él.
 
@@ -249,7 +249,7 @@ La migración consiste de 4 pasos, se deben confirmar todos ellos sin crear host
 
 # Instalación del servicio
 
-El comando `cloudflared service install` instalaría un servicio que no es totalmente compatible con ***procd***, el init de OpenWRT ([averigüa qué es el init y como descubrir el que usa cada SO Linux]({% post_url linux/2025-02-27-averigua-el-init-de-linux %})). Las razones son:
+El comando `cloudflared service install` instalaría un servicio que no es totalmente compatible con ***procd***, el init de OpenWRT ([averigüa qué es el init y como descubrir el que usa cada SO Linux]({% post_url 2025-02-27-averigua-el-init-de-linux %})). Las razones son:
 
 1. No soporta la opción "enable", por ende el servicio no se registra para auto-iniciar.
 2. OpenWRT posee una versión reducida del comando ***ps*** que no soporta añadirle opciones, por ende no funcionaría el comando `/etc/init.d/cloudflared stop`.
@@ -365,4 +365,4 @@ ps | grep desistemas | grep -v grep
 
 # Epílogo
 
-Este tutorial enseña como crear el túnel entre un router OpenWRT y Cloudflare. En el siguiente post se enseña a exponer los servicios. [Clic acá para seguir leyendo]({% post_url cloudflare/2025-03-01-exponer-servicios-en-la-nube-con-public-hostnames %}).
+Este tutorial enseña como crear el túnel entre un router OpenWRT y Cloudflare. En el siguiente post se enseña a exponer los servicios. [Clic acá para seguir leyendo]({% post_url 2025-03-01-exponer-servicios-en-la-nube-con-public-hostnames %}).

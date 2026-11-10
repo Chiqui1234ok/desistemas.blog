@@ -1,0 +1,72 @@
+---
+type: http-error
+---
+{%      include head.html       %}
+{%      include header.html     %}
+<main class="container error-404-wrapper headerGap" id="top">
+    <div class="error-card">
+        <h1 class="error-code">
+            <span>Error</span>
+            404
+        </h1>
+        <h2 class="error-title">Página no encontrada</h2>
+        
+        <p class="error-description">
+            {{ content }}
+        </p>
+
+        <div class="error-actions">
+            <p>
+                <a href="/" class="button red">Volver al inicio</a>
+            </p>
+        </div>
+    </div>
+</main>
+<style>
+    .error-404-wrapper {
+        min-height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .error-card {
+        background-color: var(--background);
+        border: 1px solid var(--gray);
+        border-radius: var(--rounded);
+        padding: var(--gap-xxxl);
+        max-width: 560px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 10px 25px -5px var(--shadow);
+    }
+
+    .error-code span {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .error-title {
+        color: var(--titleColor);
+        font-size: 1.5rem;
+        margin: 0 0 var(--gap-xxl) 0;
+    }
+
+    .error-description {
+        color: var(--textColor);
+        font-size: var(--textColorFontSize);
+        line-height: 1.5;
+        margin: 0 0 var(--gap-xxl) 0;
+    }
+
+    
+    .error-actions {
+        display: flex;
+        justify-content: center;
+        gap: var(--gap-xxl);
+    }
+
+</style>
+{%      include footer.html     %}

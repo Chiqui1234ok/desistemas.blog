@@ -1,5 +1,5 @@
 ---
 layout: announcements
-description: Mirá en lo que estamos trabajando, de forma gratuita.
+description: Informate sobre lo que estamos armando para próximos posts
 permalink: /adelantos/
 ---

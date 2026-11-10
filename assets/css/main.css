@@ -67,6 +67,16 @@ p, ul li, ol li {
     font-size: clamp(1.2rem, 1.7vw, 1.3rem); /* ~16–19px */
     margin-bottom: 1em;
 }
+ul.listing li a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.highlight-wrapper ul.listing li a {
+    -webkit-line-clamp: 2;
+}
 
 figcaption {
     font-size: clamp(1rem, 1.0vw, 1rem);
@@ -325,6 +335,8 @@ header.category.page .wrapper * {
 }
 /* Button */
 .button {
+    outline: none;
+    border: none;
     display: inline-block;
     padding: var(--gap-xl) var(--gap-xxl);
     text-align: center;
