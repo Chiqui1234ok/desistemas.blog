@@ -12,7 +12,7 @@ La pestaña de discos nos permite añadir almacenamiento realizando emulación d
 
 Si por ejemplo creás un disco con el protocolo SCSI, tenés un límite teórico de 150MB/s que puede ser superado por no solo SSDs SATA 3, sino también por discos mecánicos de alta calidad. Para que tengas de referencia, mi WD Caviar Red 14TB sobrepasa cómodamente los 200MB/s en lectura/escritura **secuencial**.
 
-Además, si querés usar [caché de almacenamiento en ZFS]({% post_url 2024-01-28-todo-sobre-zfs-en-proxmox %}), podés aumentar el rendimiento de cualquier disco mediante el almacenamiento inteligente en RAM (RAM Disk). Utilizar emulaciones de buses nunca es recomendado, salvo casos dónde el sistema operativo es muy viejo y no tiene soporte para controladores VirtIO (o estar con flojera, y en un ambiente de pruebas).
+Además, si querés usar [caché de almacenamiento en ZFS]({% link _drafts/proxmox/2024-01-28-todo-sobre-zfs-en-proxmox.md %}), podés aumentar el rendimiento de cualquier disco mediante el almacenamiento inteligente en RAM (RAM Disk). Utilizar emulaciones de buses nunca es recomendado, salvo casos dónde el sistema operativo es muy viejo y no tiene soporte para controladores VirtIO (o estar con flojera, y en un ambiente de pruebas).
 
 Veamos la ventana de Proxmox, para comenzar a explicar:
 
@@ -31,7 +31,7 @@ En nuestro caso, como ya colocamos el disco ISO de controladores VirtIO, vamos a
 
 # SCSI Controller
 
-Esta opción ya está explicada en la página [General]({% post_url 2024-10-27-todo-sobre-virtualizacion-en-proxmox-pestana-general %}).
+Esta opción ya está explicada en la página [General]({% link _drafts/proxmox/2024-10-27-todo-sobre-virtualizacion-en-proxmox-pestana-general.md %}).
 
 # Storage
 

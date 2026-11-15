@@ -7,7 +7,7 @@ tags: guía, tutorial, proxmox, instalar, sistema, sistema operativo, alternativ
 
 # Hablando en voz alta
 
-Cuándo estaba escribiendo mi tutorial de [Todo sobre virtualización en Proxmox]({% post_url 2024-10-27-todo-sobre-virtualizacion-en-proxmox %}), caí en cuenta que... ¡no tengo tutorial de cómo se puede instalar Proxmox!
+Cuándo estaba escribiendo mi tutorial de [Todo sobre virtualización en Proxmox]({% link _drafts/proxmox/2024-10-27-todo-sobre-virtualizacion-en-proxmox.md %}), caí en cuenta que... ¡no tengo tutorial de cómo se puede instalar Proxmox!
 
 ¿Cómo pretendo marcar el zurco para que germine mi comunidad y crezca en sabiduría, si no tengo un buen tutorial para comenzar con este sistema operativo?
 
