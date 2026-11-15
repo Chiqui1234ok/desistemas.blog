@@ -2,9 +2,13 @@
 layout: post
 title:  "Switch TP-Link SG3428 • Guía de configuración por consola"
 date:   2024-11-10 21:00:00 +0000
-categories: tp-link switch
-tags: switch administrable, switch capa 2, vlan, vlans
+categories: [programacion]
+tags: switch, administrable, capa 2, vlan, l2+
 ---
+
+# Introducción
+
+Aunque ya con más de 
 
 # Conexión por consola
 
