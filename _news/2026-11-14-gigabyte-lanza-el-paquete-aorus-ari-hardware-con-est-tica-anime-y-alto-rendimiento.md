@@ -34,7 +34,7 @@ Por último, al combo se suma una fuente de 1000W totalmente modular con la mism
 
 ![Banner vertical de Ari, mascota de Aorus]({{ base.url }}/assets/news/gigabyte-lanza-el-paquete-aorus-ari-hardware-con-est-tica-anime-y-alto-rendimiento/ari-card-big.png)
 
-(Promoción válida únicamente para residentes de Malasia y compras en tiendas locales autorizadas).
+**(Promoción válida únicamente para residentes de Malasia).**
 
 Por el momento sólo se vió el combo de Motherboard + GPU en [Newegg](https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4889584), que en Malasia te abre la posibilidad de regalos tal cuál [acá se indica](https://www.aorus.com/my/explore/events/ari-unlock), y a continuación paso a explicar:
 
