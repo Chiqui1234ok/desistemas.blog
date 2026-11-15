@@ -1,7 +1,7 @@
 ---
 layout: category
-category: programacion-y-sistemas
+category: programacion
 description: Buenas prácticas y soluciones a problemas raros
-permalink: /programacion-y-sistemas/
+permalink: /programacion/
 image: /assets/img/categories/developing.webp
 ---
