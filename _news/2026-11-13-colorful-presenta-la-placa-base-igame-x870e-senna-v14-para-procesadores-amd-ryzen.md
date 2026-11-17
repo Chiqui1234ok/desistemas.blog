@@ -2,7 +2,7 @@
 layout: post
 title: "Colorful presenta la placa base iGame X870E Senna V14 para procesadores AMD Ryzen"
 description: "La nueva placa base de Colorful llega con soporte para Wi-Fi 7, memorias DDR5 de alta velocidad y un robusto diseño de suministro de energía."
-image: "/assets/news/colorful-presenta-la-placa-base-igame-x870e-senna-v14-para-procesadores-amd-ryzen/igame-x870e-senna-v14-front.png"
+image: "https://desistemas.blog/assets/news/colorful-presenta-la-placa-base-igame-x870e-senna-v14-para-procesadores-amd-ryzen/igame-x870e-senna-v14-front.png"
 date: 2026-11-13 17:37:22 -0300
 categories: [hardware]
 tags: colorful, amd, ryzen, x870e, motherboard, gaming, tecnología

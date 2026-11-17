@@ -2,7 +2,7 @@
 layout: post
 title: "Informes sugieren que Jensen Huang busca retomar su cargo como CEO de NVIDIA"
 description: "Tras su renuncia, una campaña de apoyo y la presión de aliados en Silicon Valley impulsan el posible regreso de Jensen Huang a NVIDIA."
-image: "/assets/news/informes-sugieren-que-jensen-huang-busca-retomar-su-cargo-como-ceo-de-nvidia/jensen-huang-rtx-50.png"
+image: "https://desistemas.blog/assets/news/informes-sugieren-que-jensen-huang-busca-retomar-su-cargo-como-ceo-de-nvidia/jensen-huang-rtx-50.png"
 date: 2026-11-15 21:03:48 -0300
 categories: [hardware]
 tags: nvidia, jensen huang, silicon valley, tech news

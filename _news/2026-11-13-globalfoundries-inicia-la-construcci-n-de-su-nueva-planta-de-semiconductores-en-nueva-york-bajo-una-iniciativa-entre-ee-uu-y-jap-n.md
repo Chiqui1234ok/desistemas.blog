@@ -2,7 +2,7 @@
 layout: post
 title: "GlobalFoundries inicia la construcción de su nueva planta de semiconductores en Nueva York bajo una iniciativa entre EE. UU. y Japón"
 description: "GlobalFoundries inicia la construcción de una nueva fábrica de 300 mm en Nueva York bajo una alianza estratégica entre EE. UU. y Japón."
-image: "/assets/news/globalfoundries-inicia-la-construcci-n-de-su-nueva-planta-de-semiconductores-en-nueva-york-bajo-una-iniciativa-entre-ee-uu-y-jap-n/fabrica-modelo.png"
+image: "https://desistemas.blog/assets/news/globalfoundries-inicia-la-construcci-n-de-su-nueva-planta-de-semiconductores-en-nueva-york-bajo-una-iniciativa-entre-ee-uu-y-jap-n/fabrica-modelo.png"
 date: 2026-11-13 16:20:15 -0300
 categories: [hardware]
 tags: globalfoundries, semiconductores, hardware, fabricación, estados unidos, japón

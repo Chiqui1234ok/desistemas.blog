@@ -2,7 +2,7 @@
 layout: post
 title: "NVIDIA presenta la GPU Rubin HPC para acelerar la investigación científica y de ingeniería"
 description: "La nueva GPU Rubin HPC de NVIDIA busca optimizar las simulaciones y el procesamiento de datos en flujos de trabajo de ciencia y analítica."
-image: "/assets/news/nvidia-presenta-la-gpu-rubin-hpc-para-acelerar-la-investigaci-n-cient-fica-y-de-ingenier-a/jensen-huang-vera-rubin-presentation-ces-2026.png"
+image: "https://desistemas.blog/assets/news/nvidia-presenta-la-gpu-rubin-hpc-para-acelerar-la-investigaci-n-cient-fica-y-de-ingenier-a/jensen-huang-vera-rubin-presentation-ces-2026.png"
 date: 2026-11-16 13:44:25 -0300
 categories: [hardware]
 tags: nvidia, rubin hpc, gpu, ciencia, ingeniería, computación de alto rendimiento
