@@ -36,3 +36,9 @@
 {%- if seo_image != "" %}
 <meta name="twitter:image" content="{{ seo_image }}">
 {%- endif %}
+
+<!-- Sitemaps for Google Search Console -->
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} - Artículos" href="{{ '/feed.xml' | absolute_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} - Noticias" href="{{ '/noticias/feed.xml' | absolute_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} - Tienda" href="{{ '/tienda/feed.xml' | absolute_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} - Adelantos" href="{{ '/adelantos/feed.xml' | absolute_url }}">

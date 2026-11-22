@@ -5,7 +5,7 @@ email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Blog sobre desarrollo y arquitectura de software, homelabing, redes y sistemas.
 baseurl: ""
-url: ""
+url: "https://desistemas.blog"
 paginate: 9
 collections:
   pages:
@@ -15,10 +15,10 @@ collections:
     output: true
     permalink: /noticias/:name/
   store:
-    output: true   # Cada producto tendrá su propia URL
+    output: true
     permalink: /tienda/:name/
   announcements:
-    output: true   # Cada producto tendrá su propia URL
+    output: true
     permalink: /adelantos/:name/
 
 defaults:
@@ -43,9 +43,25 @@ defaults:
     values:
       layout: "page"
 
+  - scope:
+      path: "404.html"
+    values:
+      sitemap: false
+
+feed:
+  posts_limit: 20
+  collections:
+    news:
+      path: "/noticias/feed.xml"
+    store:
+      path: "/tienda/feed.xml"
+    announcements:
+      path: "/adelantos/feed.xml"
+
 markdown: kramdown
 highlighter: rouge
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
