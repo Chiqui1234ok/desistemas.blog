@@ -8,7 +8,7 @@ categories: [hardware, analisis]
 tags: kde, plasma, linux, xwayland, optimización, escritorio
 ---
 
-KDE Plasma se posiciona como uno de los entornos de escritorio más recomendados en el ecosistema Linux, gracias a su [flexibilidad, actualizaciones frecuentes](https://www.techpowerup.com/353728/kde-plasma-6-8-officially-launches-with-ui-and-performance-tweaks) y a su notablemente bajo consumo de recursos.
+KDE Plasma se posiciona como uno de los entornos de escritorio más recomendados en el ecosistema Linux, gracias a su flexibilidad, actualizaciones frecuentes y bajo consumo de recursos.
 
 De acuerdo con la última edición de [This Week in Plasma](https://blogs.kde.org/2026/11/14/this-week-in-plasma-xwayland-on-demand/), publicada por Nate Graham, la versión KDE Plasma 6.9 introducirá una implementación de XWayland mucho más optimizada.
 
