@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ $# -lt 1 || $# -gt 2 ]]; then
+  echo "Uso: $0 <imagen_entrada> [imagen_salida.webp]" >&2
+  exit 1
+fi
+
+INPUT="$1"
+OUTPUT="${2:-${INPUT%.*}.webp}"
+
+if [[ ! -f "$INPUT" ]]; then
+  echo "Error: No existe el archivo de entrada '$INPUT'" >&2
+  exit 1
+fi
+
+if ! command -v cwebp >/dev/null 2>&1; then
+  echo "Error: 'cwebp' no está instalado. Ejecutá: sudo apt install -y webp" >&2
+  exit 1
+fi
+
+mkdir -p "$(dirname "$OUTPUT")"
+
+# Archivo temporal para evitar conflictos si entrada y salida tienen el mismo nombre (ej. .webp -> .webp)
+TMP_OUT="$(mktemp /tmp/convertToWebp.XXXXXX.webp)"
+trap 'rm -f "$TMP_OUT"' EXIT
+
+EXT="${INPUT##*.}"
+EXT_LOWER="${EXT,,}"
+
+if [[ "$EXT_LOWER" == "gif" ]] && command -v gif2webp >/dev/null 2>&1; then
+  gif2webp -q 82 -mt "$INPUT" -o "$TMP_OUT" >/dev/null
+else
+  cwebp -q 85 -af -mt "$INPUT" -o "$TMP_OUT" >/dev/null
+fi
+
+mv -f "$TMP_OUT" "$OUTPUT"
+chmod 644 "$OUTPUT"
