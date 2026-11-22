@@ -7,6 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://desistemas.blog"
 paginate: 9
+permalink: /blog/:title/
 collections:
   pages:
     output: true
@@ -50,6 +51,7 @@ defaults:
 
 feed:
   posts_limit: 20
+  path: "/blog/feed.xml"
   collections:
     news:
       path: "/noticias/feed.xml"
