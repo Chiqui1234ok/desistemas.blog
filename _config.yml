@@ -55,10 +55,13 @@ feed:
   collections:
     news:
       path: "/noticias/feed.xml"
+      posts_limit: 40
     store:
       path: "/tienda/feed.xml"
+      posts_limit: 20
     announcements:
       path: "/adelantos/feed.xml"
+      posts_limit: 20
 
 markdown: kramdown
 highlighter: rouge
