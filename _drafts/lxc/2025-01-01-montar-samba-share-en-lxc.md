@@ -17,8 +17,6 @@ mount -t cifs //<ip del servidor>/<carpeta que querés obtener> /mnt/<carpeta qu
 
 Por ello, en este tutorial se enseñará como montar la carpeta compartida desde un servidor SAMBA hasta el host que ejecuta el LXC. Posteriormente se indicará como montar esa carpeta en el contenedor.
 
-Si se posee un servidor SAMBA en forma de máquina virtual junto al LXC, por default no puede iniciar **antes** que el contenedor. Para estos casos, se enseñará una alternativa: [Realizar el montaje con delay]({% post_url 2025-01-01-montar-directorio-compartido-en-lxc-cuando-inicia-el-servidor-samba %}).
-
 # Procedimiento
 
 Si se tiene un servidor SAMBA que siempre está disponible cuándo el host y su LXC enciendan, este método será ideal y más rápido de implementar.
