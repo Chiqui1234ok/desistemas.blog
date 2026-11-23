@@ -39,15 +39,17 @@ Por ejemplo, nuestro salvador es disco de notebook Samsung Spinpoint 250GB de 2,
 
 ![Samsung Spinpoint 250GB]({{ base.url }}/assets/posts/si-el-pendrive-usb-booteable-no-te-funciona-proba-esto/samsung-spinpoint-250gb.png)
 
-Teniendo ya descargada la ISO que se desea utilizar en la PC que requiere instalación de sistema operativo, se deben seguir estos pocos pasos desde un equipo que ya tenga Windows o Linux instalado:
+Teniendo ya descargada la ISO que se desea utilizar en la PC que requiere instalación de sistema operativo, y obviamente el disco dónde se va a colocar el instalador ya conectado a la PC, se deben seguir estos pocos pasos desde un equipo que ya tenga Windows o Linux instalado:
 
-1) Descargar Ventoy para Windows/Linux desde [SourceForge](https://sourceforge.net/projects/ventoy/files/).
+1) Descargar Ventoy para tu sistema Windows/Linux desde [el sitio web oficial](https://www.ventoy.net/en/download.html).
 
-2) Conectar el disco SATA al equipo, mediante el mismo SATA o mediante un adaptador USB a SATA (si es más cómodo).
+![Versiones de Ventoy]({{ base.url }}/assets/posts/si-el-pendrive-usb-booteable-no-te-funciona-proba-esto/ventoy-versions.png)
 
-3) Descomprimir Ventoy (archivo **ventoy-[version].zip**).
+2) Descomprimir Ventoy (archivo **ventoy-[version].zip**).
 
-4) Abrir Ventoy2Disk, dirigirse a la pestaña "Option" y dejar las opciones:
+3) En la carpeta descomprimida se debe buscar y abrir Ventoy2Disk.
+
+4) Inmediatamente hay que dirigirse a la pestaña "Option" y dejar las opciones:
 - Secure boot support: desmarcado.
 - "Partition Style": MBR.
 
