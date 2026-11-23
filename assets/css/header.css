@@ -10,7 +10,7 @@ header.main {
     z-index: 110;
 }
 header.main .grid-2 {
-    grid-template-columns: 64px auto 32px;
+    grid-template-columns: 64px auto 48px;
     align-items: center;
 }
 header.main .container.wrapper .logo {
