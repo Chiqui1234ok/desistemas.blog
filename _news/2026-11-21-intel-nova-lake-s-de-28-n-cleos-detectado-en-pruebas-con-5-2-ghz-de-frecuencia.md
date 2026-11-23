@@ -10,7 +10,7 @@ tags: intel, nova lake-s, hardware, benchmarks, cpu
 
 Una variante del die de cómputo único de Intel, denominada "Nova Lake-S", fue avistada con una configuración de 28 núcleos y un clock boost de 5,2 GHz, según los resultados de la suite de pruebas OpenBenchmark.
 
-![Tabla de información brindada por OpenBenchmark]({{ base.url }}/assets/news/2026-11-22-intel-asegura-su-primer-cliente-externo-para-el-nodo-de-fabricaci-n-18a-p/tabla-openbenchmark.png)
+![Tabla de información brindada por OpenBenchmark]({{ base.url }}/assets/news/2026-11-21-intel-nova-lake-s-de-28-n-cleos-detectado-en-pruebas-con-5-2-ghz-de-frecuencia/tabla-openbenchmark.png)
 
 Esta información se rescata de un procesador identificado como "Intel 0000" con el código "NVL", lo que sugiere la presencia real de un SKU de Nova Lake-S con dicha configuración. La identificación bajo el nombre "Intel 0000" respalda los rumores sobre un nuevo esquema de nomenclatura de cuatro dígitos, el cual podría convertirse en el estándar frente al modelo de tres dígitos utilizado anteriormente.
 
